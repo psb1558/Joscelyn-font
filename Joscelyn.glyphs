@@ -1,11 +1,9 @@
 {
 .appVersion = "1270";
 DisplayStrings = (
-Burdd,
-provoke,
-"/r.highjr/i.jl",
-"/r.high",
-"/e_r/e_r.init"
+"/e_t_c_period",
+"a etc.",
+"/h.alt"
 );
 classes = (
 {
@@ -13,11 +11,11 @@ code = "c d i j m n p q r s u w x y z i.jr j.jr m.jr n.jr\012u.jr c.oar ccedilla
 name = WillJoinLeft;
 },
 {
-code = "a i j l m n q q.alt01 u i.hl j.hl m.hl n.hl u.hl i.jl j.jl\012m.jl n.jl u.jl a.init m.init r.init i.init n.init\012u.ql i.el j.el l.el m.el n.el u.el\012i.rl m.rl n.rl u.rl agrave aacute atilde adieresis\012acircumflex aring amacron igrave.el iacute.el\012icircumflex.el idieresis.el imacron.el igrave.hl\012iacute.hl icircumflex.hl idieresis.hl imacron.hl\012igrave.jl iacute.jl icircumflex.jl idieresis.jl\012imacron.jl igrave.rl iacute.rl icircumflex.rl\012idieresis.rl imacron.rl ugrave.el uacute.el\012ucircumflex.el udieresis.el umacron.el ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ugrave.jl uacute.jl ucircumflex.jl udieresis.jl\012umacron.jl ugrave.rl uacute.rl ucircumflex.rl\012udieresis.rl umacron.rl igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron i.gl m.gl n.gl u.gl igrave.gl\012iacute.gl icircumflex.gl idieresis.gl imacron.gl\012ugrave.gl uacute.gl ucircumflex.gl udieresis.gl\012umacron.gl lslash ntilde ntilde.jl q.jl r.high";
+code = "a i j l m n q q.alt01 u i.hl j.hl m.hl n.hl u.hl i.jl j.jl\012m.jl n.jl u.jl a.init m.init r.init i.init n.init q.init\012# u.ql\012i.el j.el l.el m.el n.el u.el\012i.rl m.rl n.rl u.rl agrave aacute atilde adieresis\012acircumflex aring amacron igrave.el iacute.el\012icircumflex.el idieresis.el imacron.el igrave.hl\012iacute.hl icircumflex.hl idieresis.hl imacron.hl\012igrave.jl iacute.jl icircumflex.jl idieresis.jl\012imacron.jl igrave.rl iacute.rl icircumflex.rl\012idieresis.rl imacron.rl ugrave.el uacute.el\012ucircumflex.el udieresis.el umacron.el ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ugrave.jl uacute.jl ucircumflex.jl udieresis.jl\012umacron.jl ugrave.rl uacute.rl ucircumflex.rl\012udieresis.rl umacron.rl igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron i.gl m.gl n.gl u.gl igrave.gl\012iacute.gl icircumflex.gl idieresis.gl imacron.gl\012ugrave.gl uacute.gl ucircumflex.gl udieresis.gl\012umacron.gl lslash ntilde ntilde.jl q.jl r.high";
 name = WillJoinRight;
 },
 {
-code = "a b c d e f g h i j k l m n o p q r s t u v w x y z\012longs longs.alt01 c.oar ccedilla.oar h.alt01 d.init\012e.fina e.init e.initjrd emacron.fina amacron.fina\012lslash t.oar r.high";
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z\012longs longs.alt01 c.oar ccedilla.oar h.alt01 d.init\012e.fina e.init e.initjrd emacron.fina amacron.fina\012lslash t.oar r.high h.alt";
 name = NonJoining;
 },
 {
@@ -37,11 +35,11 @@ code = "i.gl m.gl n.gl u.gl igrave.gl iacute.gl\012icircumflex.gl idieresis.gl i
 name = GLeftJoining;
 },
 {
-code = "u.ql e.jrd egrave.jrd eacute.jrd ecircumflex.jrd\012edieresis.jrd emacron.jrd eogonek.jrd d.jle";
+code = "# u.ql\012e.jrd egrave.jrd eacute.jrd ecircumflex.jrd\012edieresis.jrd emacron.jrd eogonek.jrd d.jle";
 name = MiscJoining;
 },
 {
-code = "a.jr m.initjr i.jr u.hljr i.hljr l.jr j.jr u.jr m.jr\012n.jr j.hljr m.hljr a.initjr r.initjr i.initjr\012n.initjr u.qljr i.eljr j.eljr l.eljr m.eljr n.eljr\012u.eljr i.rljr m.rljr n.rljr u.rljr agrave.jr\012aacute.jr atilde.jr adieresis.jr acircumflex.jr\012aring.jr amacron.jr igrave.jr iacute.jr\012icircumflex.jr idieresis.jr imacron.jr igrave.eljr\012iacute.eljr icircumflex.eljr idieresis.eljr\012imacron.eljr igrave.hljr iacute.hljr\012icircumflex.hljr idieresis.hljr imacron.hljr\012igrave.rljr iacute.rljr icircumflex.rljr\012idieresis.rljr imacron.rljr ugrave.eljr uacute.eljr\012ucircumflex.eljr udieresis.eljr umacron.eljr\012ugrave.hljr uacute.hljr ucircumflex.hljr\012udieresis.hljr umacron.hljr ugrave.jr uacute.jr\012ucircumflex.jr udieresis.jr umacron.jr ugrave.rljr\012uacute.rljr ucircumflex.rljr udieresis.rljr\012umacron.rljr i.gljr m.gljr n.gljr u.gljr igrave.gljr\012iacute.gljr icircumflex.gljr idieresis.gljr\012imacron.gljr ugrave.gljr uacute.gljr\012ucircumflex.gljr udieresis.gljr umacron.gljr\012lslash.jr ntilde.jr ntilde.eljr ntilde.gljr\012ntilde.hljr ntilde.rljr q.jr q.alt01.jr r.highjr";
+code = "a.jr m.initjr q.initjr i.jr u.hljr i.hljr l.jr j.jr u.jr m.jr\012n.jr j.hljr m.hljr a.initjr r.initjr i.initjr\012n.initjr\012# u.qljr\012i.eljr j.eljr l.eljr m.eljr n.eljr\012u.eljr i.rljr m.rljr n.rljr u.rljr agrave.jr\012aacute.jr atilde.jr adieresis.jr acircumflex.jr\012aring.jr amacron.jr igrave.jr iacute.jr\012icircumflex.jr idieresis.jr imacron.jr igrave.eljr\012iacute.eljr icircumflex.eljr idieresis.eljr\012imacron.eljr igrave.hljr iacute.hljr\012icircumflex.hljr idieresis.hljr imacron.hljr\012igrave.rljr iacute.rljr icircumflex.rljr\012idieresis.rljr imacron.rljr ugrave.eljr uacute.eljr\012ucircumflex.eljr udieresis.eljr umacron.eljr\012ugrave.hljr uacute.hljr ucircumflex.hljr\012udieresis.hljr umacron.hljr ugrave.jr uacute.jr\012ucircumflex.jr udieresis.jr umacron.jr ugrave.rljr\012uacute.rljr ucircumflex.rljr udieresis.rljr\012umacron.rljr i.gljr m.gljr n.gljr u.gljr igrave.gljr\012iacute.gljr icircumflex.gljr idieresis.gljr\012imacron.gljr ugrave.gljr uacute.gljr\012ucircumflex.gljr udieresis.gljr umacron.gljr\012lslash.jr ntilde.jr ntilde.eljr ntilde.gljr\012ntilde.hljr ntilde.rljr q.jr q.alt01.jr r.highjr";
 name = RightJoining;
 },
 {
@@ -53,7 +51,7 @@ code = "i.jb j.jb m.jb n.jb u.jb igrave.jb iacute.jb\012icircumflex.jb idieresis
 name = BothJoining;
 },
 {
-code = "a.init c.init d.init e.init i.init m.init n.init r.init";
+code = "a.init c.init d.init e.init i.init m.init n.init q.init r.init";
 name = WordInit;
 },
 {
@@ -92,7 +90,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2020-04-03 11:20:32 +0000";
+date = "2020-04-03 21:15:20 +0000";
 designer = "Peter S. Baker";
 designerURL = "https://github.com/psb1558/Joscelyn-font";
 disablesNiceNames = 1;
@@ -119,7 +117,7 @@ code = "lookup subed {\012  sub e by e.jrd;\012  sub egrave by egrave.jrd;\012  
 name = subed;
 },
 {
-code = "lookup rightjoining {\012  sub a by a.jr;\012  sub i by i.jr;\012  sub j by j.jr;\012  sub l by l.jr;\012  sub m by m.jr;\012  sub n by n.jr;\012  sub u by u.jr;\012  sub agrave by agrave.jr;\012  sub aacute by aacute.jr;\012  sub acircumflex by acircumflex.jr;\012  sub atilde by atilde.jr;\012  sub adieresis by adieresis.jr;\012  sub aring by aring.jr;\012  sub amacron by amacron.jr;\012  sub igrave by igrave.jr;\012  sub iacute by iacute.jr;\012  sub icircumflex by icircumflex.jr;\012  sub idieresis by idieresis.jr;\012  sub imacron by imacron.jr;\012  sub ntilde by ntilde.jr;\012  sub ugrave by ugrave.jr;\012  sub uacute by uacute.jr;\012  sub ucircumflex by ucircumflex.jr;\012  sub udieresis by udieresis.jr;\012  sub umacron by umacron.jr;\012  sub lslash by lslash.jr;\012  sub i.el by i.eljr;\012  sub j.el by j.eljr;\012  sub l.el by l.eljr;\012  sub m.el by m.eljr;\012  sub n.el by n.eljr;\012  sub u.el by u.eljr;\012  sub igrave.el by igrave.eljr;\012  sub iacute.el by iacute.eljr;\012  sub icircumflex.el by icircumflex.eljr;\012  sub idieresis.el by idieresis.eljr;\012  sub imacron.el by imacron.eljr;\012  sub ntilde.el by ntilde.eljr;\012  sub ugrave.el by ugrave.eljr;\012  sub uacute.el by uacute.eljr;\012  sub ucircumflex.el by ucircumflex.eljr;\012  sub udieresis.el by udieresis.eljr;\012  sub umacron.el by umacron.eljr;\012  sub i.gl by i.gljr;\012  sub m.gl by m.gljr;\012  sub n.gl by n.gljr;\012  sub u.gl by u.gljr;\012  sub igrave.gl by igrave.gljr;\012  sub iacute.gl by iacute.gljr;\012  sub icircumflex.gl by icircumflex.gljr;\012  sub idieresis.gl by idieresis.gljr;\012  sub imacron.gl by imacron.gljr;\012  sub ntilde.gl by ntilde.gljr;\012  sub ugrave.gl by ugrave.gljr;\012  sub uacute.gl by uacute.gljr;\012  sub ucircumflex.gl by ucircumflex.gljr;\012  sub udieresis.gl by udieresis.gljr;\012  sub umacron.gl by umacron.gljr;\012  sub i.hl by i.hljr;\012  sub j.hl by j.hljr;\012  sub m.hl by m.hljr;\012  sub n.hl by n.hljr;\012  sub u.hl by u.hljr;\012  sub u.ql by u.qljr;\012  sub igrave.hl by igrave.hljr;\012  sub iacute.hl by iacute.hljr;\012  sub icircumflex.hl by icircumflex.hljr;\012  sub idieresis.hl by idieresis.hljr;\012  sub imacron.hl by imacron.hljr;\012  sub ntilde.hl by ntilde.hljr;\012  sub ugrave.hl by ugrave.hljr;\012  sub uacute.hl by uacute.hljr;\012  sub ucircumflex.hl by ucircumflex.hljr;\012  sub udieresis.hl by udieresis.hljr;\012  sub umacron.hl by umacron.hljr;\012  sub i.jl by i.jb;\012  sub j.jl by j.jb;\012  sub m.jl by m.jb;\012  sub n.jl by n.jb;\012  sub u.jl by u.jb;\012  sub q.jl by q.jb;\012  sub igrave.jl by igrave.jb;\012  sub iacute.jl by iacute.jb;\012  sub icircumflex.jl by icircumflex.jb;\012  sub idieresis.jl by idieresis.jb;\012  sub imacron.jl by imacron.jb;\012  sub ntilde.jl by ntilde.jb;\012  sub ugrave.jl by ugrave.jb;\012  sub uacute.jl by uacute.jb;\012  sub ucircumflex.jl by ucircumflex.jb;\012  sub udieresis.jl by udieresis.jb;\012  sub umacron.jl by umacron.jb;\012  sub i.rl by i.rljr;\012  sub m.rl by m.rljr;\012  sub n.rl by n.rljr;\012  sub u.rl by u.rljr;\012  sub igrave.rl by igrave.rljr;\012  sub iacute.rl by iacute.rljr;\012  sub icircumflex.rl by icircumflex.rljr;\012  sub idieresis.rl by idieresis.rljr;\012  sub imacron.rl by imacron.rljr;\012  sub ntilde.rl by ntilde.rljr;\012  sub ugrave.rl by ugrave.rljr;\012  sub uacute.rl by uacute.rljr;\012  sub ucircumflex.rl by ucircumflex.rljr;\012  sub udieresis.rl by udieresis.rljr;\012  sub umacron.rl by umacron.rljr;\012  sub a.init by a.initjr;\012  sub i.init by i.initjr;\012  sub m.init by m.initjr;\012  sub n.init by n.initjr;\012  sub r.init by r.initjr;\012  sub q by q.jr;\012  sub q.jl by q.jb;\012  sub q.alt01 by q.alt01.jr;\012  sub r.high by r.highjr;\012} rightjoining;";
+code = "lookup rightjoining {\012  sub a by a.jr;\012  sub i by i.jr;\012  sub j by j.jr;\012  sub l by l.jr;\012  sub m by m.jr;\012  sub n by n.jr;\012  sub u by u.jr;\012  sub agrave by agrave.jr;\012  sub aacute by aacute.jr;\012  sub acircumflex by acircumflex.jr;\012  sub atilde by atilde.jr;\012  sub adieresis by adieresis.jr;\012  sub aring by aring.jr;\012  sub amacron by amacron.jr;\012  sub igrave by igrave.jr;\012  sub iacute by iacute.jr;\012  sub icircumflex by icircumflex.jr;\012  sub idieresis by idieresis.jr;\012  sub imacron by imacron.jr;\012  sub ntilde by ntilde.jr;\012  sub ugrave by ugrave.jr;\012  sub uacute by uacute.jr;\012  sub ucircumflex by ucircumflex.jr;\012  sub udieresis by udieresis.jr;\012  sub umacron by umacron.jr;\012  sub lslash by lslash.jr;\012  sub i.el by i.eljr;\012  sub j.el by j.eljr;\012  sub l.el by l.eljr;\012  sub m.el by m.eljr;\012  sub n.el by n.eljr;\012  sub u.el by u.eljr;\012  sub igrave.el by igrave.eljr;\012  sub iacute.el by iacute.eljr;\012  sub icircumflex.el by icircumflex.eljr;\012  sub idieresis.el by idieresis.eljr;\012  sub imacron.el by imacron.eljr;\012  sub ntilde.el by ntilde.eljr;\012  sub ugrave.el by ugrave.eljr;\012  sub uacute.el by uacute.eljr;\012  sub ucircumflex.el by ucircumflex.eljr;\012  sub udieresis.el by udieresis.eljr;\012  sub umacron.el by umacron.eljr;\012  sub i.gl by i.gljr;\012  sub m.gl by m.gljr;\012  sub n.gl by n.gljr;\012  sub u.gl by u.gljr;\012  sub igrave.gl by igrave.gljr;\012  sub iacute.gl by iacute.gljr;\012  sub icircumflex.gl by icircumflex.gljr;\012  sub idieresis.gl by idieresis.gljr;\012  sub imacron.gl by imacron.gljr;\012  sub ntilde.gl by ntilde.gljr;\012  sub ugrave.gl by ugrave.gljr;\012  sub uacute.gl by uacute.gljr;\012  sub ucircumflex.gl by ucircumflex.gljr;\012  sub udieresis.gl by udieresis.gljr;\012  sub umacron.gl by umacron.gljr;\012  sub i.hl by i.hljr;\012  sub j.hl by j.hljr;\012  sub m.hl by m.hljr;\012  sub n.hl by n.hljr;\012  sub u.hl by u.hljr;\012#  sub u.ql by u.qljr;\012  sub igrave.hl by igrave.hljr;\012  sub iacute.hl by iacute.hljr;\012  sub icircumflex.hl by icircumflex.hljr;\012  sub idieresis.hl by idieresis.hljr;\012  sub imacron.hl by imacron.hljr;\012  sub ntilde.hl by ntilde.hljr;\012  sub ugrave.hl by ugrave.hljr;\012  sub uacute.hl by uacute.hljr;\012  sub ucircumflex.hl by ucircumflex.hljr;\012  sub udieresis.hl by udieresis.hljr;\012  sub umacron.hl by umacron.hljr;\012  sub i.jl by i.jb;\012  sub j.jl by j.jb;\012  sub m.jl by m.jb;\012  sub n.jl by n.jb;\012  sub u.jl by u.jb;\012  sub q.jl by q.jb;\012  sub igrave.jl by igrave.jb;\012  sub iacute.jl by iacute.jb;\012  sub icircumflex.jl by icircumflex.jb;\012  sub idieresis.jl by idieresis.jb;\012  sub imacron.jl by imacron.jb;\012  sub ntilde.jl by ntilde.jb;\012  sub ugrave.jl by ugrave.jb;\012  sub uacute.jl by uacute.jb;\012  sub ucircumflex.jl by ucircumflex.jb;\012  sub udieresis.jl by udieresis.jb;\012  sub umacron.jl by umacron.jb;\012  sub i.rl by i.rljr;\012  sub m.rl by m.rljr;\012  sub n.rl by n.rljr;\012  sub u.rl by u.rljr;\012  sub igrave.rl by igrave.rljr;\012  sub iacute.rl by iacute.rljr;\012  sub icircumflex.rl by icircumflex.rljr;\012  sub idieresis.rl by idieresis.rljr;\012  sub imacron.rl by imacron.rljr;\012  sub ntilde.rl by ntilde.rljr;\012  sub ugrave.rl by ugrave.rljr;\012  sub uacute.rl by uacute.rljr;\012  sub ucircumflex.rl by ucircumflex.rljr;\012  sub udieresis.rl by udieresis.rljr;\012  sub umacron.rl by umacron.rljr;\012  sub a.init by a.initjr;\012  sub i.init by i.initjr;\012  sub m.init by m.initjr;\012  sub n.init by n.initjr;\012  sub q.init by q.initjr;\012  sub r.init by r.initjr;\012  sub q by q.jr;\012  sub q.jl by q.jb;\012  sub q.alt01 by q.alt01.jr;\012  sub r.high by r.highjr;\012} rightjoining;";
 name = rightjoining;
 },
 {
@@ -129,16 +127,25 @@ name = leftjoining;
 );
 features = (
 {
+code = "sub h by h.alt;";
+name = ss01;
+notes = "Name: Alternate initial h";
+},
+{
 code = "lookup accents {\012  sub a macroncomb by amacron;\012  sub ae macroncomb by aemacron;\012  sub e macroncomb by emacron;\012  sub i macroncomb by imacron;\012  sub o macroncomb by omacron;\012  sub u macroncomb by umacron;\012  sub y macroncomb by ymacron;\012  sub a dieresiscomb by adieresis;\012  sub e dieresiscomb by edieresis;\012  sub i dieresiscomb by idieresis;\012  sub o dieresiscomb by odieresis;\012  sub u dieresiscomb by udieresis;\012  sub a gravecomb by agrave;\012  sub e gravecomb by egrave;\012  sub i gravecomb by igrave;\012  sub o gravecomb by ograve;\012  sub u gravecomb by ugrave;\012  sub a acutecomb by aacute;\012  sub e acutecomb by eacute;\012  sub i acutecomb by iacute;\012  sub o acutecomb by oacute;\012  sub u acutecomb by uacute;\012  sub y acutecomb by yacute;\012  sub a circumflexcomb by acircumflex;\012  sub e circumflexcomb by ecircumflex;\012  sub i circumflexcomb by icircumflex;\012  sub o circumflexcomb by ocircumflex;\012  sub u circumflexcomb by ucircumflex;\012  sub a ringcomb by aring;\012  sub a tildecomb by atilde;\012  sub n tildecomb by ntilde;\012  sub o tildecomb by otilde;\012  sub c cedillacomb by ccedilla;\012} accents;\012lookup codes {\012  sub braceleft parenleft e t parenright braceright by et;\012  sub braceleft parenleft r u parenright braceright by rumrotunda;\012  sub braceleft parenleft D H parenright braceright by Eth;\012  sub braceleft parenleft d h parenright braceright by eth;\012  sub braceleft parenleft T H parenright braceright by Thorn;\012  sub braceleft parenleft t h parenright braceright by thorn;\012  sub braceleft parenleft A E parenright braceright by AE;\012  sub braceleft parenleft a e parenright braceright by ae;\012  sub braceleft parenleft p r parenright braceright by pstrokethroughdescender;\012  sub braceleft parenleft q two parenright braceright by uniA759;\012} codes;";
 name = ccmp;
 },
 {
-code = "lookup wordinit {\012  lookupflag 0;\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] [a c d e i m n r]';\012  sub [a c d e i m n r]' by [a.init c.init d.init e.init i.init m.init n.init r.init];\012} wordinit;\012\012lookup wordfina {\012  lookupflag 0;\012#  ignore sub [e h amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  ignore sub [e amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  sub [a i r u] [b m t r] e' by e.fina;\012#  sub h' by h.alt01;\012  sub [amacron emacron umacron]' by [amacron.fina emacron.fina umacron.fina];\012} wordfina;\012\012lookup high_r {\012 lookupflag 0;\012# ignore sub s [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u v w x z];\012ignore sub s t r';\012 sub [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u w x z] by r.high;\012} high_r;\012\012lookup contextual_shc {\012  lookupflag 0;\012  #\012  # Any word-initial or word-internal s (except before f) should be long.\012  #\012  ignore sub s' f;\012  sub s' @AllLowerCase by longs;\012  #\012  # Special form of c to join with following a or o.\012  #\012  sub [c c.init t ccedilla]' [a o] by [c.oar c.initoar t.oar ccedilla.oar];\012  #\012  # Special form of h and certain following letters.\012  #\012  sub h' lookup hsubs [i j m n r u igrave iacute icircumflex idieresis]' lookup hsubs;\012  #\012  # transformations of sequences el and ec (pseudo-ligatures)\012  #\012  sub @LC_Es' lookup esubs_l l' lookup esubs_l;\012  sub @LC_Es' lookup esubs_c [c ccedilla]' lookup esubs_c;\012  #\012  # alternate form of q when following e\012  #\012  sub [e e.init s longs longs.alt01] q' by q.alt01;\012  #\012  # alternate u when following q\012  #\012  sub [q q.alt01] u' by u.ql;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following e\012  #\012  sub @LC_E_AE [ i j l m n p u x y igrave iacute icircumflex idieresis imacron\012                 ugrave uacute ucircumflex udieresis umacron ntilde yacute ydieresis ymacron ]'\012      	         by [ i.el j.el l.el m.el n.el p.el u.el x.el y.el\012		      igrave.el iacute.el icircumflex.el idieresis.el\012		      imacron.el ugrave.el uacute.el ucircumflex.el\012		      udieresis.el umacron.el ntilde.el yacute.el ydieresis.el ymacron.el ];\012  #\012  # alternative forms of g + i m n u (pseudo-ligatures)\012  #\012  sub g' lookup gsubs [ i m n u r igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis\012                        umacron ]' lookup gsubs;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following r\012  #\012  sub [ r r.hl] [ i m n u igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis umacron\012        umacron.fina ntilde ]' by\012      [ i.rl m.rl n.rl u.rl igrave.rl iacute.rl icircumflex.rl idieresis.rl imacron.rl ugrave.rl uacute.rl\012      	ucircumflex.rl udieresis.rl umacron.rl umacron.finarl ntilde.rl ];\012  #\012} contextual_shc;\012\012lookup contextual_ll {\012  lookupflag 0;\012  sub [l l.el]' l by [l.lr l.ellr];\012} contextual_ll;\012\012lookup contextual_sf {\012  lookupflag 0;\012  sub [s longs]' [e f k l] by longs.alt01;\012} contextual_sf;\012\012lookup contextual_ed {\012  lookupflag 0;\012  sub [e egrave eacute ecircumflex edieresis emacron e.init]' lookup subed d' lookup subed;\012} contextual_ed;\012\012lookup contextual_rightjoining {\012  lookupflag 0;\012  sub [@WillJoinRight]' lookup rightjoining [@WillJoinLeft];\012} contextual_rightjoining;\012\012lookup contextual_leftjoining {\012  lookupflag 0;\012  sub [@WillJoinRight @RightJoining @BothJoining] [@WillJoinLeft]' lookup leftjoining;\012} contextual_leftjoining;\012\012lookup contextual_cleanup {\012  lookupflag 0;\012  sub [a.init a.initjr]' [b h k l t l.lr l.jr s.jl] by [a.initalt a.initjralt];\012  sub a.initjr' n.jb d.jl by a.initjralt;\012} contextual_cleanup;\012\012# varies the look of final es, since it is so common\012lookup final_s_alternate {\012  lookupflag 0;\012  sub [c c.jl c.el l l.el t v] e s' by s.alt;\012} final_s_alternate;";
+code = "lookup wordinit {\012  lookupflag 0;\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] [a c d e i m n q r]';\012  sub [a c d e i m n q r]' by [a.init c.init d.init e.init i.init m.init n.init q.init r.init];\012  sub [@AllLowerCase @UpperCase @WordInternal] h.alt' by h;\012} wordinit;\012\012lookup wordfina {\012  lookupflag 0;\012#  ignore sub [e h amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  ignore sub [e amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  sub [a i r u] [b m t r] e' by e.fina;\012#  sub h' by h.alt01;\012  sub [amacron emacron umacron]' by [amacron.fina emacron.fina umacron.fina];\012} wordfina;\012\012lookup high_r {\012 lookupflag 0;\012# ignore sub s [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u v w x z];\012ignore sub s t r';\012 sub [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u w x z] by r.high;\012} high_r;\012\012lookup contextual_shc {\012  lookupflag 0;\012  #\012  # Any word-initial or word-internal s (except before f) should be long.\012  #\012  ignore sub s' f;\012  sub s' @AllLowerCase by longs;\012  #\012  # Special form of c to join with following a or o.\012  #\012  sub [c c.init t ccedilla]' [a o] by [c.oar c.initoar t.oar ccedilla.oar];\012  #\012  # Special form of h and certain following letters.\012  #\012  sub h' lookup hsubs [i j m n r u igrave iacute icircumflex idieresis]' lookup hsubs;\012  #\012  # transformations of sequences el and ec (pseudo-ligatures)\012  #\012  sub @LC_Es' lookup esubs_l l' lookup esubs_l;\012  sub @LC_Es' lookup esubs_c [c ccedilla]' lookup esubs_c;\012  #\012  # alternate form of q when following e\012  #\012  sub [e e.init s longs longs.alt01] q' by q.alt01;\012  #\012  # alternate u when following q\012  #\012#  sub [q q.alt01] u' by u.ql;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following e\012  #\012  sub @LC_E_AE [ i j l m n p u x y igrave iacute icircumflex idieresis imacron\012                 ugrave uacute ucircumflex udieresis umacron ntilde yacute ydieresis ymacron ]'\012      	         by [ i.el j.el l.el m.el n.el p.el u.el x.el y.el\012		      igrave.el iacute.el icircumflex.el idieresis.el\012		      imacron.el ugrave.el uacute.el ucircumflex.el\012		      udieresis.el umacron.el ntilde.el yacute.el ydieresis.el ymacron.el ];\012  #\012  # alternative forms of g + i m n u (pseudo-ligatures)\012  #\012  sub g' lookup gsubs [ i m n u r igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis\012                        umacron ]' lookup gsubs;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following r\012  #\012  sub [ r r.hl] [ i m n u igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis umacron\012        umacron.fina ntilde ]' by\012      [ i.rl m.rl n.rl u.rl igrave.rl iacute.rl icircumflex.rl idieresis.rl imacron.rl ugrave.rl uacute.rl\012      	ucircumflex.rl udieresis.rl umacron.rl umacron.finarl ntilde.rl ];\012  #\012} contextual_shc;\012\012lookup contextual_ll {\012  lookupflag 0;\012  sub [l l.el]' l by [l.lr l.ellr];\012} contextual_ll;\012\012lookup contextual_sf {\012  lookupflag 0;\012  sub [s longs]' [e f k l] by longs.alt01;\012} contextual_sf;\012\012lookup contextual_ed {\012  lookupflag 0;\012  sub [e egrave eacute ecircumflex edieresis emacron e.init]' lookup subed d' lookup subed;\012} contextual_ed;\012\012lookup contextual_rightjoining {\012  lookupflag 0;\012  sub [@WillJoinRight]' lookup rightjoining [@WillJoinLeft];\012} contextual_rightjoining;\012\012lookup contextual_leftjoining {\012  lookupflag 0;\012  sub [@WillJoinRight @RightJoining @BothJoining] [@WillJoinLeft]' lookup leftjoining;\012} contextual_leftjoining;\012\012lookup contextual_cleanup {\012  lookupflag 0;\012  sub [a.init a.initjr]' [b h k l t l.lr l.jr s.jl] by [a.initalt a.initjralt];\012  sub a.initjr' n.jb d.jl by a.initjralt;\012} contextual_cleanup;\012\012# varies the look of final es, since it is so common\012lookup final_s_alternate {\012  lookupflag 0;\012  sub [c c.jl c.el l l.el t v] e s' by s.alt;\012} final_s_alternate;";
 name = calt;
 },
 {
 code = "  sub c c by c_c;\012  sub c.el c by c_c.el;\012  sub c.jl c by c_c.jl;\012  sub c c.oar by c_c.oar;\012  sub c.el c.oar by c_c.eloar;\012  sub c.jl c.oar by c_c.jloar;\012  sub e r by e_r;\012  sub e.init r by e_r.init;\012  sub e s by e_s;\012  sub e s.alt by e_s.alt;\012  sub g g by g_g;\012  sub g g.imnur by g_g.imnur;\012  sub longs longs u by longs_longs_u;\012  sub longs longs ugrave by longs_longs_ugrave;\012  sub longs longs uacute by longs_longs_uacute;\012  sub longs longs ucircumflex by longs_longs_ucircumflex;\012  sub longs longs udieresis by longs_longs_udieresis;\012  sub longs longs umacron by longs_longs_umacron;\012  sub longs longs n by longs_longs_n;\012  sub longs longs i by longs_longs_i;\012  sub longs longs igrave by longs_longs_igrave;\012  sub longs longs iacute by longs_longs_iacute;\012  sub longs longs icircumflex by longs_longs_icircumflex;\012  sub longs longs idieresis by longs_longs_idieresis;\012  sub longs longs imacron by longs_longs_imacron;\012  sub longs longs m by longs_longs_m;\012  sub longs longs u.jr by longs_longs_u.jr;\012  sub longs longs ugrave.jr by longs_longs_ugrave.jr;\012  sub longs longs uacute.jr by longs_longs_uacute.jr;\012  sub longs longs ucircumflex.jr by longs_longs_ucircumflex.jr;\012  sub longs longs udieresis.jr by longs_longs_udieresis.jr;\012  sub longs longs umacron.jr by longs_longs_umacron.jr;\012  sub longs longs n.jr by longs_longs_n.jr;\012  sub longs longs i.jr by longs_longs_i.jr;\012  sub longs longs igrave.jr by longs_longs_igrave.jr;\012  sub longs longs iacute.jr by longs_longs_iacute.jr;\012  sub longs longs icircumflex.jr by longs_longs_icircumflex.jr;\012  sub longs longs idieresis.jr by longs_longs_idieresis.jr;\012  sub longs longs imacron.jr by longs_longs_imacron.jr;\012  sub longs longs m.jr by longs_longs_m.jr;\012  sub e.init m by e_m.init;\012  sub e.init m.jr by e_m.initjr;\012  sub e.init n by e_n.init;\012  sub e.init n.jr by e_n.initjr;\012  sub e.init p by e_p.init;\012  sub e.init x by e_x.init;\012  sub f f by uniFB00;\012  sub f l by uniFB02;\012  sub f l.jr by uniFB02.jr;\012  sub r d by r_d;\012  sub r p by r_p;\012  sub r.jl d by r_d.jl;\012  sub r.jl p by r_p.jl;\012  sub longs t by longs_t;\012  sub longs t.oar by longs_t.oar;\012  sub t h.alt01 by t_h.alt01;\012  sub longs h by longs_h;\012  sub longs h.alt01 by longs_h.alt01;\012  sub longs i by longs_i;\012  sub longs igrave by longs_igrave;\012  sub longs iacute by longs_iacute;\012  sub longs icircumflex by longs_icircumflex;\012  sub longs idieresis by longs_idieresis;\012  sub longs imacron by longs_imacron;\012  sub longs m by longs_m;\012  sub longs n.jr by longs_n.jr;\012  sub longs u by longs_u;\012  sub longs ugrave by longs_ugrave;\012  sub longs uacute by longs_uacute;\012  sub longs ucircumflex by longs_ucircumflex;\012  sub longs udieresis by longs_udieresis;\012  sub longs umacron by longs_umacron;\012  sub longs n by longs_n;\012  sub longs m.jr by longs_m.jr;\012  sub longs i.jr by longs_i.jr;\012  sub longs igrave.jr by longs_igrave.jr;\012  sub longs iacute.jr by longs_iacute.jr;\012  sub longs icircumflex.jr by longs_icircumflex.jr;\012  sub longs idieresis.jr by longs_idieresis.jr;\012  sub longs imacron.jr by longs_imacron.jr;\012  sub longs u.jr by longs_u.jr;\012  sub longs ugrave.jr by longs_ugrave.jr;\012  sub longs uacute.jr by longs_uacute.jr;\012  sub longs ucircumflex.jr by longs_ucircumflex.jr;\012  sub longs udieresis.jr by longs_udieresis.jr;\012  sub longs umacron.jr by longs_umacron.jr;\012  sub t h by t_h;\012  sub longs l by longs_l;\012  sub longs l.jr by longs_l.jr;\012  sub longs longs by longs_longs;\012  sub longs longs.alt01 by longs_longs.alt01;\012  sub longs s by longs_s;\012  sub lslash lslash by lslash_lslash;\012  sub lslash lslash.jr by lslash_lslash.jr;";
 name = liga;
+},
+{
+code = "sub e t c period by e_t_c_period;\012sub e.init t c period by e_t_c_period;";
+name = dlig;
 }
 );
 fontMaster = (
@@ -188,7 +195,7 @@ value = 810;
 descender = -810;
 id = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
 userData = {
-GSCornerRadius = 22;
+GSCornerRadius = 12;
 GSOffsetHorizontal = 8;
 GSOffsetVertical = 2;
 };
@@ -13056,6 +13063,139 @@ note = z;
 unicode = 007A;
 },
 {
+glyphname = h.alt;
+lastChange = "2020-04-03 18:46:33 +0000";
+layers = (
+{
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"1197 -889 OFFCURVE",
+"1480 -688 OFFCURVE",
+"1480 -498 CURVE SMOOTH",
+"1480 -373 OFFCURVE",
+"1374 -324 OFFCURVE",
+"924 -206 CURVE SMOOTH",
+"750 -160 OFFCURVE",
+"610 -122 OFFCURVE",
+"498 -82 CURVE SMOOTH",
+"488 -78 OFFCURVE",
+"486 -71 OFFCURVE",
+"493 -63 CURVE SMOOTH",
+"573 27 OFFCURVE",
+"675 115 OFFCURVE",
+"799 193 CURVE SMOOTH",
+"810 200 OFFCURVE",
+"814 209 OFFCURVE",
+"810 218 CURVE SMOOTH",
+"806 226 OFFCURVE",
+"794 229 OFFCURVE",
+"781 221 CURVE SMOOTH",
+"655 144 OFFCURVE",
+"539 50 OFFCURVE",
+"443 -50 CURVE SMOOTH",
+"438 -55 OFFCURVE",
+"431 -57 OFFCURVE",
+"424 -53 CURVE SMOOTH",
+"243 21 OFFCURVE",
+"162 105 OFFCURVE",
+"162 242 CURVE SMOOTH",
+"162 307 OFFCURVE",
+"178 375 OFFCURVE",
+"204 440 CURVE SMOOTH",
+"208 448 OFFCURVE",
+"213 452 OFFCURVE",
+"221 454 CURVE SMOOTH",
+"515 532 OFFCURVE",
+"772 632 OFFCURVE",
+"772 771 CURVE SMOOTH",
+"772 826 OFFCURVE",
+"737 862 OFFCURVE",
+"644 862 CURVE SMOOTH",
+"434 862 OFFCURVE",
+"214 685 OFFCURVE",
+"98 477 CURVE SMOOTH",
+"94 470 OFFCURVE",
+"89 466 OFFCURVE",
+"81 464 CURVE SMOOTH",
+"-77 419 LINE SMOOTH",
+"-88 416 OFFCURVE",
+"-95 407 OFFCURVE",
+"-94 398 CURVE SMOOTH",
+"-93 388 OFFCURVE",
+"-81 384 OFFCURVE",
+"-67 387 CURVE SMOOTH",
+"-29 394 OFFCURVE",
+"10 402 OFFCURVE",
+"49 413 CURVE SMOOTH",
+"59 416 OFFCURVE",
+"64 410 OFFCURVE",
+"60 400 CURVE SMOOTH",
+"30 331 OFFCURVE",
+"14 260 OFFCURVE",
+"14 192 CURVE SMOOTH",
+"14 33 OFFCURVE",
+"106 -64 OFFCURVE",
+"329 -153 CURVE SMOOTH",
+"339 -157 OFFCURVE",
+"341 -164 OFFCURVE",
+"335 -172 CURVE SMOOTH",
+"220 -318 OFFCURVE",
+"151 -463 OFFCURVE",
+"151 -576 CURVE SMOOTH",
+"151 -790 OFFCURVE",
+"423 -889 OFFCURVE",
+"817 -889 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"625 -812 OFFCURVE",
+"299 -735 OFFCURVE",
+"299 -481 CURVE SMOOTH",
+"299 -396 OFFCURVE",
+"333 -295 OFFCURVE",
+"397 -192 CURVE SMOOTH",
+"402 -184 OFFCURVE",
+"408 -182 OFFCURVE",
+"416 -185 CURVE SMOOTH",
+"522 -223 OFFCURVE",
+"652 -260 OFFCURVE",
+"808 -301 CURVE SMOOTH",
+"1188 -402 OFFCURVE",
+"1332 -482 OFFCURVE",
+"1332 -591 CURVE SMOOTH",
+"1332 -709 OFFCURVE",
+"1158 -812 OFFCURVE",
+"897 -812 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"337 679 OFFCURVE",
+"475 794 OFFCURVE",
+"590 794 CURVE SMOOTH",
+"642 794 OFFCURVE",
+"675 769 OFFCURVE",
+"675 740 CURVE SMOOTH",
+"675 674 OFFCURVE",
+"500 596 OFFCURVE",
+"260 518 CURVE SMOOTH",
+"249 515 OFFCURVE",
+"244 521 OFFCURVE",
+"249 531 CURVE SMOOTH"
+);
+}
+);
+width = 730;
+}
+);
+},
+{
 glyphname = s.alt;
 lastChange = "2020-03-28 09:11:46 +0000";
 layers = (
@@ -21520,6 +21660,126 @@ width = 606;
 note = n.init;
 },
 {
+glyphname = q.init;
+lastChange = "2020-04-03 16:46:35 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {593, 776}}";
+imagePath = "Images/q.init.glif-Medium.tif";
+locked = "1";
+transform = "{2.56283, 0, 0, 2.56283, -144, -914}";
+};
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"538 -342 OFFCURVE",
+"602 23 OFFCURVE",
+"649 424 CURVE SMOOTH",
+"651 441 OFFCURVE",
+"643 453 OFFCURVE",
+"631 460 CURVE SMOOTH",
+"622 465 OFFCURVE",
+"619 476 OFFCURVE",
+"628 482 CURVE SMOOTH",
+"858 635 OFFCURVE",
+"1085 801 OFFCURVE",
+"1304 998 CURVE",
+"1271 1006 LINE",
+"934 704 OFFCURVE",
+"602 484 OFFCURVE",
+"242 278 CURVE SMOOTH",
+"235 274 OFFCURVE",
+"230 275 OFFCURVE",
+"225 281 CURVE SMOOTH",
+"201 310 OFFCURVE",
+"169 332 OFFCURVE",
+"123 332 CURVE SMOOTH",
+"46 332 OFFCURVE",
+"-90 229 OFFCURVE",
+"-90 185 CURVE SMOOTH",
+"-90 164 OFFCURVE",
+"-78 144 OFFCURVE",
+"-45 144 CURVE SMOOTH",
+"12 144 OFFCURVE",
+"73 166 OFFCURVE",
+"133 192 CURVE SMOOTH",
+"140 195 OFFCURVE",
+"146 193 OFFCURVE",
+"150 187 CURVE SMOOTH",
+"186 133 OFFCURVE",
+"217 65 OFFCURVE",
+"295 65 CURVE SMOOTH",
+"367 65 OFFCURVE",
+"432 97 OFFCURVE",
+"489 154 CURVE SMOOTH",
+"497 162 OFFCURVE",
+"505 159 OFFCURVE",
+"503 148 CURVE SMOOTH",
+"459 -165 OFFCURVE",
+"417 -450 OFFCURVE",
+"346 -728 CURVE SMOOTH",
+"321 -826 OFFCURVE",
+"390 -829 OFFCURVE",
+"417 -740 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"12 189 OFFCURVE",
+"4 200 OFFCURVE",
+"4 212 CURVE SMOOTH",
+"4 237 OFFCURVE",
+"19 277 OFFCURVE",
+"66 277 CURVE SMOOTH",
+"91 277 OFFCURVE",
+"106 256 OFFCURVE",
+"125 230 CURVE SMOOTH",
+"130 223 OFFCURVE",
+"128 217 OFFCURVE",
+"120 214 CURVE SMOOTH",
+"79 199 OFFCURVE",
+"52 189 OFFCURVE",
+"34 189 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"310 123 OFFCURVE",
+"288 185 OFFCURVE",
+"254 240 CURVE SMOOTH",
+"249 248 OFFCURVE",
+"250 254 OFFCURVE",
+"257 258 CURVE SMOOTH",
+"343 307 OFFCURVE",
+"431 358 OFFCURVE",
+"516 411 CURVE SMOOTH",
+"524 416 OFFCURVE",
+"531 412 OFFCURVE",
+"530 402 CURVE SMOOTH",
+"526 365 OFFCURVE",
+"520 294 OFFCURVE",
+"514 250 CURVE SMOOTH",
+"513 242 OFFCURVE",
+"511 237 OFFCURVE",
+"506 230 CURVE SMOOTH",
+"455 158 OFFCURVE",
+"409 123 OFFCURVE",
+"367 123 CURVE SMOOTH"
+);
+}
+);
+width = 713;
+}
+);
+leftKerningGroup = q;
+note = q;
+},
+{
 glyphname = r.init;
 lastChange = "2020-03-18 16:49:58 +0000";
 layers = (
@@ -22281,6 +22541,142 @@ width = 587;
 );
 leftMetricsKey = n.init;
 note = n.initjr;
+},
+{
+glyphname = q.initjr;
+lastChange = "2020-04-03 16:50:28 +0000";
+layers = (
+{
+backgroundImage = {
+crop = "{{0, 0}, {593, 776}}";
+imagePath = "Images/q.init.glif-Medium.tif";
+locked = "1";
+transform = "{2.563, 0, 0, 2.563, -144, -914}";
+};
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"651 441 OFFCURVE",
+"643 453 OFFCURVE",
+"631 460 CURVE SMOOTH",
+"622 465 OFFCURVE",
+"619 476 OFFCURVE",
+"628 482 CURVE SMOOTH",
+"858 635 OFFCURVE",
+"1085 801 OFFCURVE",
+"1304 998 CURVE",
+"1271 1006 LINE",
+"934 704 OFFCURVE",
+"602 484 OFFCURVE",
+"242 278 CURVE SMOOTH",
+"235 274 OFFCURVE",
+"230 275 OFFCURVE",
+"225 281 CURVE SMOOTH",
+"201 310 OFFCURVE",
+"169 332 OFFCURVE",
+"123 332 CURVE SMOOTH",
+"46 332 OFFCURVE",
+"-90 229 OFFCURVE",
+"-90 185 CURVE SMOOTH",
+"-90 164 OFFCURVE",
+"-78 144 OFFCURVE",
+"-45 144 CURVE SMOOTH",
+"12 144 OFFCURVE",
+"73 166 OFFCURVE",
+"133 192 CURVE SMOOTH",
+"140 195 OFFCURVE",
+"146 193 OFFCURVE",
+"150 187 CURVE SMOOTH",
+"186 133 OFFCURVE",
+"217 65 OFFCURVE",
+"295 65 CURVE SMOOTH",
+"367 65 OFFCURVE",
+"432 97 OFFCURVE",
+"489 154 CURVE SMOOTH",
+"497 162 OFFCURVE",
+"505 159 OFFCURVE",
+"503 148 CURVE SMOOTH",
+"460 -163 OFFCURVE",
+"417 -450 OFFCURVE",
+"346 -728 CURVE SMOOTH",
+"321 -826 OFFCURVE",
+"390 -829 OFFCURVE",
+"417 -740 CURVE SMOOTH",
+"473 -556 OFFCURVE",
+"520 -380 OFFCURVE",
+"553 -201 CURVE SMOOTH",
+"558 -174 OFFCURVE",
+"564 -155 OFFCURVE",
+"577 -130 CURVE SMOOTH",
+"629 -31 OFFCURVE",
+"710 48 OFFCURVE",
+"753 89 CURVE",
+"753 155 LINE",
+"687 89 OFFCURVE",
+"648 47 OFFCURVE",
+"602 -11 CURVE SMOOTH",
+"594 -21 OFFCURVE",
+"587 -17 OFFCURVE",
+"589 -6 CURVE SMOOTH",
+"615 135 OFFCURVE",
+"632 277 OFFCURVE",
+"649 424 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"526 365 OFFCURVE",
+"520 294 OFFCURVE",
+"514 250 CURVE SMOOTH",
+"513 242 OFFCURVE",
+"511 237 OFFCURVE",
+"506 230 CURVE SMOOTH",
+"455 158 OFFCURVE",
+"409 123 OFFCURVE",
+"367 123 CURVE SMOOTH",
+"310 123 OFFCURVE",
+"288 185 OFFCURVE",
+"254 240 CURVE SMOOTH",
+"249 248 OFFCURVE",
+"250 254 OFFCURVE",
+"257 258 CURVE SMOOTH",
+"343 307 OFFCURVE",
+"431 358 OFFCURVE",
+"516 411 CURVE SMOOTH",
+"524 416 OFFCURVE",
+"531 412 OFFCURVE",
+"530 402 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"79 199 OFFCURVE",
+"52 189 OFFCURVE",
+"34 189 CURVE SMOOTH",
+"12 189 OFFCURVE",
+"4 200 OFFCURVE",
+"4 212 CURVE SMOOTH",
+"4 237 OFFCURVE",
+"19 277 OFFCURVE",
+"66 277 CURVE SMOOTH",
+"91 277 OFFCURVE",
+"106 256 OFFCURVE",
+"125 230 CURVE SMOOTH",
+"130 223 OFFCURVE",
+"128 217 OFFCURVE",
+"120 214 CURVE SMOOTH"
+);
+}
+);
+width = 753;
+}
+);
+leftKerningGroup = q;
+note = q;
 },
 {
 glyphname = r.initjr;
@@ -28972,349 +29368,6 @@ width = 511;
 note = ccedilla.oarjl;
 },
 {
-glyphname = u.ql;
-lastChange = "2020-03-20 02:41:45 +0000";
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"-165 -10 LINE",
-"-131 36 OFFCURVE",
-"-71 101 OFFCURVE",
-"-33 142 CURVE SMOOTH",
-"5 185 OFFCURVE",
-"58 228 OFFCURVE",
-"99 264 CURVE",
-"102 267 OFFCURVE",
-"113 274 OFFCURVE",
-"117 274 CURVE SMOOTH",
-"140 274 OFFCURVE",
-"142 222 OFFCURVE",
-"145 188 CURVE SMOOTH",
-"149 145 OFFCURVE",
-"153 108 OFFCURVE",
-"164 72 CURVE",
-"174 45 OFFCURVE",
-"189 18 OFFCURVE",
-"193 15 CURVE",
-"196 12 OFFCURVE",
-"208 0 OFFCURVE",
-"231 0 CURVE SMOOTH",
-"251 0 OFFCURVE",
-"267 22 OFFCURVE",
-"278 33 CURVE SMOOTH",
-"289 44 OFFCURVE",
-"301 54 OFFCURVE",
-"324 88 CURVE SMOOTH",
-"351 126 OFFCURVE",
-"352 136 OFFCURVE",
-"363 163 CURVE",
-"373 182 OFFCURVE",
-"379 206 OFFCURVE",
-"394 206 CURVE SMOOTH",
-"398 206 OFFCURVE",
-"404 206 OFFCURVE",
-"408 198 CURVE SMOOTH",
-"423 170 OFFCURVE",
-"422 150 OFFCURVE",
-"432 107 CURVE SMOOTH",
-"435 94 OFFCURVE",
-"443 61 OFFCURVE",
-"447 34 CURVE SMOOTH",
-"451 7 OFFCURVE",
-"458 -15 OFFCURVE",
-"477 -15 CURVE SMOOTH",
-"511 -15 OFFCURVE",
-"556 8 OFFCURVE",
-"571 23 CURVE",
-"612 61 OFFCURVE",
-"641 115 OFFCURVE",
-"674 163 CURVE",
-"684 174 OFFCURVE",
-"688 185 OFFCURVE",
-"688 193 CURVE SMOOTH",
-"688 203 OFFCURVE",
-"684 203 OFFCURVE",
-"676 203 CURVE SMOOTH",
-"666 203 OFFCURVE",
-"654 199 OFFCURVE",
-"643 188 CURVE SMOOTH",
-"628 173 OFFCURVE",
-"609 150 OFFCURVE",
-"594 135 CURVE SMOOTH",
-"583 124 OFFCURVE",
-"576 118 OFFCURVE",
-"566 118 CURVE SMOOTH",
-"556 118 OFFCURVE",
-"541 124 OFFCURVE",
-"537 147 CURVE SMOOTH",
-"533 170 OFFCURVE",
-"530 260 OFFCURVE",
-"522 301 CURVE SMOOTH",
-"514 337 OFFCURVE",
-"500 368 OFFCURVE",
-"472 368 CURVE SMOOTH",
-"438 368 OFFCURVE",
-"399 305 OFFCURVE",
-"391 297 CURVE",
-"363 261 OFFCURVE",
-"350 226 OFFCURVE",
-"300 180 CURVE",
-"290 170 OFFCURVE",
-"281 165 OFFCURVE",
-"277 165 CURVE SMOOTH",
-"269 165 OFFCURVE",
-"263 175 OFFCURVE",
-"263 190 CURVE SMOOTH",
-"263 223 OFFCURVE",
-"262 228 OFFCURVE",
-"262 251 CURVE",
-"259 308 OFFCURVE",
-"264 396 OFFCURVE",
-"216 396 CURVE SMOOTH",
-"206 396 OFFCURVE",
-"198 393 OFFCURVE",
-"187 385 CURVE",
-"154 366 OFFCURVE",
-"130 340 OFFCURVE",
-"103 317 CURVE",
-"84 298 OFFCURVE",
-"61 282 OFFCURVE",
-"41 263 CURVE SMOOTH",
-"-9 217 OFFCURVE",
-"-52 175 OFFCURVE",
-"-95 127 CURVE SMOOTH",
-"-138 81 OFFCURVE",
-"-175 31 OFFCURVE",
-"-211 -19 CURVE"
-);
-}
-);
-};
-layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
-paths = (
-{
-closed = 1;
-nodes = (
-"-165 -10 LINE",
-"-131 36 OFFCURVE",
-"-71 101 OFFCURVE",
-"-33 142 CURVE SMOOTH",
-"6 184 OFFCURVE",
-"58 230 OFFCURVE",
-"99 264 CURVE SMOOTH",
-"105 269 OFFCURVE",
-"111 274 OFFCURVE",
-"117 274 CURVE SMOOTH",
-"137 274 OFFCURVE",
-"142 222 OFFCURVE",
-"145 188 CURVE SMOOTH",
-"149 145 OFFCURVE",
-"153 108 OFFCURVE",
-"164 72 CURVE SMOOTH",
-"176 31 OFFCURVE",
-"194 0 OFFCURVE",
-"231 0 CURVE SMOOTH",
-"251 0 OFFCURVE",
-"270 19 OFFCURVE",
-"281 30 CURVE SMOOTH",
-"292 41 OFFCURVE",
-"301 54 OFFCURVE",
-"324 88 CURVE SMOOTH",
-"350 127 OFFCURVE",
-"354 136 OFFCURVE",
-"365 163 CURVE SMOOTH",
-"373 183 OFFCURVE",
-"383 206 OFFCURVE",
-"394 206 CURVE SMOOTH",
-"398 206 OFFCURVE",
-"405 206 OFFCURVE",
-"408 198 CURVE SMOOTH",
-"414 182 OFFCURVE",
-"422 150 OFFCURVE",
-"432 107 CURVE SMOOTH",
-"439 78 OFFCURVE",
-"443 61 OFFCURVE",
-"447 34 CURVE SMOOTH",
-"451 7 OFFCURVE",
-"458 -15 OFFCURVE",
-"477 -15 CURVE SMOOTH",
-"511 -15 OFFCURVE",
-"555 9 OFFCURVE",
-"571 23 CURVE SMOOTH",
-"612 61 OFFCURVE",
-"647 115 OFFCURVE",
-"676 163 CURVE SMOOTH",
-"683 175 OFFCURVE",
-"688 185 OFFCURVE",
-"688 193 CURVE SMOOTH",
-"688 203 OFFCURVE",
-"684 203 OFFCURVE",
-"676 203 CURVE SMOOTH",
-"666 203 OFFCURVE",
-"653 200 OFFCURVE",
-"643 188 CURVE SMOOTH",
-"630 173 OFFCURVE",
-"609 150 OFFCURVE",
-"594 135 CURVE SMOOTH",
-"583 124 OFFCURVE",
-"576 118 OFFCURVE",
-"566 118 CURVE SMOOTH",
-"556 118 OFFCURVE",
-"541 124 OFFCURVE",
-"537 147 CURVE SMOOTH",
-"533 170 OFFCURVE",
-"530 260 OFFCURVE",
-"522 301 CURVE SMOOTH",
-"515 337 OFFCURVE",
-"500 368 OFFCURVE",
-"472 368 CURVE SMOOTH",
-"438 368 OFFCURVE",
-"396 306 OFFCURVE",
-"391 297 CURVE SMOOTH",
-"371 261 OFFCURVE",
-"347 226 OFFCURVE",
-"300 180 CURVE SMOOTH",
-"290 170 OFFCURVE",
-"281 165 OFFCURVE",
-"277 165 CURVE SMOOTH",
-"269 165 OFFCURVE",
-"263 175 OFFCURVE",
-"263 190 CURVE SMOOTH",
-"263 223 OFFCURVE",
-"263 228 OFFCURVE",
-"262 251 CURVE SMOOTH",
-"260 308 OFFCURVE",
-"256 396 OFFCURVE",
-"216 396 CURVE SMOOTH",
-"206 396 OFFCURVE",
-"199 392 OFFCURVE",
-"187 385 CURVE SMOOTH",
-"132 353 OFFCURVE",
-"-29 200 OFFCURVE",
-"-95 127 CURVE SMOOTH",
-"-137 80 OFFCURVE",
-"-175 31 OFFCURVE",
-"-211 -19 CURVE"
-);
-}
-);
-width = 632;
-}
-);
-note = u.ql;
-},
-{
-glyphname = u.qljr;
-lastChange = "2020-03-20 02:44:59 +0000";
-layers = (
-{
-layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
-paths = (
-{
-closed = 1;
-nodes = (
-"-165 -10 LINE",
-"-131 36 OFFCURVE",
-"-71 101 OFFCURVE",
-"-33 142 CURVE SMOOTH",
-"6 184 OFFCURVE",
-"58 230 OFFCURVE",
-"99 264 CURVE SMOOTH",
-"105 269 OFFCURVE",
-"111 274 OFFCURVE",
-"117 274 CURVE SMOOTH",
-"137 274 OFFCURVE",
-"142 222 OFFCURVE",
-"145 188 CURVE SMOOTH",
-"149 145 OFFCURVE",
-"153 108 OFFCURVE",
-"164 72 CURVE SMOOTH",
-"176 31 OFFCURVE",
-"194 0 OFFCURVE",
-"231 0 CURVE SMOOTH",
-"251 0 OFFCURVE",
-"270 19 OFFCURVE",
-"281 30 CURVE SMOOTH",
-"292 41 OFFCURVE",
-"301 54 OFFCURVE",
-"324 88 CURVE SMOOTH",
-"350 127 OFFCURVE",
-"354 136 OFFCURVE",
-"365 163 CURVE SMOOTH",
-"373 183 OFFCURVE",
-"383 206 OFFCURVE",
-"394 206 CURVE SMOOTH",
-"398 206 OFFCURVE",
-"405 206 OFFCURVE",
-"408 198 CURVE SMOOTH",
-"414 182 OFFCURVE",
-"422 150 OFFCURVE",
-"432 107 CURVE SMOOTH",
-"439 78 OFFCURVE",
-"443 61 OFFCURVE",
-"447 34 CURVE SMOOTH",
-"451 7 OFFCURVE",
-"458 -15 OFFCURVE",
-"477 -15 CURVE SMOOTH",
-"510 -15 OFFCURVE",
-"525 -6 OFFCURVE",
-"538 8 CURVE SMOOTH",
-"556 28 OFFCURVE",
-"581 63 OFFCURVE",
-"606 89 CURVE",
-"606 155 LINE",
-"586 132 OFFCURVE",
-"578 132 OFFCURVE",
-"569 132 CURVE SMOOTH",
-"559 132 OFFCURVE",
-"548 170 OFFCURVE",
-"543 190 CURVE SMOOTH",
-"537 214 OFFCURVE",
-"529 260 OFFCURVE",
-"522 301 CURVE SMOOTH",
-"516 337 OFFCURVE",
-"500 368 OFFCURVE",
-"472 368 CURVE SMOOTH",
-"438 368 OFFCURVE",
-"396 306 OFFCURVE",
-"391 297 CURVE SMOOTH",
-"371 261 OFFCURVE",
-"347 227 OFFCURVE",
-"300 180 CURVE SMOOTH",
-"290 170 OFFCURVE",
-"281 165 OFFCURVE",
-"277 165 CURVE SMOOTH",
-"269 165 OFFCURVE",
-"263 175 OFFCURVE",
-"263 190 CURVE SMOOTH",
-"263 223 OFFCURVE",
-"263 228 OFFCURVE",
-"262 251 CURVE SMOOTH",
-"260 308 OFFCURVE",
-"256 396 OFFCURVE",
-"216 396 CURVE SMOOTH",
-"206 396 OFFCURVE",
-"199 392 OFFCURVE",
-"187 385 CURVE SMOOTH",
-"132 353 OFFCURVE",
-"-29 200 OFFCURVE",
-"-95 127 CURVE SMOOTH",
-"-137 80 OFFCURVE",
-"-175 31 OFFCURVE",
-"-211 -19 CURVE"
-);
-}
-);
-width = 606;
-}
-);
-note = u.qljr;
-},
-{
 glyphname = i.rl;
 lastChange = "2020-03-08 20:57:26 +0000";
 layers = (
@@ -30935,6 +30988,351 @@ width = 592;
 note = umacron.rljr;
 },
 {
+export = 0;
+glyphname = u.ql;
+lastChange = "2020-04-03 17:12:17 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"-165 -10 LINE",
+"-131 36 OFFCURVE",
+"-71 101 OFFCURVE",
+"-33 142 CURVE SMOOTH",
+"5 185 OFFCURVE",
+"58 228 OFFCURVE",
+"99 264 CURVE",
+"102 267 OFFCURVE",
+"113 274 OFFCURVE",
+"117 274 CURVE SMOOTH",
+"140 274 OFFCURVE",
+"142 222 OFFCURVE",
+"145 188 CURVE SMOOTH",
+"149 145 OFFCURVE",
+"153 108 OFFCURVE",
+"164 72 CURVE",
+"174 45 OFFCURVE",
+"189 18 OFFCURVE",
+"193 15 CURVE",
+"196 12 OFFCURVE",
+"208 0 OFFCURVE",
+"231 0 CURVE SMOOTH",
+"251 0 OFFCURVE",
+"267 22 OFFCURVE",
+"278 33 CURVE SMOOTH",
+"289 44 OFFCURVE",
+"301 54 OFFCURVE",
+"324 88 CURVE SMOOTH",
+"351 126 OFFCURVE",
+"352 136 OFFCURVE",
+"363 163 CURVE",
+"373 182 OFFCURVE",
+"379 206 OFFCURVE",
+"394 206 CURVE SMOOTH",
+"398 206 OFFCURVE",
+"404 206 OFFCURVE",
+"408 198 CURVE SMOOTH",
+"423 170 OFFCURVE",
+"422 150 OFFCURVE",
+"432 107 CURVE SMOOTH",
+"435 94 OFFCURVE",
+"443 61 OFFCURVE",
+"447 34 CURVE SMOOTH",
+"451 7 OFFCURVE",
+"458 -15 OFFCURVE",
+"477 -15 CURVE SMOOTH",
+"511 -15 OFFCURVE",
+"556 8 OFFCURVE",
+"571 23 CURVE",
+"612 61 OFFCURVE",
+"641 115 OFFCURVE",
+"674 163 CURVE",
+"684 174 OFFCURVE",
+"688 185 OFFCURVE",
+"688 193 CURVE SMOOTH",
+"688 203 OFFCURVE",
+"684 203 OFFCURVE",
+"676 203 CURVE SMOOTH",
+"666 203 OFFCURVE",
+"654 199 OFFCURVE",
+"643 188 CURVE SMOOTH",
+"628 173 OFFCURVE",
+"609 150 OFFCURVE",
+"594 135 CURVE SMOOTH",
+"583 124 OFFCURVE",
+"576 118 OFFCURVE",
+"566 118 CURVE SMOOTH",
+"556 118 OFFCURVE",
+"541 124 OFFCURVE",
+"537 147 CURVE SMOOTH",
+"533 170 OFFCURVE",
+"530 260 OFFCURVE",
+"522 301 CURVE SMOOTH",
+"514 337 OFFCURVE",
+"500 368 OFFCURVE",
+"472 368 CURVE SMOOTH",
+"438 368 OFFCURVE",
+"399 305 OFFCURVE",
+"391 297 CURVE",
+"363 261 OFFCURVE",
+"350 226 OFFCURVE",
+"300 180 CURVE",
+"290 170 OFFCURVE",
+"281 165 OFFCURVE",
+"277 165 CURVE SMOOTH",
+"269 165 OFFCURVE",
+"263 175 OFFCURVE",
+"263 190 CURVE SMOOTH",
+"263 223 OFFCURVE",
+"262 228 OFFCURVE",
+"262 251 CURVE",
+"259 308 OFFCURVE",
+"264 396 OFFCURVE",
+"216 396 CURVE SMOOTH",
+"206 396 OFFCURVE",
+"198 393 OFFCURVE",
+"187 385 CURVE",
+"154 366 OFFCURVE",
+"130 340 OFFCURVE",
+"103 317 CURVE",
+"84 298 OFFCURVE",
+"61 282 OFFCURVE",
+"41 263 CURVE SMOOTH",
+"-9 217 OFFCURVE",
+"-52 175 OFFCURVE",
+"-95 127 CURVE SMOOTH",
+"-138 81 OFFCURVE",
+"-175 31 OFFCURVE",
+"-211 -19 CURVE"
+);
+}
+);
+};
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"-165 -10 LINE",
+"-131 36 OFFCURVE",
+"-71 101 OFFCURVE",
+"-33 142 CURVE SMOOTH",
+"6 184 OFFCURVE",
+"58 230 OFFCURVE",
+"99 264 CURVE SMOOTH",
+"105 269 OFFCURVE",
+"111 274 OFFCURVE",
+"117 274 CURVE SMOOTH",
+"137 274 OFFCURVE",
+"142 222 OFFCURVE",
+"145 188 CURVE SMOOTH",
+"149 145 OFFCURVE",
+"153 108 OFFCURVE",
+"164 72 CURVE SMOOTH",
+"176 31 OFFCURVE",
+"194 0 OFFCURVE",
+"231 0 CURVE SMOOTH",
+"251 0 OFFCURVE",
+"270 19 OFFCURVE",
+"281 30 CURVE SMOOTH",
+"292 41 OFFCURVE",
+"301 54 OFFCURVE",
+"324 88 CURVE SMOOTH",
+"350 127 OFFCURVE",
+"354 136 OFFCURVE",
+"365 163 CURVE SMOOTH",
+"373 183 OFFCURVE",
+"383 206 OFFCURVE",
+"394 206 CURVE SMOOTH",
+"398 206 OFFCURVE",
+"405 206 OFFCURVE",
+"408 198 CURVE SMOOTH",
+"414 182 OFFCURVE",
+"422 150 OFFCURVE",
+"432 107 CURVE SMOOTH",
+"439 78 OFFCURVE",
+"443 61 OFFCURVE",
+"447 34 CURVE SMOOTH",
+"451 7 OFFCURVE",
+"458 -15 OFFCURVE",
+"477 -15 CURVE SMOOTH",
+"511 -15 OFFCURVE",
+"555 9 OFFCURVE",
+"571 23 CURVE SMOOTH",
+"612 61 OFFCURVE",
+"647 115 OFFCURVE",
+"676 163 CURVE SMOOTH",
+"683 175 OFFCURVE",
+"688 185 OFFCURVE",
+"688 193 CURVE SMOOTH",
+"688 203 OFFCURVE",
+"684 203 OFFCURVE",
+"676 203 CURVE SMOOTH",
+"666 203 OFFCURVE",
+"653 200 OFFCURVE",
+"643 188 CURVE SMOOTH",
+"630 173 OFFCURVE",
+"609 150 OFFCURVE",
+"594 135 CURVE SMOOTH",
+"583 124 OFFCURVE",
+"576 118 OFFCURVE",
+"566 118 CURVE SMOOTH",
+"556 118 OFFCURVE",
+"541 124 OFFCURVE",
+"537 147 CURVE SMOOTH",
+"533 170 OFFCURVE",
+"530 260 OFFCURVE",
+"522 301 CURVE SMOOTH",
+"515 337 OFFCURVE",
+"500 368 OFFCURVE",
+"472 368 CURVE SMOOTH",
+"438 368 OFFCURVE",
+"396 306 OFFCURVE",
+"391 297 CURVE SMOOTH",
+"371 261 OFFCURVE",
+"347 226 OFFCURVE",
+"300 180 CURVE SMOOTH",
+"290 170 OFFCURVE",
+"281 165 OFFCURVE",
+"277 165 CURVE SMOOTH",
+"269 165 OFFCURVE",
+"263 175 OFFCURVE",
+"263 190 CURVE SMOOTH",
+"263 223 OFFCURVE",
+"263 228 OFFCURVE",
+"262 251 CURVE SMOOTH",
+"260 308 OFFCURVE",
+"256 396 OFFCURVE",
+"216 396 CURVE SMOOTH",
+"206 396 OFFCURVE",
+"199 392 OFFCURVE",
+"187 385 CURVE SMOOTH",
+"132 353 OFFCURVE",
+"-29 200 OFFCURVE",
+"-95 127 CURVE SMOOTH",
+"-137 80 OFFCURVE",
+"-175 31 OFFCURVE",
+"-211 -19 CURVE"
+);
+}
+);
+width = 632;
+}
+);
+note = u.ql;
+},
+{
+export = 0;
+glyphname = u.qljr;
+lastChange = "2020-04-03 17:15:40 +0000";
+layers = (
+{
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"-165 -10 LINE",
+"-131 36 OFFCURVE",
+"-71 101 OFFCURVE",
+"-33 142 CURVE SMOOTH",
+"6 184 OFFCURVE",
+"58 230 OFFCURVE",
+"99 264 CURVE SMOOTH",
+"105 269 OFFCURVE",
+"111 274 OFFCURVE",
+"117 274 CURVE SMOOTH",
+"137 274 OFFCURVE",
+"142 222 OFFCURVE",
+"145 188 CURVE SMOOTH",
+"149 145 OFFCURVE",
+"153 108 OFFCURVE",
+"164 72 CURVE SMOOTH",
+"176 31 OFFCURVE",
+"194 0 OFFCURVE",
+"231 0 CURVE SMOOTH",
+"251 0 OFFCURVE",
+"270 19 OFFCURVE",
+"281 30 CURVE SMOOTH",
+"292 41 OFFCURVE",
+"301 54 OFFCURVE",
+"324 88 CURVE SMOOTH",
+"350 127 OFFCURVE",
+"354 136 OFFCURVE",
+"365 163 CURVE SMOOTH",
+"373 183 OFFCURVE",
+"383 206 OFFCURVE",
+"394 206 CURVE SMOOTH",
+"398 206 OFFCURVE",
+"405 206 OFFCURVE",
+"408 198 CURVE SMOOTH",
+"414 182 OFFCURVE",
+"422 150 OFFCURVE",
+"432 107 CURVE SMOOTH",
+"439 78 OFFCURVE",
+"443 61 OFFCURVE",
+"447 34 CURVE SMOOTH",
+"451 7 OFFCURVE",
+"458 -15 OFFCURVE",
+"477 -15 CURVE SMOOTH",
+"510 -15 OFFCURVE",
+"525 -6 OFFCURVE",
+"538 8 CURVE SMOOTH",
+"556 28 OFFCURVE",
+"581 63 OFFCURVE",
+"606 89 CURVE",
+"606 155 LINE",
+"586 132 OFFCURVE",
+"578 132 OFFCURVE",
+"569 132 CURVE SMOOTH",
+"559 132 OFFCURVE",
+"548 170 OFFCURVE",
+"543 190 CURVE SMOOTH",
+"537 214 OFFCURVE",
+"529 260 OFFCURVE",
+"522 301 CURVE SMOOTH",
+"516 337 OFFCURVE",
+"500 368 OFFCURVE",
+"472 368 CURVE SMOOTH",
+"438 368 OFFCURVE",
+"396 306 OFFCURVE",
+"391 297 CURVE SMOOTH",
+"371 261 OFFCURVE",
+"347 227 OFFCURVE",
+"300 180 CURVE SMOOTH",
+"290 170 OFFCURVE",
+"281 165 OFFCURVE",
+"277 165 CURVE SMOOTH",
+"269 165 OFFCURVE",
+"263 175 OFFCURVE",
+"263 190 CURVE SMOOTH",
+"263 223 OFFCURVE",
+"263 228 OFFCURVE",
+"262 251 CURVE SMOOTH",
+"260 308 OFFCURVE",
+"256 396 OFFCURVE",
+"216 396 CURVE SMOOTH",
+"206 396 OFFCURVE",
+"199 392 OFFCURVE",
+"187 385 CURVE SMOOTH",
+"132 353 OFFCURVE",
+"-29 200 OFFCURVE",
+"-95 127 CURVE SMOOTH",
+"-137 80 OFFCURVE",
+"-175 31 OFFCURVE",
+"-211 -19 CURVE"
+);
+}
+);
+width = 606;
+}
+);
+note = u.qljr;
+},
+{
 glyphname = c_c;
 lastChange = "2020-03-20 13:26:36 +0000";
 layers = (
@@ -31346,6 +31744,183 @@ width = 804;
 );
 leftMetricsKey = e;
 rightMetricsKey = s;
+},
+{
+glyphname = e_t_c_period;
+lastChange = "2020-04-03 17:51:49 +0000";
+layers = (
+{
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"380 -232 OFFCURVE",
+"648 -11 OFFCURVE",
+"794 239 CURVE SMOOTH",
+"801 251 OFFCURVE",
+"809 253 OFFCURVE",
+"813 243 CURVE SMOOTH",
+"831 199 OFFCURVE",
+"846 151 OFFCURVE",
+"846 112 CURVE SMOOTH",
+"846 48 OFFCURVE",
+"837 15 OFFCURVE",
+"821 -8 CURVE SMOOTH",
+"805 -31 OFFCURVE",
+"845 -31 OFFCURVE",
+"862 -14 CURVE SMOOTH",
+"920 44 OFFCURVE",
+"961 96 OFFCURVE",
+"961 149 CURVE SMOOTH",
+"961 213 OFFCURVE",
+"946 265 OFFCURVE",
+"919 333 CURVE",
+"932 338 OFFCURVE",
+"946 340 OFFCURVE",
+"966 340 CURVE SMOOTH",
+"1029 340 OFFCURVE",
+"1097 304 OFFCURVE",
+"1170 304 CURVE SMOOTH",
+"1248 304 OFFCURVE",
+"1348 346 OFFCURVE",
+"1413 396 CURVE SMOOTH",
+"1424 406 OFFCURVE",
+"1433 410 OFFCURVE",
+"1445 419 CURVE SMOOTH",
+"1465 434 OFFCURVE",
+"1481 457 OFFCURVE",
+"1481 491 CURVE SMOOTH",
+"1481 524 OFFCURVE",
+"1435 572 OFFCURVE",
+"1396 572 CURVE SMOOTH",
+"1366 572 OFFCURVE",
+"1317 545 OFFCURVE",
+"1307 532 CURVE SMOOTH",
+"1294 515 OFFCURVE",
+"1285 488 OFFCURVE",
+"1285 458 CURVE SMOOTH",
+"1285 441 OFFCURVE",
+"1320 416 OFFCURVE",
+"1355 406 CURVE SMOOTH",
+"1365 403 OFFCURVE",
+"1367 396 OFFCURVE",
+"1359 391 CURVE SMOOTH",
+"1320 366 OFFCURVE",
+"1266 348 OFFCURVE",
+"1200 348 CURVE SMOOTH",
+"1151 348 OFFCURVE",
+"1074 391 OFFCURVE",
+"996 391 CURVE SMOOTH",
+"980 391 OFFCURVE",
+"957 385 OFFCURVE",
+"933 373 CURVE SMOOTH",
+"921 367 OFFCURVE",
+"891 372 OFFCURVE",
+"875 367 CURVE SMOOTH",
+"794 339 LINE SMOOTH",
+"782 335 OFFCURVE",
+"780 317 OFFCURVE",
+"782 296 CURVE SMOOTH",
+"783 287 OFFCURVE",
+"781 281 OFFCURVE",
+"777 274 CURVE SMOOTH",
+"659 67 OFFCURVE",
+"384 -171 OFFCURVE",
+"218 -171 CURVE SMOOTH",
+"157 -171 OFFCURVE",
+"132 -135 OFFCURVE",
+"132 -72 CURVE SMOOTH",
+"132 22 OFFCURVE",
+"178 103 OFFCURVE",
+"238 163 CURVE SMOOTH",
+"245 170 OFFCURVE",
+"251 167 OFFCURVE",
+"252 157 CURVE SMOOTH",
+"260 75 OFFCURVE",
+"317 22 OFFCURVE",
+"428 22 CURVE SMOOTH",
+"518 22 OFFCURVE",
+"672 113 OFFCURVE",
+"672 198 CURVE SMOOTH",
+"672 272 OFFCURVE",
+"607 316 OFFCURVE",
+"525 316 CURVE SMOOTH",
+"509 316 OFFCURVE",
+"491 315 OFFCURVE",
+"470 310 CURVE SMOOTH",
+"463 308 OFFCURVE",
+"461 316 OFFCURVE",
+"467 318 CURVE SMOOTH",
+"470 319 OFFCURVE",
+"472 320 OFFCURVE",
+"475 322 CURVE SMOOTH",
+"482 327 OFFCURVE",
+"485 349 OFFCURVE",
+"466 345 CURVE SMOOTH",
+"359 322 OFFCURVE",
+"294 288 OFFCURVE",
+"268 243 CURVE SMOOTH",
+"264 236 OFFCURVE",
+"261 233 OFFCURVE",
+"254 229 CURVE SMOOTH",
+"132 159 OFFCURVE",
+"19 50 OFFCURVE",
+"19 -95 CURVE SMOOTH",
+"19 -159 OFFCURVE",
+"51 -232 OFFCURVE",
+"168 -232 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"419 84 OFFCURVE",
+"363 124 OFFCURVE",
+"363 175 CURVE SMOOTH",
+"363 198 OFFCURVE",
+"367 222 OFFCURVE",
+"378 244 CURVE SMOOTH",
+"382 252 OFFCURVE",
+"387 256 OFFCURVE",
+"395 259 CURVE SMOOTH",
+"416 267 OFFCURVE",
+"438 269 OFFCURVE",
+"458 269 CURVE SMOOTH",
+"527 269 OFFCURVE",
+"584 238 OFFCURVE",
+"584 198 CURVE SMOOTH",
+"584 123 OFFCURVE",
+"538 84 OFFCURVE",
+"495 84 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"1544 180 OFFCURVE",
+"1577 209 OFFCURVE",
+"1605 227 CURVE SMOOTH",
+"1630 242 OFFCURVE",
+"1651 245 OFFCURVE",
+"1651 255 CURVE SMOOTH",
+"1651 273 OFFCURVE",
+"1607 308 OFFCURVE",
+"1588 308 CURVE SMOOTH",
+"1566 308 OFFCURVE",
+"1480 262 OFFCURVE",
+"1480 242 CURVE SMOOTH",
+"1480 215 OFFCURVE",
+"1505 180 OFFCURVE",
+"1530 180 CURVE SMOOTH"
+);
+}
+);
+width = 1718;
+}
+);
+leftMetricsKey = e;
+rightMetricsKey = period;
 },
 {
 glyphname = g_g;
@@ -58715,5 +59290,5 @@ kerning = {
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }
