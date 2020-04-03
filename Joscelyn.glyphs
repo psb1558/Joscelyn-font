@@ -1,7 +1,11 @@
 {
 .appVersion = "1270";
 DisplayStrings = (
-character
+Burdd,
+provoke,
+"/r.highjr/i.jl",
+"/r.high",
+"/e_r/e_r.init"
 );
 classes = (
 {
@@ -9,11 +13,11 @@ code = "c d i j m n p q r s u w x y z i.jr j.jr m.jr n.jr\012u.jr c.oar ccedilla
 name = WillJoinLeft;
 },
 {
-code = "a i j l m n q q.alt01 u i.hl j.hl m.hl n.hl u.hl i.jl j.jl\012m.jl n.jl u.jl a.init m.init r.init i.init n.init\012u.ql i.el j.el l.el m.el n.el u.el\012i.rl m.rl n.rl u.rl agrave aacute atilde adieresis\012acircumflex aring amacron igrave.el iacute.el\012icircumflex.el idieresis.el imacron.el igrave.hl\012iacute.hl icircumflex.hl idieresis.hl imacron.hl\012igrave.jl iacute.jl icircumflex.jl idieresis.jl\012imacron.jl igrave.rl iacute.rl icircumflex.rl\012idieresis.rl imacron.rl ugrave.el uacute.el\012ucircumflex.el udieresis.el umacron.el ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ugrave.jl uacute.jl ucircumflex.jl udieresis.jl\012umacron.jl ugrave.rl uacute.rl ucircumflex.rl\012udieresis.rl umacron.rl igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron i.gl m.gl n.gl u.gl igrave.gl\012iacute.gl icircumflex.gl idieresis.gl imacron.gl\012ugrave.gl uacute.gl ucircumflex.gl udieresis.gl\012umacron.gl lslash ntilde ntilde.jl q.jl";
+code = "a i j l m n q q.alt01 u i.hl j.hl m.hl n.hl u.hl i.jl j.jl\012m.jl n.jl u.jl a.init m.init r.init i.init n.init\012u.ql i.el j.el l.el m.el n.el u.el\012i.rl m.rl n.rl u.rl agrave aacute atilde adieresis\012acircumflex aring amacron igrave.el iacute.el\012icircumflex.el idieresis.el imacron.el igrave.hl\012iacute.hl icircumflex.hl idieresis.hl imacron.hl\012igrave.jl iacute.jl icircumflex.jl idieresis.jl\012imacron.jl igrave.rl iacute.rl icircumflex.rl\012idieresis.rl imacron.rl ugrave.el uacute.el\012ucircumflex.el udieresis.el umacron.el ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ugrave.jl uacute.jl ucircumflex.jl udieresis.jl\012umacron.jl ugrave.rl uacute.rl ucircumflex.rl\012udieresis.rl umacron.rl igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron i.gl m.gl n.gl u.gl igrave.gl\012iacute.gl icircumflex.gl idieresis.gl imacron.gl\012ugrave.gl uacute.gl ucircumflex.gl udieresis.gl\012umacron.gl lslash ntilde ntilde.jl q.jl r.high";
 name = WillJoinRight;
 },
 {
-code = "a b c d e f g h i j k l m n o p q r s t u v w x y z\012longs longs.alt01 c.oar ccedilla.oar h.alt01 d.init\012e.fina e.init e.initjrd emacron.fina amacron.fina\012lslash t.oar";
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z\012longs longs.alt01 c.oar ccedilla.oar h.alt01 d.init\012e.fina e.init e.initjrd emacron.fina amacron.fina\012lslash t.oar r.high";
 name = NonJoining;
 },
 {
@@ -37,7 +41,7 @@ code = "u.ql e.jrd egrave.jrd eacute.jrd ecircumflex.jrd\012edieresis.jrd emacro
 name = MiscJoining;
 },
 {
-code = "a.jr m.initjr i.jr u.hljr i.hljr l.jr j.jr u.jr m.jr\012n.jr j.hljr m.hljr a.initjr r.initjr i.initjr\012n.initjr u.qljr i.eljr j.eljr l.eljr m.eljr n.eljr\012u.eljr i.rljr m.rljr n.rljr u.rljr agrave.jr\012aacute.jr atilde.jr adieresis.jr acircumflex.jr\012aring.jr amacron.jr igrave.jr iacute.jr\012icircumflex.jr idieresis.jr imacron.jr igrave.eljr\012iacute.eljr icircumflex.eljr idieresis.eljr\012imacron.eljr igrave.hljr iacute.hljr\012icircumflex.hljr idieresis.hljr imacron.hljr\012igrave.rljr iacute.rljr icircumflex.rljr\012idieresis.rljr imacron.rljr ugrave.eljr uacute.eljr\012ucircumflex.eljr udieresis.eljr umacron.eljr\012ugrave.hljr uacute.hljr ucircumflex.hljr\012udieresis.hljr umacron.hljr ugrave.jr uacute.jr\012ucircumflex.jr udieresis.jr umacron.jr ugrave.rljr\012uacute.rljr ucircumflex.rljr udieresis.rljr\012umacron.rljr i.gljr m.gljr n.gljr u.gljr igrave.gljr\012iacute.gljr icircumflex.gljr idieresis.gljr\012imacron.gljr ugrave.gljr uacute.gljr\012ucircumflex.gljr udieresis.gljr umacron.gljr\012lslash.jr ntilde.jr ntilde.eljr ntilde.gljr\012ntilde.hljr ntilde.rljr q.jr q.alt01.jr";
+code = "a.jr m.initjr i.jr u.hljr i.hljr l.jr j.jr u.jr m.jr\012n.jr j.hljr m.hljr a.initjr r.initjr i.initjr\012n.initjr u.qljr i.eljr j.eljr l.eljr m.eljr n.eljr\012u.eljr i.rljr m.rljr n.rljr u.rljr agrave.jr\012aacute.jr atilde.jr adieresis.jr acircumflex.jr\012aring.jr amacron.jr igrave.jr iacute.jr\012icircumflex.jr idieresis.jr imacron.jr igrave.eljr\012iacute.eljr icircumflex.eljr idieresis.eljr\012imacron.eljr igrave.hljr iacute.hljr\012icircumflex.hljr idieresis.hljr imacron.hljr\012igrave.rljr iacute.rljr icircumflex.rljr\012idieresis.rljr imacron.rljr ugrave.eljr uacute.eljr\012ucircumflex.eljr udieresis.eljr umacron.eljr\012ugrave.hljr uacute.hljr ucircumflex.hljr\012udieresis.hljr umacron.hljr ugrave.jr uacute.jr\012ucircumflex.jr udieresis.jr umacron.jr ugrave.rljr\012uacute.rljr ucircumflex.rljr udieresis.rljr\012umacron.rljr i.gljr m.gljr n.gljr u.gljr igrave.gljr\012iacute.gljr icircumflex.gljr idieresis.gljr\012imacron.gljr ugrave.gljr uacute.gljr\012ucircumflex.gljr udieresis.gljr umacron.gljr\012lslash.jr ntilde.jr ntilde.eljr ntilde.gljr\012ntilde.hljr ntilde.rljr q.jr q.alt01.jr r.highjr";
 name = RightJoining;
 },
 {
@@ -88,7 +92,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2020-04-02 22:32:51 +0000";
+date = "2020-04-03 11:20:32 +0000";
 designer = "Peter S. Baker";
 designerURL = "https://github.com/psb1558/Joscelyn-font";
 disablesNiceNames = 1;
@@ -115,7 +119,7 @@ code = "lookup subed {\012  sub e by e.jrd;\012  sub egrave by egrave.jrd;\012  
 name = subed;
 },
 {
-code = "lookup rightjoining {\012  sub a by a.jr;\012  sub i by i.jr;\012  sub j by j.jr;\012  sub l by l.jr;\012  sub m by m.jr;\012  sub n by n.jr;\012  sub u by u.jr;\012  sub agrave by agrave.jr;\012  sub aacute by aacute.jr;\012  sub acircumflex by acircumflex.jr;\012  sub atilde by atilde.jr;\012  sub adieresis by adieresis.jr;\012  sub aring by aring.jr;\012  sub amacron by amacron.jr;\012  sub igrave by igrave.jr;\012  sub iacute by iacute.jr;\012  sub icircumflex by icircumflex.jr;\012  sub idieresis by idieresis.jr;\012  sub imacron by imacron.jr;\012  sub ntilde by ntilde.jr;\012  sub ugrave by ugrave.jr;\012  sub uacute by uacute.jr;\012  sub ucircumflex by ucircumflex.jr;\012  sub udieresis by udieresis.jr;\012  sub umacron by umacron.jr;\012  sub lslash by lslash.jr;\012  sub i.el by i.eljr;\012  sub j.el by j.eljr;\012  sub l.el by l.eljr;\012  sub m.el by m.eljr;\012  sub n.el by n.eljr;\012  sub u.el by u.eljr;\012  sub igrave.el by igrave.eljr;\012  sub iacute.el by iacute.eljr;\012  sub icircumflex.el by icircumflex.eljr;\012  sub idieresis.el by idieresis.eljr;\012  sub imacron.el by imacron.eljr;\012  sub ntilde.el by ntilde.eljr;\012  sub ugrave.el by ugrave.eljr;\012  sub uacute.el by uacute.eljr;\012  sub ucircumflex.el by ucircumflex.eljr;\012  sub udieresis.el by udieresis.eljr;\012  sub umacron.el by umacron.eljr;\012  sub i.gl by i.gljr;\012  sub m.gl by m.gljr;\012  sub n.gl by n.gljr;\012  sub u.gl by u.gljr;\012  sub igrave.gl by igrave.gljr;\012  sub iacute.gl by iacute.gljr;\012  sub icircumflex.gl by icircumflex.gljr;\012  sub idieresis.gl by idieresis.gljr;\012  sub imacron.gl by imacron.gljr;\012  sub ntilde.gl by ntilde.gljr;\012  sub ugrave.gl by ugrave.gljr;\012  sub uacute.gl by uacute.gljr;\012  sub ucircumflex.gl by ucircumflex.gljr;\012  sub udieresis.gl by udieresis.gljr;\012  sub umacron.gl by umacron.gljr;\012  sub i.hl by i.hljr;\012  sub j.hl by j.hljr;\012  sub m.hl by m.hljr;\012  sub n.hl by n.hljr;\012  sub u.hl by u.hljr;\012  sub u.ql by u.qljr;\012  sub igrave.hl by igrave.hljr;\012  sub iacute.hl by iacute.hljr;\012  sub icircumflex.hl by icircumflex.hljr;\012  sub idieresis.hl by idieresis.hljr;\012  sub imacron.hl by imacron.hljr;\012  sub ntilde.hl by ntilde.hljr;\012  sub ugrave.hl by ugrave.hljr;\012  sub uacute.hl by uacute.hljr;\012  sub ucircumflex.hl by ucircumflex.hljr;\012  sub udieresis.hl by udieresis.hljr;\012  sub umacron.hl by umacron.hljr;\012  sub i.jl by i.jb;\012  sub j.jl by j.jb;\012  sub m.jl by m.jb;\012  sub n.jl by n.jb;\012  sub u.jl by u.jb;\012  sub q.jl by q.jb;\012  sub igrave.jl by igrave.jb;\012  sub iacute.jl by iacute.jb;\012  sub icircumflex.jl by icircumflex.jb;\012  sub idieresis.jl by idieresis.jb;\012  sub imacron.jl by imacron.jb;\012  sub ntilde.jl by ntilde.jb;\012  sub ugrave.jl by ugrave.jb;\012  sub uacute.jl by uacute.jb;\012  sub ucircumflex.jl by ucircumflex.jb;\012  sub udieresis.jl by udieresis.jb;\012  sub umacron.jl by umacron.jb;\012  sub i.rl by i.rljr;\012  sub m.rl by m.rljr;\012  sub n.rl by n.rljr;\012  sub u.rl by u.rljr;\012  sub igrave.rl by igrave.rljr;\012  sub iacute.rl by iacute.rljr;\012  sub icircumflex.rl by icircumflex.rljr;\012  sub idieresis.rl by idieresis.rljr;\012  sub imacron.rl by imacron.rljr;\012  sub ntilde.rl by ntilde.rljr;\012  sub ugrave.rl by ugrave.rljr;\012  sub uacute.rl by uacute.rljr;\012  sub ucircumflex.rl by ucircumflex.rljr;\012  sub udieresis.rl by udieresis.rljr;\012  sub umacron.rl by umacron.rljr;\012  sub a.init by a.initjr;\012  sub i.init by i.initjr;\012  sub m.init by m.initjr;\012  sub n.init by n.initjr;\012  sub r.init by r.initjr;\012  sub q by q.jr;\012  sub q.jl by q.jb;\012  sub q.alt01 by q.alt01.jr;\012} rightjoining;";
+code = "lookup rightjoining {\012  sub a by a.jr;\012  sub i by i.jr;\012  sub j by j.jr;\012  sub l by l.jr;\012  sub m by m.jr;\012  sub n by n.jr;\012  sub u by u.jr;\012  sub agrave by agrave.jr;\012  sub aacute by aacute.jr;\012  sub acircumflex by acircumflex.jr;\012  sub atilde by atilde.jr;\012  sub adieresis by adieresis.jr;\012  sub aring by aring.jr;\012  sub amacron by amacron.jr;\012  sub igrave by igrave.jr;\012  sub iacute by iacute.jr;\012  sub icircumflex by icircumflex.jr;\012  sub idieresis by idieresis.jr;\012  sub imacron by imacron.jr;\012  sub ntilde by ntilde.jr;\012  sub ugrave by ugrave.jr;\012  sub uacute by uacute.jr;\012  sub ucircumflex by ucircumflex.jr;\012  sub udieresis by udieresis.jr;\012  sub umacron by umacron.jr;\012  sub lslash by lslash.jr;\012  sub i.el by i.eljr;\012  sub j.el by j.eljr;\012  sub l.el by l.eljr;\012  sub m.el by m.eljr;\012  sub n.el by n.eljr;\012  sub u.el by u.eljr;\012  sub igrave.el by igrave.eljr;\012  sub iacute.el by iacute.eljr;\012  sub icircumflex.el by icircumflex.eljr;\012  sub idieresis.el by idieresis.eljr;\012  sub imacron.el by imacron.eljr;\012  sub ntilde.el by ntilde.eljr;\012  sub ugrave.el by ugrave.eljr;\012  sub uacute.el by uacute.eljr;\012  sub ucircumflex.el by ucircumflex.eljr;\012  sub udieresis.el by udieresis.eljr;\012  sub umacron.el by umacron.eljr;\012  sub i.gl by i.gljr;\012  sub m.gl by m.gljr;\012  sub n.gl by n.gljr;\012  sub u.gl by u.gljr;\012  sub igrave.gl by igrave.gljr;\012  sub iacute.gl by iacute.gljr;\012  sub icircumflex.gl by icircumflex.gljr;\012  sub idieresis.gl by idieresis.gljr;\012  sub imacron.gl by imacron.gljr;\012  sub ntilde.gl by ntilde.gljr;\012  sub ugrave.gl by ugrave.gljr;\012  sub uacute.gl by uacute.gljr;\012  sub ucircumflex.gl by ucircumflex.gljr;\012  sub udieresis.gl by udieresis.gljr;\012  sub umacron.gl by umacron.gljr;\012  sub i.hl by i.hljr;\012  sub j.hl by j.hljr;\012  sub m.hl by m.hljr;\012  sub n.hl by n.hljr;\012  sub u.hl by u.hljr;\012  sub u.ql by u.qljr;\012  sub igrave.hl by igrave.hljr;\012  sub iacute.hl by iacute.hljr;\012  sub icircumflex.hl by icircumflex.hljr;\012  sub idieresis.hl by idieresis.hljr;\012  sub imacron.hl by imacron.hljr;\012  sub ntilde.hl by ntilde.hljr;\012  sub ugrave.hl by ugrave.hljr;\012  sub uacute.hl by uacute.hljr;\012  sub ucircumflex.hl by ucircumflex.hljr;\012  sub udieresis.hl by udieresis.hljr;\012  sub umacron.hl by umacron.hljr;\012  sub i.jl by i.jb;\012  sub j.jl by j.jb;\012  sub m.jl by m.jb;\012  sub n.jl by n.jb;\012  sub u.jl by u.jb;\012  sub q.jl by q.jb;\012  sub igrave.jl by igrave.jb;\012  sub iacute.jl by iacute.jb;\012  sub icircumflex.jl by icircumflex.jb;\012  sub idieresis.jl by idieresis.jb;\012  sub imacron.jl by imacron.jb;\012  sub ntilde.jl by ntilde.jb;\012  sub ugrave.jl by ugrave.jb;\012  sub uacute.jl by uacute.jb;\012  sub ucircumflex.jl by ucircumflex.jb;\012  sub udieresis.jl by udieresis.jb;\012  sub umacron.jl by umacron.jb;\012  sub i.rl by i.rljr;\012  sub m.rl by m.rljr;\012  sub n.rl by n.rljr;\012  sub u.rl by u.rljr;\012  sub igrave.rl by igrave.rljr;\012  sub iacute.rl by iacute.rljr;\012  sub icircumflex.rl by icircumflex.rljr;\012  sub idieresis.rl by idieresis.rljr;\012  sub imacron.rl by imacron.rljr;\012  sub ntilde.rl by ntilde.rljr;\012  sub ugrave.rl by ugrave.rljr;\012  sub uacute.rl by uacute.rljr;\012  sub ucircumflex.rl by ucircumflex.rljr;\012  sub udieresis.rl by udieresis.rljr;\012  sub umacron.rl by umacron.rljr;\012  sub a.init by a.initjr;\012  sub i.init by i.initjr;\012  sub m.init by m.initjr;\012  sub n.init by n.initjr;\012  sub r.init by r.initjr;\012  sub q by q.jr;\012  sub q.jl by q.jb;\012  sub q.alt01 by q.alt01.jr;\012  sub r.high by r.highjr;\012} rightjoining;";
 name = rightjoining;
 },
 {
@@ -129,11 +133,11 @@ code = "lookup accents {\012  sub a macroncomb by amacron;\012  sub ae macroncom
 name = ccmp;
 },
 {
-code = "lookup wordinit {\012  lookupflag 0;\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] [a c d e i m n r]';\012  sub [a c d e i m n r]' by [a.init c.init d.init e.init i.init m.init n.init r.init];\012} wordinit;\012\012lookup wordfina {\012  lookupflag 0;\012  ignore sub [e h amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  sub [a i r u] [b m t r] e' by e.fina;\012#  sub h' by h.alt01;\012  sub [amacron emacron umacron]' by [amacron.fina emacron.fina umacron.fina];\012} wordfina;\012\012lookup contextual_shc {\012  lookupflag 0;\012  #\012  # Any word-initial or word-internal s (except before f) should be long.\012  #\012  ignore sub s' f;\012  sub s' @AllLowerCase by longs;\012  #\012  # Special form of c to join with following a or o.\012  #\012  sub [c c.init t ccedilla]' [a o] by [c.oar c.initoar t.oar ccedilla.oar];\012  #\012  # Special form of h and certain following letters.\012  #\012  sub h' lookup hsubs [i j m n r u igrave iacute icircumflex idieresis]' lookup hsubs;\012  #\012  # transformations of sequences el and ec (pseudo-ligatures)\012  #\012  sub @LC_Es' lookup esubs_l l' lookup esubs_l;\012  sub @LC_Es' lookup esubs_c [c ccedilla]' lookup esubs_c;\012  #\012  # alternate form of q when following e\012  #\012  sub [e e.init s longs longs.alt01] q' by q.alt01;\012  #\012  # alternate u when following q\012  #\012  sub [q q.alt01] u' by u.ql;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following e\012  #\012  sub @LC_E_AE [ i j l m n p u x y igrave iacute icircumflex idieresis imacron\012                 ugrave uacute ucircumflex udieresis umacron ntilde yacute ydieresis ymacron ]'\012      	         by [ i.el j.el l.el m.el n.el p.el u.el x.el y.el\012		      igrave.el iacute.el icircumflex.el idieresis.el\012		      imacron.el ugrave.el uacute.el ucircumflex.el\012		      udieresis.el umacron.el ntilde.el yacute.el ydieresis.el ymacron.el ];\012  #\012  # alternative forms of g + i m n u (pseudo-ligatures)\012  #\012  sub g' lookup gsubs [ i m n u r igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis\012                        umacron ]' lookup gsubs;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following r\012  #\012  sub [ r r.hl] [ i m n u igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis umacron\012        umacron.fina ntilde ]' by\012      [ i.rl m.rl n.rl u.rl igrave.rl iacute.rl icircumflex.rl idieresis.rl imacron.rl ugrave.rl uacute.rl\012      	ucircumflex.rl udieresis.rl umacron.rl umacron.finarl ntilde.rl ];\012  #\012} contextual_shc;\012\012lookup contextual_ll {\012  lookupflag 0;\012  sub [l l.el]' l by [l.lr l.ellr];\012} contextual_ll;\012\012lookup contextual_sf {\012  lookupflag 0;\012  sub [s longs]' [e f k l] by longs.alt01;\012} contextual_sf;\012\012lookup contextual_ed {\012  lookupflag 0;\012  sub [e egrave eacute ecircumflex edieresis emacron e.init]' lookup subed d' lookup subed;\012} contextual_ed;\012\012lookup contextual_rightjoining {\012  lookupflag 0;\012  sub [@WillJoinRight]' lookup rightjoining [@WillJoinLeft];\012} contextual_rightjoining;\012\012lookup contextual_leftjoining {\012  lookupflag 0;\012  sub [@WillJoinRight @RightJoining @BothJoining] [@WillJoinLeft]' lookup leftjoining;\012} contextual_leftjoining;\012\012lookup contextual_cleanup {\012  lookupflag 0;\012  sub [a.init a.initjr]' [b h k l t l.lr l.jr s.jl] by [a.initalt a.initjralt];\012  sub a.initjr' n.jb d.jl by a.initjralt;\012} contextual_cleanup;\012\012# varies the look of final es, since it is so common\012lookup final_s_alternate {\012  lookupflag 0;\012  sub [c c.jl c.el l l.el t v] e s' by s.alt;\012} final_s_alternate;";
+code = "lookup wordinit {\012  lookupflag 0;\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] [a c d e i m n r]';\012  sub [a c d e i m n r]' by [a.init c.init d.init e.init i.init m.init n.init r.init];\012} wordinit;\012\012lookup wordfina {\012  lookupflag 0;\012#  ignore sub [e h amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  ignore sub [e amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  sub [a i r u] [b m t r] e' by e.fina;\012#  sub h' by h.alt01;\012  sub [amacron emacron umacron]' by [amacron.fina emacron.fina umacron.fina];\012} wordfina;\012\012lookup high_r {\012 lookupflag 0;\012# ignore sub s [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u v w x z];\012ignore sub s t r';\012 sub [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u w x z] by r.high;\012} high_r;\012\012lookup contextual_shc {\012  lookupflag 0;\012  #\012  # Any word-initial or word-internal s (except before f) should be long.\012  #\012  ignore sub s' f;\012  sub s' @AllLowerCase by longs;\012  #\012  # Special form of c to join with following a or o.\012  #\012  sub [c c.init t ccedilla]' [a o] by [c.oar c.initoar t.oar ccedilla.oar];\012  #\012  # Special form of h and certain following letters.\012  #\012  sub h' lookup hsubs [i j m n r u igrave iacute icircumflex idieresis]' lookup hsubs;\012  #\012  # transformations of sequences el and ec (pseudo-ligatures)\012  #\012  sub @LC_Es' lookup esubs_l l' lookup esubs_l;\012  sub @LC_Es' lookup esubs_c [c ccedilla]' lookup esubs_c;\012  #\012  # alternate form of q when following e\012  #\012  sub [e e.init s longs longs.alt01] q' by q.alt01;\012  #\012  # alternate u when following q\012  #\012  sub [q q.alt01] u' by u.ql;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following e\012  #\012  sub @LC_E_AE [ i j l m n p u x y igrave iacute icircumflex idieresis imacron\012                 ugrave uacute ucircumflex udieresis umacron ntilde yacute ydieresis ymacron ]'\012      	         by [ i.el j.el l.el m.el n.el p.el u.el x.el y.el\012		      igrave.el iacute.el icircumflex.el idieresis.el\012		      imacron.el ugrave.el uacute.el ucircumflex.el\012		      udieresis.el umacron.el ntilde.el yacute.el ydieresis.el ymacron.el ];\012  #\012  # alternative forms of g + i m n u (pseudo-ligatures)\012  #\012  sub g' lookup gsubs [ i m n u r igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis\012                        umacron ]' lookup gsubs;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following r\012  #\012  sub [ r r.hl] [ i m n u igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis umacron\012        umacron.fina ntilde ]' by\012      [ i.rl m.rl n.rl u.rl igrave.rl iacute.rl icircumflex.rl idieresis.rl imacron.rl ugrave.rl uacute.rl\012      	ucircumflex.rl udieresis.rl umacron.rl umacron.finarl ntilde.rl ];\012  #\012} contextual_shc;\012\012lookup contextual_ll {\012  lookupflag 0;\012  sub [l l.el]' l by [l.lr l.ellr];\012} contextual_ll;\012\012lookup contextual_sf {\012  lookupflag 0;\012  sub [s longs]' [e f k l] by longs.alt01;\012} contextual_sf;\012\012lookup contextual_ed {\012  lookupflag 0;\012  sub [e egrave eacute ecircumflex edieresis emacron e.init]' lookup subed d' lookup subed;\012} contextual_ed;\012\012lookup contextual_rightjoining {\012  lookupflag 0;\012  sub [@WillJoinRight]' lookup rightjoining [@WillJoinLeft];\012} contextual_rightjoining;\012\012lookup contextual_leftjoining {\012  lookupflag 0;\012  sub [@WillJoinRight @RightJoining @BothJoining] [@WillJoinLeft]' lookup leftjoining;\012} contextual_leftjoining;\012\012lookup contextual_cleanup {\012  lookupflag 0;\012  sub [a.init a.initjr]' [b h k l t l.lr l.jr s.jl] by [a.initalt a.initjralt];\012  sub a.initjr' n.jb d.jl by a.initjralt;\012} contextual_cleanup;\012\012# varies the look of final es, since it is so common\012lookup final_s_alternate {\012  lookupflag 0;\012  sub [c c.jl c.el l l.el t v] e s' by s.alt;\012} final_s_alternate;";
 name = calt;
 },
 {
-code = "  sub c c by c_c;\012  sub c.el c by c_c.el;\012  sub c.jl c by c_c.jl;\012  sub c c.oar by c_c.oar;\012  sub c.el c.oar by c_c.eloar;\012  sub c.jl c.oar by c_c.jloar;\012  sub e s by e_s;\012  sub e s.alt by e_s.alt;\012  sub g g by g_g;\012  sub g g.imnur by g_g.imnur;\012  sub longs longs u by longs_longs_u;\012  sub longs longs ugrave by longs_longs_ugrave;\012  sub longs longs uacute by longs_longs_uacute;\012  sub longs longs ucircumflex by longs_longs_ucircumflex;\012  sub longs longs udieresis by longs_longs_udieresis;\012  sub longs longs umacron by longs_longs_umacron;\012  sub longs longs n by longs_longs_n;\012  sub longs longs i by longs_longs_i;\012  sub longs longs igrave by longs_longs_igrave;\012  sub longs longs iacute by longs_longs_iacute;\012  sub longs longs icircumflex by longs_longs_icircumflex;\012  sub longs longs idieresis by longs_longs_idieresis;\012  sub longs longs imacron by longs_longs_imacron;\012  sub longs longs m by longs_longs_m;\012  sub longs longs u.jr by longs_longs_u.jr;\012  sub longs longs ugrave.jr by longs_longs_ugrave.jr;\012  sub longs longs uacute.jr by longs_longs_uacute.jr;\012  sub longs longs ucircumflex.jr by longs_longs_ucircumflex.jr;\012  sub longs longs udieresis.jr by longs_longs_udieresis.jr;\012  sub longs longs umacron.jr by longs_longs_umacron.jr;\012  sub longs longs n.jr by longs_longs_n.jr;\012  sub longs longs i.jr by longs_longs_i.jr;\012  sub longs longs igrave.jr by longs_longs_igrave.jr;\012  sub longs longs iacute.jr by longs_longs_iacute.jr;\012  sub longs longs icircumflex.jr by longs_longs_icircumflex.jr;\012  sub longs longs idieresis.jr by longs_longs_idieresis.jr;\012  sub longs longs imacron.jr by longs_longs_imacron.jr;\012  sub longs longs m.jr by longs_longs_m.jr;\012  sub e.init m by e_m.init;\012  sub e.init m.jr by e_m.initjr;\012  sub e.init n by e_n.init;\012  sub e.init n.jr by e_n.initjr;\012  sub e.init p by e_p.init;\012  sub e.init x by e_x.init;\012  sub f f by uniFB00;\012  sub f l by uniFB02;\012  sub f l.jr by uniFB02.jr;\012  sub r d by r_d;\012  sub r p by r_p;\012  sub r.jl d by r_d.jl;\012  sub r.jl p by r_p.jl;\012  sub longs t by longs_t;\012  sub longs t.oar by longs_t.oar;\012  sub t h.alt01 by t_h.alt01;\012  sub longs h by longs_h;\012  sub longs h.alt01 by longs_h.alt01;\012  sub longs i by longs_i;\012  sub longs igrave by longs_igrave;\012  sub longs iacute by longs_iacute;\012  sub longs icircumflex by longs_icircumflex;\012  sub longs idieresis by longs_idieresis;\012  sub longs imacron by longs_imacron;\012  sub longs m by longs_m;\012  sub longs n.jr by longs_n.jr;\012  sub longs u by longs_u;\012  sub longs ugrave by longs_ugrave;\012  sub longs uacute by longs_uacute;\012  sub longs ucircumflex by longs_ucircumflex;\012  sub longs udieresis by longs_udieresis;\012  sub longs umacron by longs_umacron;\012  sub longs n by longs_n;\012  sub longs m.jr by longs_m.jr;\012  sub longs i.jr by longs_i.jr;\012  sub longs igrave.jr by longs_igrave.jr;\012  sub longs iacute.jr by longs_iacute.jr;\012  sub longs icircumflex.jr by longs_icircumflex.jr;\012  sub longs idieresis.jr by longs_idieresis.jr;\012  sub longs imacron.jr by longs_imacron.jr;\012  sub longs u.jr by longs_u.jr;\012  sub longs ugrave.jr by longs_ugrave.jr;\012  sub longs uacute.jr by longs_uacute.jr;\012  sub longs ucircumflex.jr by longs_ucircumflex.jr;\012  sub longs udieresis.jr by longs_udieresis.jr;\012  sub longs umacron.jr by longs_umacron.jr;\012  sub t h by t_h;\012  sub longs l by longs_l;\012  sub longs l.jr by longs_l.jr;\012  sub longs longs by longs_longs;\012  sub longs longs.alt01 by longs_longs.alt01;\012  sub longs s by longs_s;\012  sub lslash lslash by lslash_lslash;\012  sub lslash lslash.jr by lslash_lslash.jr;";
+code = "  sub c c by c_c;\012  sub c.el c by c_c.el;\012  sub c.jl c by c_c.jl;\012  sub c c.oar by c_c.oar;\012  sub c.el c.oar by c_c.eloar;\012  sub c.jl c.oar by c_c.jloar;\012  sub e r by e_r;\012  sub e.init r by e_r.init;\012  sub e s by e_s;\012  sub e s.alt by e_s.alt;\012  sub g g by g_g;\012  sub g g.imnur by g_g.imnur;\012  sub longs longs u by longs_longs_u;\012  sub longs longs ugrave by longs_longs_ugrave;\012  sub longs longs uacute by longs_longs_uacute;\012  sub longs longs ucircumflex by longs_longs_ucircumflex;\012  sub longs longs udieresis by longs_longs_udieresis;\012  sub longs longs umacron by longs_longs_umacron;\012  sub longs longs n by longs_longs_n;\012  sub longs longs i by longs_longs_i;\012  sub longs longs igrave by longs_longs_igrave;\012  sub longs longs iacute by longs_longs_iacute;\012  sub longs longs icircumflex by longs_longs_icircumflex;\012  sub longs longs idieresis by longs_longs_idieresis;\012  sub longs longs imacron by longs_longs_imacron;\012  sub longs longs m by longs_longs_m;\012  sub longs longs u.jr by longs_longs_u.jr;\012  sub longs longs ugrave.jr by longs_longs_ugrave.jr;\012  sub longs longs uacute.jr by longs_longs_uacute.jr;\012  sub longs longs ucircumflex.jr by longs_longs_ucircumflex.jr;\012  sub longs longs udieresis.jr by longs_longs_udieresis.jr;\012  sub longs longs umacron.jr by longs_longs_umacron.jr;\012  sub longs longs n.jr by longs_longs_n.jr;\012  sub longs longs i.jr by longs_longs_i.jr;\012  sub longs longs igrave.jr by longs_longs_igrave.jr;\012  sub longs longs iacute.jr by longs_longs_iacute.jr;\012  sub longs longs icircumflex.jr by longs_longs_icircumflex.jr;\012  sub longs longs idieresis.jr by longs_longs_idieresis.jr;\012  sub longs longs imacron.jr by longs_longs_imacron.jr;\012  sub longs longs m.jr by longs_longs_m.jr;\012  sub e.init m by e_m.init;\012  sub e.init m.jr by e_m.initjr;\012  sub e.init n by e_n.init;\012  sub e.init n.jr by e_n.initjr;\012  sub e.init p by e_p.init;\012  sub e.init x by e_x.init;\012  sub f f by uniFB00;\012  sub f l by uniFB02;\012  sub f l.jr by uniFB02.jr;\012  sub r d by r_d;\012  sub r p by r_p;\012  sub r.jl d by r_d.jl;\012  sub r.jl p by r_p.jl;\012  sub longs t by longs_t;\012  sub longs t.oar by longs_t.oar;\012  sub t h.alt01 by t_h.alt01;\012  sub longs h by longs_h;\012  sub longs h.alt01 by longs_h.alt01;\012  sub longs i by longs_i;\012  sub longs igrave by longs_igrave;\012  sub longs iacute by longs_iacute;\012  sub longs icircumflex by longs_icircumflex;\012  sub longs idieresis by longs_idieresis;\012  sub longs imacron by longs_imacron;\012  sub longs m by longs_m;\012  sub longs n.jr by longs_n.jr;\012  sub longs u by longs_u;\012  sub longs ugrave by longs_ugrave;\012  sub longs uacute by longs_uacute;\012  sub longs ucircumflex by longs_ucircumflex;\012  sub longs udieresis by longs_udieresis;\012  sub longs umacron by longs_umacron;\012  sub longs n by longs_n;\012  sub longs m.jr by longs_m.jr;\012  sub longs i.jr by longs_i.jr;\012  sub longs igrave.jr by longs_igrave.jr;\012  sub longs iacute.jr by longs_iacute.jr;\012  sub longs icircumflex.jr by longs_icircumflex.jr;\012  sub longs idieresis.jr by longs_idieresis.jr;\012  sub longs imacron.jr by longs_imacron.jr;\012  sub longs u.jr by longs_u.jr;\012  sub longs ugrave.jr by longs_ugrave.jr;\012  sub longs uacute.jr by longs_uacute.jr;\012  sub longs ucircumflex.jr by longs_ucircumflex.jr;\012  sub longs udieresis.jr by longs_udieresis.jr;\012  sub longs umacron.jr by longs_umacron.jr;\012  sub t h by t_h;\012  sub longs l by longs_l;\012  sub longs l.jr by longs_l.jr;\012  sub longs longs by longs_longs;\012  sub longs longs.alt01 by longs_longs.alt01;\012  sub longs s by longs_s;\012  sub lslash lslash by lslash_lslash;\012  sub lslash lslash.jr by lslash_lslash.jr;";
 name = liga;
 }
 );
@@ -7928,7 +7932,7 @@ unicode = 00E7;
 },
 {
 glyphname = d;
-lastChange = "2020-03-15 02:37:22 +0000";
+lastChange = "2020-04-03 03:27:46 +0000";
 layers = (
 {
 layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
@@ -7999,6 +8003,7 @@ width = 585;
 }
 );
 note = d;
+rightKerningGroup = d;
 unicode = 0064;
 },
 {
@@ -8558,7 +8563,7 @@ unicode = A76B;
 },
 {
 glyphname = f;
-lastChange = "2020-03-16 02:34:09 +0000";
+lastChange = "2020-04-03 11:34:30 +0000";
 layers = (
 {
 layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
@@ -8670,6 +8675,7 @@ width = 601;
 }
 );
 note = f;
+rightKerningGroup = f;
 unicode = 0066;
 },
 {
@@ -10967,7 +10973,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2020-03-27 12:39:49 +0000";
+lastChange = "2020-04-03 11:31:01 +0000";
 layers = (
 {
 layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
@@ -11548,7 +11554,7 @@ unicode = 017F;
 },
 {
 glyphname = t;
-lastChange = "2020-03-16 02:27:13 +0000";
+lastChange = "2020-04-03 11:35:01 +0000";
 layers = (
 {
 layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
@@ -11630,6 +11636,7 @@ width = 526;
 }
 );
 note = t;
+rightKerningGroup = t;
 unicode = 0074;
 },
 {
@@ -18518,6 +18525,219 @@ width = 522;
 note = umacron.gljr;
 },
 {
+glyphname = r.high;
+lastChange = "2020-04-03 12:09:12 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"245 -10 OFFCURVE",
+"341 14 OFFCURVE",
+"430 72 CURVE SMOOTH",
+"457 90 OFFCURVE",
+"439 118 OFFCURVE",
+"410 104 CURVE SMOOTH",
+"376 88 OFFCURVE",
+"345 84 OFFCURVE",
+"320 84 CURVE SMOOTH",
+"280 84 OFFCURVE",
+"263 120 OFFCURVE",
+"263 163 CURVE SMOOTH",
+"263 221 OFFCURVE",
+"308 315 OFFCURVE",
+"355 374 CURVE SMOOTH",
+"373 397 OFFCURVE",
+"365 414 OFFCURVE",
+"330 411 CURVE SMOOTH",
+"275 407 OFFCURVE",
+"209 407 OFFCURVE",
+"162 407 CURVE SMOOTH",
+"140 407 OFFCURVE",
+"114 428 OFFCURVE",
+"114 452 CURVE SMOOTH",
+"114 580 OFFCURVE",
+"646 832 OFFCURVE",
+"881 832 CURVE SMOOTH",
+"994 832 OFFCURVE",
+"1071 821 OFFCURVE",
+"1158 795 CURVE SMOOTH",
+"1210 780 OFFCURVE",
+"1220 806 OFFCURVE",
+"1169 825 CURVE SMOOTH",
+"1083 857 OFFCURVE",
+"961 871 OFFCURVE",
+"863 871 CURVE SMOOTH",
+"574 871 OFFCURVE",
+"-18 562 OFFCURVE",
+"-18 399 CURVE SMOOTH",
+"-18 355 OFFCURVE",
+"34 331 OFFCURVE",
+"68 331 CURVE SMOOTH",
+"107 331 OFFCURVE",
+"136 334 OFFCURVE",
+"174 351 CURVE",
+"192 339 LINE",
+"149 236 OFFCURVE",
+"116 75 OFFCURVE",
+"116 46 CURVE SMOOTH",
+"116 6 OFFCURVE",
+"162 -10 OFFCURVE",
+"194 -10 CURVE SMOOTH"
+);
+}
+);
+};
+backgroundImage = {
+crop = "{{0, 0}, {605, 455}}";
+imagePath = "Images/r.high.glif-Medium.tif";
+locked = "1";
+transform = "{2.36072, 0, 0, 2.36072, -164, -144}";
+};
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"245 -10 OFFCURVE",
+"341 14 OFFCURVE",
+"430 72 CURVE SMOOTH",
+"457 90 OFFCURVE",
+"439 118 OFFCURVE",
+"410 104 CURVE SMOOTH",
+"376 88 OFFCURVE",
+"345 84 OFFCURVE",
+"320 84 CURVE SMOOTH",
+"280 84 OFFCURVE",
+"263 120 OFFCURVE",
+"263 163 CURVE SMOOTH",
+"263 221 OFFCURVE",
+"308 315 OFFCURVE",
+"355 374 CURVE SMOOTH",
+"373 397 OFFCURVE",
+"365 414 OFFCURVE",
+"330 411 CURVE SMOOTH",
+"275 407 OFFCURVE",
+"209 407 OFFCURVE",
+"162 407 CURVE SMOOTH",
+"140 407 OFFCURVE",
+"114 428 OFFCURVE",
+"114 452 CURVE SMOOTH",
+"114 580 OFFCURVE",
+"646 832 OFFCURVE",
+"881 832 CURVE SMOOTH",
+"994 832 OFFCURVE",
+"1071 821 OFFCURVE",
+"1158 795 CURVE SMOOTH",
+"1210 780 OFFCURVE",
+"1220 806 OFFCURVE",
+"1169 825 CURVE SMOOTH",
+"1083 857 OFFCURVE",
+"961 871 OFFCURVE",
+"863 871 CURVE SMOOTH",
+"574 871 OFFCURVE",
+"-18 562 OFFCURVE",
+"-18 399 CURVE SMOOTH",
+"-18 355 OFFCURVE",
+"34 331 OFFCURVE",
+"68 331 CURVE SMOOTH",
+"104 331 OFFCURVE",
+"131 334 OFFCURVE",
+"165 347 CURVE SMOOTH",
+"180 353 OFFCURVE",
+"194 344 OFFCURVE",
+"189 332 CURVE SMOOTH",
+"148 229 OFFCURVE",
+"116 74 OFFCURVE",
+"116 46 CURVE SMOOTH",
+"116 6 OFFCURVE",
+"162 -10 OFFCURVE",
+"194 -10 CURVE SMOOTH"
+);
+}
+);
+width = 402;
+}
+);
+leftKerningGroup = r.high;
+note = r;
+rightKerningGroup = r;
+},
+{
+glyphname = r.highjr;
+lastChange = "2020-04-03 12:18:33 +0000";
+layers = (
+{
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"305 -10 OFFCURVE",
+"399 39 OFFCURVE",
+"452 89 CURVE",
+"452 155 LINE",
+"417 124 OFFCURVE",
+"371 84 OFFCURVE",
+"320 84 CURVE SMOOTH",
+"280 84 OFFCURVE",
+"263 120 OFFCURVE",
+"263 163 CURVE SMOOTH",
+"263 221 OFFCURVE",
+"308 315 OFFCURVE",
+"355 374 CURVE SMOOTH",
+"373 397 OFFCURVE",
+"365 414 OFFCURVE",
+"330 411 CURVE SMOOTH",
+"275 407 OFFCURVE",
+"209 407 OFFCURVE",
+"162 407 CURVE SMOOTH",
+"140 407 OFFCURVE",
+"114 428 OFFCURVE",
+"114 452 CURVE SMOOTH",
+"114 580 OFFCURVE",
+"646 832 OFFCURVE",
+"881 832 CURVE SMOOTH",
+"994 832 OFFCURVE",
+"1071 821 OFFCURVE",
+"1158 795 CURVE SMOOTH",
+"1210 780 OFFCURVE",
+"1220 806 OFFCURVE",
+"1169 825 CURVE SMOOTH",
+"1083 857 OFFCURVE",
+"961 871 OFFCURVE",
+"863 871 CURVE SMOOTH",
+"574 871 OFFCURVE",
+"-18 562 OFFCURVE",
+"-18 399 CURVE SMOOTH",
+"-18 355 OFFCURVE",
+"34 331 OFFCURVE",
+"68 331 CURVE SMOOTH",
+"102 331 OFFCURVE",
+"129 333 OFFCURVE",
+"161 346 CURVE SMOOTH",
+"178 353 OFFCURVE",
+"194 344 OFFCURVE",
+"188 328 CURVE SMOOTH",
+"147 229 OFFCURVE",
+"124 132 OFFCURVE",
+"124 65 CURVE SMOOTH",
+"124 4 OFFCURVE",
+"182 -10 OFFCURVE",
+"234 -10 CURVE SMOOTH"
+);
+}
+);
+width = 452;
+}
+);
+leftKerningGroup = r.high;
+note = r;
+rightKerningGroup = r;
+},
+{
 glyphname = i.hl;
 lastChange = "2020-03-18 13:51:06 +0000";
 layers = (
@@ -20689,7 +20909,7 @@ rightKerningGroup = c;
 },
 {
 glyphname = d.init;
-lastChange = "2020-03-18 16:49:30 +0000";
+lastChange = "2020-04-03 11:33:42 +0000";
 layers = (
 {
 layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
@@ -20797,6 +21017,7 @@ width = 1071;
 }
 );
 note = d.init;
+rightKerningGroup = d.init;
 },
 {
 glyphname = e.init;
@@ -23838,9 +24059,19 @@ rightMetricsKey = o;
 },
 {
 glyphname = i.jl;
-lastChange = "2020-03-18 21:46:05 +0000";
+lastChange = "2020-04-03 03:36:48 +0000";
 layers = (
 {
+guideLines = (
+{
+angle = 41.8202;
+position = "{10, 164}";
+},
+{
+angle = 223.5312;
+position = "{10, 99}";
+}
+);
 layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
 paths = (
 {
@@ -30811,6 +31042,163 @@ width = 721;
 );
 leftMetricsKey = c;
 rightMetricsKey = c;
+},
+{
+glyphname = e_r;
+lastChange = "2020-04-03 11:45:56 +0000";
+layers = (
+{
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"576 -10 OFFCURVE",
+"581 -9 OFFCURVE",
+"586 -4 CURVE SMOOTH",
+"603 13 OFFCURVE",
+"627 36 OFFCURVE",
+"643 48 CURVE SMOOTH",
+"647 51 OFFCURVE",
+"671 69 OFFCURVE",
+"690 69 CURVE SMOOTH",
+"701 69 OFFCURVE",
+"727 35 OFFCURVE",
+"743 8 CURVE SMOOTH",
+"749 -2 OFFCURVE",
+"761 -8 OFFCURVE",
+"774 -8 CURVE SMOOTH",
+"800 -8 OFFCURVE",
+"852 25 OFFCURVE",
+"852 50 CURVE SMOOTH",
+"852 54 OFFCURVE",
+"850 59 OFFCURVE",
+"847 64 CURVE SMOOTH",
+"835 84 OFFCURVE",
+"828 106 OFFCURVE",
+"828 119 CURVE SMOOTH",
+"828 187 OFFCURVE",
+"893 262 OFFCURVE",
+"986 262 CURVE SMOOTH",
+"1008 262 OFFCURVE",
+"1027 259 OFFCURVE",
+"1044 252 CURVE SMOOTH",
+"1049 250 OFFCURVE",
+"1054 249 OFFCURVE",
+"1058 249 CURVE SMOOTH",
+"1073 249 OFFCURVE",
+"1085 260 OFFCURVE",
+"1085 272 CURVE SMOOTH",
+"1085 282 OFFCURVE",
+"1078 292 OFFCURVE",
+"1062 300 CURVE SMOOTH",
+"1038 312 OFFCURVE",
+"1008 316 OFFCURVE",
+"981 316 CURVE SMOOTH",
+"866 316 OFFCURVE",
+"829 277 OFFCURVE",
+"777 210 CURVE SMOOTH",
+"767 197 OFFCURVE",
+"756 188 OFFCURVE",
+"750 188 CURVE SMOOTH",
+"735 188 OFFCURVE",
+"728 204 OFFCURVE",
+"728 217 CURVE SMOOTH",
+"728 286 OFFCURVE",
+"723 324 OFFCURVE",
+"706 347 CURVE SMOOTH",
+"691 368 OFFCURVE",
+"673 385 OFFCURVE",
+"630 385 CURVE SMOOTH",
+"607 385 OFFCURVE",
+"590 385 OFFCURVE",
+"567 366 CURVE SMOOTH",
+"507 316 OFFCURVE",
+"475 298 OFFCURVE",
+"444 298 CURVE SMOOTH",
+"387 298 OFFCURVE",
+"297 353 OFFCURVE",
+"297 389 CURVE SMOOTH",
+"297 427 OFFCURVE",
+"322 490 OFFCURVE",
+"370 490 CURVE SMOOTH",
+"378 490 OFFCURVE",
+"390 489 OFFCURVE",
+"401 484 CURVE SMOOTH",
+"406 482 OFFCURVE",
+"411 480 OFFCURVE",
+"419 480 CURVE SMOOTH",
+"427 480 OFFCURVE",
+"438 483 OFFCURVE",
+"438 491 CURVE SMOOTH",
+"438 506 OFFCURVE",
+"392 526 OFFCURVE",
+"373 526 CURVE SMOOTH",
+"317 526 OFFCURVE",
+"284 496 OFFCURVE",
+"263 477 CURVE SMOOTH",
+"246 462 OFFCURVE",
+"210 411 OFFCURVE",
+"196 363 CURVE",
+"195 357 OFFCURVE",
+"191 353 OFFCURVE",
+"185 352 CURVE",
+"107 329 OFFCURVE",
+"19 240 OFFCURVE",
+"19 145 CURVE SMOOTH",
+"19 77 OFFCURVE",
+"98 -3 OFFCURVE",
+"157 -3 CURVE SMOOTH",
+"185 -3 OFFCURVE",
+"204 13 OFFCURVE",
+"239 33 CURVE SMOOTH",
+"284 58 OFFCURVE",
+"325 75 OFFCURVE",
+"373 91 CURVE SMOOTH",
+"394 98 OFFCURVE",
+"396 107 OFFCURVE",
+"373 107 CURVE SMOOTH",
+"315 107 OFFCURVE",
+"279 94 OFFCURVE",
+"229 94 CURVE SMOOTH",
+"171 94 OFFCURVE",
+"142 132 OFFCURVE",
+"142 183 CURVE SMOOTH",
+"142 236 OFFCURVE",
+"169 278 OFFCURVE",
+"186 301 CURVE SMOOTH",
+"191 308 OFFCURVE",
+"197 308 OFFCURVE",
+"202 301 CURVE SMOOTH",
+"246 249 OFFCURVE",
+"307 226 OFFCURVE",
+"373 226 CURVE SMOOTH",
+"474 226 OFFCURVE",
+"522 282 OFFCURVE",
+"547 282 CURVE SMOOTH",
+"597 282 OFFCURVE",
+"600 202 OFFCURVE",
+"600 152 CURVE SMOOTH",
+"600 124 OFFCURVE",
+"591 94 OFFCURVE",
+"577 80 CURVE SMOOTH",
+"571 74 OFFCURVE",
+"546 56 OFFCURVE",
+"530 46 CURVE SMOOTH",
+"526 43 OFFCURVE",
+"524 40 OFFCURVE",
+"524 36 CURVE SMOOTH",
+"524 24 OFFCURVE",
+"550 -10 OFFCURVE",
+"570 -10 CURVE SMOOTH"
+);
+}
+);
+width = 942;
+}
+);
+leftMetricsKey = e;
+rightMetricsKey = r;
 },
 {
 glyphname = e_s;
@@ -41183,6 +41571,171 @@ width = 1287;
 }
 );
 note = e_p.init;
+},
+{
+glyphname = e_r.init;
+lastChange = "2020-04-03 11:48:48 +0000";
+layers = (
+{
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"815 -10 OFFCURVE",
+"820 -9 OFFCURVE",
+"825 -4 CURVE SMOOTH",
+"842 13 OFFCURVE",
+"866 36 OFFCURVE",
+"882 48 CURVE SMOOTH",
+"886 51 OFFCURVE",
+"910 69 OFFCURVE",
+"929 69 CURVE SMOOTH",
+"940 69 OFFCURVE",
+"966 35 OFFCURVE",
+"982 8 CURVE SMOOTH",
+"988 -2 OFFCURVE",
+"1000 -8 OFFCURVE",
+"1013 -8 CURVE SMOOTH",
+"1039 -8 OFFCURVE",
+"1091 25 OFFCURVE",
+"1091 50 CURVE SMOOTH",
+"1091 54 OFFCURVE",
+"1089 59 OFFCURVE",
+"1086 64 CURVE SMOOTH",
+"1074 84 OFFCURVE",
+"1067 106 OFFCURVE",
+"1067 119 CURVE SMOOTH",
+"1067 187 OFFCURVE",
+"1132 262 OFFCURVE",
+"1225 262 CURVE SMOOTH",
+"1247 262 OFFCURVE",
+"1266 259 OFFCURVE",
+"1283 252 CURVE SMOOTH",
+"1288 250 OFFCURVE",
+"1293 249 OFFCURVE",
+"1297 249 CURVE SMOOTH",
+"1312 249 OFFCURVE",
+"1324 260 OFFCURVE",
+"1324 272 CURVE SMOOTH",
+"1324 282 OFFCURVE",
+"1317 292 OFFCURVE",
+"1301 300 CURVE SMOOTH",
+"1277 312 OFFCURVE",
+"1247 316 OFFCURVE",
+"1220 316 CURVE SMOOTH",
+"1105 316 OFFCURVE",
+"1068 277 OFFCURVE",
+"1016 210 CURVE SMOOTH",
+"1006 197 OFFCURVE",
+"995 188 OFFCURVE",
+"989 188 CURVE SMOOTH",
+"974 188 OFFCURVE",
+"967 204 OFFCURVE",
+"967 217 CURVE SMOOTH",
+"967 286 OFFCURVE",
+"962 324 OFFCURVE",
+"945 347 CURVE SMOOTH",
+"930 368 OFFCURVE",
+"912 385 OFFCURVE",
+"869 385 CURVE SMOOTH",
+"846 385 OFFCURVE",
+"829 385 OFFCURVE",
+"806 366 CURVE SMOOTH",
+"787 350 OFFCURVE",
+"734 320 OFFCURVE",
+"688 320 CURVE SMOOTH",
+"616 320 OFFCURVE",
+"523 373 OFFCURVE",
+"523 498 CURVE SMOOTH",
+"523 555 OFFCURVE",
+"550 609 OFFCURVE",
+"597 637 CURVE SMOOTH",
+"619 650 OFFCURVE",
+"612 677 OFFCURVE",
+"585 667 CURVE SMOOTH",
+"466 623 OFFCURVE",
+"404 497 OFFCURVE",
+"404 394 CURVE SMOOTH",
+"404 295 OFFCURVE",
+"489 263 OFFCURVE",
+"644 263 CURVE SMOOTH",
+"726 263 OFFCURVE",
+"753 282 OFFCURVE",
+"786 282 CURVE SMOOTH",
+"836 282 OFFCURVE",
+"839 202 OFFCURVE",
+"839 152 CURVE SMOOTH",
+"839 124 OFFCURVE",
+"830 94 OFFCURVE",
+"816 80 CURVE SMOOTH",
+"810 74 OFFCURVE",
+"784 57 OFFCURVE",
+"769 46 CURVE SMOOTH",
+"765 43 OFFCURVE",
+"763 40 OFFCURVE",
+"763 36 CURVE SMOOTH",
+"763 24 OFFCURVE",
+"789 -10 OFFCURVE",
+"809 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"493 -34 OFFCURVE",
+"560 12 OFFCURVE",
+"611 56 CURVE SMOOTH",
+"626 69 OFFCURVE",
+"614 90 OFFCURVE",
+"597 78 CURVE SMOOTH",
+"577 64 OFFCURVE",
+"555 56 OFFCURVE",
+"526 56 CURVE SMOOTH",
+"408 56 OFFCURVE",
+"438 194 OFFCURVE",
+"400 270 CURVE SMOOTH",
+"381 308 OFFCURVE",
+"339 325 OFFCURVE",
+"293 325 CURVE SMOOTH",
+"273 325 OFFCURVE",
+"248 320 OFFCURVE",
+"225 312 CURVE SMOOTH",
+"123 276 OFFCURVE",
+"57 208 OFFCURVE",
+"2 127 CURVE SMOOTH",
+"-11 108 OFFCURVE",
+"-28 83 OFFCURVE",
+"-28 50 CURVE SMOOTH",
+"-28 9 OFFCURVE",
+"0 -23 OFFCURVE",
+"38 -23 CURVE SMOOTH",
+"45 -23 OFFCURVE",
+"51 -21 OFFCURVE",
+"58 -18 CURVE SMOOTH",
+"75 -11 OFFCURVE",
+"77 -2 OFFCURVE",
+"64 3 CURVE SMOOTH",
+"42 12 OFFCURVE",
+"27 36 OFFCURVE",
+"27 56 CURVE SMOOTH",
+"27 104 OFFCURVE",
+"145 246 OFFCURVE",
+"201 246 CURVE SMOOTH",
+"247 246 OFFCURVE",
+"258 185 OFFCURVE",
+"264 147 CURVE SMOOTH",
+"279 53 OFFCURVE",
+"309 -34 OFFCURVE",
+"408 -34 CURVE SMOOTH"
+);
+}
+);
+width = 1181;
+}
+);
+leftMetricsKey = e.init;
+rightMetricsKey = r;
 },
 {
 glyphname = e_x.init;
@@ -58133,10 +58686,20 @@ kerning = {
 };
 "@MMK_L_c" = {
 "@MMK_R_q" = -30;
+"@MMK_R_r.high" = 100;
 "@MMK_R_u" = -20;
 };
 "@MMK_L_c.el" = {
 "@MMK_R_r" = 70;
+};
+"@MMK_L_d" = {
+"@MMK_R_r.high" = 110;
+};
+"@MMK_L_d.init" = {
+"@MMK_R_r.high" = 30;
+};
+"@MMK_L_f" = {
+"@MMK_R_r.high" = 90;
 };
 "@MMK_L_h.alt01" = {
 "@MMK_R_comma" = 270;
@@ -58145,9 +58708,12 @@ kerning = {
 "@MMK_L_r" = {
 "@MMK_R_e" = 40;
 };
+"@MMK_L_t" = {
+"@MMK_R_r.high" = 80;
+};
 };
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
