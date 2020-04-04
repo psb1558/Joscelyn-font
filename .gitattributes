@@ -1,1 +1,4 @@
 .gitattributes export-ignore
+webfiles/ export-ignore
+font/ export-ignore
+index.html export-ignore
