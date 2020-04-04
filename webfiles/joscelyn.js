@@ -15,10 +15,14 @@ function typeWriter(e, t) {
 }
 
 function typetext() {
-  typeWriter("demo1", txt1);     
+  typeWriter("demo1", txt1);  
+      i = 0;
   typeWriter("demo2", txt2);
+      i = 0;
   typeWriter("demo3", txt3);
+      i = 0;
   typeWriter("demo4", txt4);
+      i = 0;
   typeWriter("demo5", txt5);
 }
 
