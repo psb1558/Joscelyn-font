@@ -4,6 +4,7 @@ var elem = "demo1";
 var txt = "Louing in trueth, and fayne in verse my loue to show,";
       
 function typeWriter(e, t) {
+      alert(i + " , " + txt.length);
   if (i < txt.length) {
     document.getElementById(elem).innerHTML += txt.charAt(i);
     i++;
