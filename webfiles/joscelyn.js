@@ -7,7 +7,6 @@ var txt5 = "I sought fit wordes to paint the blackest face of woe."
 var speed = 80;
       
 function typeWriter(e, t) {
-      i = 0;
   if (i < t.length) {
     document.getElementById(e).innerHTML += t.charAt(i);
     i++;
