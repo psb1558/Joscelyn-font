@@ -1,36 +1,71 @@
-var i = 0;
-var speed = 80;
-var elem = "demo1";
-var txt = "Louing in trueth, and fayne in verse my loue to show,";
-      
-function typeWriter(e, t) {
-//      alert(i + " , " + txt.length);
-  if (i < txt.length) {
-    document.getElementById(elem).innerHTML += txt.charAt(i);
-    i++;
-//        alert(i + " , " + txt.length);
-    setTimeout(typeWriter, speed);
-  }
-}
+    function setupTypewriter(t) {
+        var HTML = t.innerHTML;
 
-function typetext() {
-  typeWriter();
-      txt = "That she, deare Shee, might take som pleasure of my paine,";
-      elem = "demo2";
-      i = 0;
-  typeWriter();
-      txt = "Pleasure might cause her reade, reading might make her know,";
-      elem = "demo3";
-      i = 0;
-  typeWriter();
-      txt = "Knowledge might pittie winne, and pity grace obtaine,";
-      elem = "demo4";
-      i = 0;
-  typeWriter();
-      txt = "I sought fit wordes to paint the blackest face of woe.";
-      elem = "demo5";
-      i = 0;
-  typeWriter();
-}
+        t.innerHTML = "";
 
-window.onload = typetext;
+        var cursorPosition = 0,
+            tag = "",
+            writingTag = false,
+            tagOpen = false,
+            typeSpeed = 100,
+        tempTypeSpeed = 0;
+
+        var type = function() {
+        
+            if (writingTag === true) {
+                tag += HTML[cursorPosition];
+            }
+
+            if (HTML[cursorPosition] === "<") {
+                tempTypeSpeed = 0;
+                if (tagOpen) {
+                    tagOpen = false;
+                    writingTag = true;
+                } else {
+                    tag = "";
+                    tagOpen = true;
+                    writingTag = true;
+                    tag += HTML[cursorPosition];
+                }
+            }
+            if (!writingTag && tagOpen) {
+                tag.innerHTML += HTML[cursorPosition];
+            }
+            if (!writingTag && !tagOpen) {
+                if (HTML[cursorPosition] === " ") {
+                    tempTypeSpeed = 0;
+                }
+                else {
+                    tempTypeSpeed = (Math.random() * typeSpeed) + 50;
+                }
+                t.innerHTML += HTML[cursorPosition];
+            }
+            if (writingTag === true && HTML[cursorPosition] === ">") {
+                tempTypeSpeed = (Math.random() * typeSpeed) + 50;
+                writingTag = false;
+                if (tagOpen) {
+                    var newSpan = document.createElement("span");
+                    t.appendChild(newSpan);
+                    newSpan.innerHTML = tag;
+                    tag = newSpan.firstChild;
+                }
+            }
+
+            cursorPosition += 1;
+            if (cursorPosition < HTML.length - 1) {
+                setTimeout(type, tempTypeSpeed);
+            }
+
+        };
+
+        return {
+            type: type
+        };
+    }
+
+    var typer = document.getElementById(typewriter);
+
+    typewriter = setupTypewriter(typewriter);
+
+    typewriter.type();
+
