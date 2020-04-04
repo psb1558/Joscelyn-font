@@ -11,9 +11,10 @@
 }
 
 .samplebox {
-    float: right;
+    float: left;
     width: 55%;
     padding: 20px;
+      border-style: solid;
 }
 
 
