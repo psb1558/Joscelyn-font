@@ -1,0 +1,5 @@
+      @font-face {
+      font-family: 'Joscelyn';
+      src:url("./Joscelyn.woff2");
+      }
+      #demo {font-family: Joscelyn;}
