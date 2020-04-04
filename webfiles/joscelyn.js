@@ -8,7 +8,7 @@ function typeWriter(e, t) {
   if (i < txt.length) {
     document.getElementById(elem).innerHTML += txt.charAt(i);
     i++;
-        alert(i + " , " + txt.length);
+//        alert(i + " , " + txt.length);
     setTimeout(typeWriter, speed);
   }
 }
