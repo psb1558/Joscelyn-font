@@ -1,29 +1,36 @@
 var i = 0;
-var txt1 = "Louing in trueth, and fayne in verse my loue to show,"
-var txt2 = "That she, deare Shee, might take som pleasure of my paine,"
-var txt3 = "Pleasure might cause her reade, reading might make her know,"
-var txt4 = "Knowledge might pittie winne, and pity grace obtaine,"
-var txt5 = "I sought fit wordes to paint the blackest face of woe."
 var speed = 80;
+var elem = "";
+var txt = "";
       
 function typeWriter(e, t) {
   if (i < t.length) {
-    document.getElementById(e).innerHTML += t.charAt(i);
+    document.getElementById(elem).innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
 }
 
 function typetext() {
-  typeWriter("demo1", txt1);  
+      txt = "Louing in trueth, and fayne in verse my loue to show,";
+      elem = "demo1";
+  typeWriter();
+      txt = "That she, deare Shee, might take som pleasure of my paine,";
+      elem = "demo2";
       i = 0;
-  typeWriter("demo2", txt2);
+  typeWriter();
+      txt = "Pleasure might cause her reade, reading might make her know,";
+      elem = "demo3";
       i = 0;
-  typeWriter("demo3", txt3);
+  typeWriter();
+      txt = "Knowledge might pittie winne, and pity grace obtaine,";
+      elem = "demo4";
       i = 0;
-  typeWriter("demo4", txt4);
+  typeWriter();
+      txt = "I sought fit wordes to paint the blackest face of woe.";
+      elem = "demo5";
       i = 0;
-  typeWriter("demo5", txt5);
+  typeWriter();
 }
 
 window.onload = typetext;
