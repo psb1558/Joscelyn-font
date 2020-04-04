@@ -1,7 +1,7 @@
 var i = 0;
 var speed = 80;
-var elem = "";
-var txt = "";
+var elem = "demo1";
+var txt = "Louing in trueth, and fayne in verse my loue to show,";
       
 function typeWriter(e, t) {
   if (i < txt.length) {
@@ -12,8 +12,6 @@ function typeWriter(e, t) {
 }
 
 function typetext() {
-      txt = "Louing in trueth, and fayne in verse my loue to show,";
-      elem = "demo1";
   typeWriter();
       txt = "That she, deare Shee, might take som pleasure of my paine,";
       elem = "demo2";
