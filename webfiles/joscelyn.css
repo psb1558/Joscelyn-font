@@ -2,4 +2,4 @@
       font-family: 'Joscelyn';
       src:url("./Joscelyn.woff2");
       }
-      #demo {font-family: Joscelyn; font-size: 120%;}
+      #demo1, #demo2, #demo3, #demo4, #demo5 {font-family: Joscelyn; font-size: 120%;}
