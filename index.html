@@ -1,0 +1,40 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Joscelyn font specimen page</title>
+    <style type="text/css">
+      @font-face {
+      font-family: 'Joscelyn';
+      src:url("./font/Joscelyn.woff2");
+      }
+      #demo {font-family: Joscelyn;}
+    </style>
+  </head>
+  <body>
+    
+    <h1>Typewriter</h1>
+
+    <p id="demo"></p>
+
+    <script type="text/javascript">
+      var i = 0;
+      var txt = "Louing in trueth, and fayne in verse my loue to show, \
+      That she, deare Shee, might take som pleasure of my paine, \
+      Pleasure might cause her reade, reading might make her know, \
+      Knowledge might pittie winne, and pity grace obtaine, \
+      I sought fit wordes to paint the blackest face of woe.";
+      var speed = 50;
+      
+      function typeWriter() {
+      if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+      }
+      }
+      window.onload = typeWriter;
+    </script>
+
+</body>
+</html>
