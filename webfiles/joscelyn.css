@@ -2,4 +2,32 @@
       font-family: 'Joscelyn';
       src:url("./Joscelyn.woff2");
       }
-      #demo1, #demo2, #demo3, #demo4, #demo5 {font-family: Joscelyn; font-size: 120%;}
+      /* #demo {font-family: Joscelyn; font-size: 120%;} */
+
+#demo{
+        font-size: 150%;
+        margin: 0;
+        font-family: "Joscelyn";
+
+        &:after{
+            content: "|";
+            animation: blink 500ms linear infinite alternate;
+        }
+}
+
+@-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
