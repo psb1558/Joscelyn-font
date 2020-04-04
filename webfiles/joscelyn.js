@@ -16,11 +16,11 @@ function typeWriter(e, t) {
 }
 
 function typetext() {
-  typeWriter(txt1, "demo1");     
-  typeWriter(txt2, "demo2");
-  typeWriter(txt3, "demo3");
-  typeWriter(txt4, "demo4");
-  typeWriter(txt5, "demo5");
+  typeWriter("demo1", txt1);     
+  typeWriter("demo2", txt2);
+  typeWriter("demo3", txt3);
+  typeWriter("demo4", txt4);
+  typeWriter("demo5", txt5);
 }
 
 window.onload = typetext;
