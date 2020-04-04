@@ -4,7 +4,7 @@ var elem = "";
 var txt = "";
       
 function typeWriter(e, t) {
-  if (i < t.length) {
+  if (i < txt.length) {
     document.getElementById(elem).innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
