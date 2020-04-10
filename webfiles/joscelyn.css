@@ -18,6 +18,6 @@ html {
     width: 90%;
     padding: 20px;
       border-style: solid;
-      white-space: pre;
+      white-space: pre-wrap;
 }
 
