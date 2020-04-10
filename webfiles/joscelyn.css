@@ -53,5 +53,6 @@ p.samplebox {
       border-style: solid;
       text-align: left;
       white-space: pre-wrap;
+      background-image: url("./parch-light.jpg");
 }
 
