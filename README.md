@@ -10,4 +10,4 @@ To use this font, you must make sure that two OpenType features are turned on in
 
 It is important that the “kerning” box be checked (though kerning is not strictly necessary), since checking this box enables all other OpenType features.
 
-Typing in Joscelyn can be an interesting experience! See [this YouTube clip](https://youtu.be/6fnNWjpEEUc).
+For a specimen of Joscelyn, including a box to type in, visit [this page](https://psb1558.github.io/Joscelyn-font/).
