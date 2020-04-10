@@ -29,7 +29,8 @@ h1 {
 }
 
 p {
-      width: 93%;
+      width: 90%;
+      text-align: justify;
       font-family: "Elstob";
       font-size: 120%;
       font-variation-settings: 'opsz' 10, 'wght' 500, 'GRAD' 1;
@@ -50,6 +51,7 @@ p.samplebox {
     width: 90%;
     padding: 20px;
       border-style: solid;
+      text-align: left;
       white-space: pre-wrap;
 }
 
