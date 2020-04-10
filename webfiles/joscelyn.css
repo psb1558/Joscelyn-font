@@ -24,6 +24,7 @@ html {
 
 h1 {
       font-family: "Joscelyn";
+      text-align: center;
       font-size: 3em;
 }
 
@@ -31,6 +32,11 @@ p {
       font-family: "Elstob";
       font-size: 120%;
       font-variation-settings: 'opsz' 10, 'wght' 500, 'GRAD' 1;
+}
+
+b {
+      font-family: "Elstob";
+      font-variation-settings: 'opsz' 10, 'wght' 800, 'GRAD' 1;
 }
 
 #joscelyndemo{
