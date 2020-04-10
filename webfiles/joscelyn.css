@@ -21,13 +21,25 @@ html {
       margin-left: 5%;
       margin-right: 5%;
 }
+
+h1 {
+      font-family: "Joscelyn";
+      font-size: 3em;
+}
+
+p {
+      font-family: "Elstob";
+      font-size: 120%;
+      font-variation-settings: 'opsz' 10, 'wght' 500, 'GRAD' 1;
+}
+
 #joscelyndemo{
         font-size: 150%;
         margin: 0;
         font-family: "Joscelyn";
 }
 
-.samplebox {
+p.samplebox {
     width: 90%;
     padding: 20px;
       border-style: solid;
