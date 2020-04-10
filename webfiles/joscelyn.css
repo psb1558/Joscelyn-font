@@ -4,6 +4,10 @@
       }
       /* #demo {font-family: Joscelyn; font-size: 120%;} */
 
+html {
+      margin-left: 30px;
+      margin-right: 30px;
+}
 #joscelyndemo{
         font-size: 150%;
         margin: 0;
@@ -11,12 +15,9 @@
 }
 
 .samplebox {
-    float: left;
-    width: 55%;
+    width: 100%;
     padding: 20px;
       border-style: solid;
+      white-space: pre;
 }
 
-.rightpara {
-      margin-left: 20px;
-}
