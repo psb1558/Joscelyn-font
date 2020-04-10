@@ -1,81 +1,119 @@
 {
 .appVersion = "1270";
+DisplayStrings = (
+"which child unchilded scholarly ",
+"/h.alt01",
+"/h.alt03",
+"/h.alt04/i.hl",
+"/h.alt05/h.alt06"
+);
 classes = (
 {
-code = "c d i idotless j m n p q r s u w x y z i.jr idotless.jr j.jr m.jr n.jr\012u.jr c.oar ccedilla.oar umacron.fina igrave.jr\012iacute.jr icircumflex.jr idieresis.jr imacron.jr\012ugrave.jr uacute.jr ucircumflex.jr ccedilla\012udieresis.jr umacron.jr igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron ntilde ntilde.jr et q.jr\012yacute ydieresis ymacron";
+code = "# These are the glyphs for which there is a corresponding\012# left-joining form.\012c d i idotless j m n p q r s u w x y z i.jr idotless.jr j.jr m.jr n.jr\012u.jr c.oar ccedilla.oar umacron.fina igrave.jr\012iacute.jr icircumflex.jr idieresis.jr imacron.jr\012ugrave.jr uacute.jr ucircumflex.jr ccedilla\012udieresis.jr umacron.jr igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron ntilde ntilde.jr et q.jr\012yacute ydieresis ymacron";
 name = WillJoinLeft;
 },
 {
-code = "a i idotless j l m n q q.alt01 u i.hl idotless.hl j.hl m.hl n.hl u.hl i.jl idotless.jl j.jl\012m.jl n.jl u.jl a.init m.init r.init i.init idotless.init n.init q.init\012# u.ql\012i.el idotless.el j.el l.el m.el n.el u.el\012i.rl idotless.rl m.rl n.rl u.rl agrave aacute atilde adieresis\012acircumflex aring amacron igrave.el iacute.el\012icircumflex.el idieresis.el imacron.el igrave.hl\012iacute.hl icircumflex.hl idieresis.hl imacron.hl\012igrave.jl iacute.jl icircumflex.jl idieresis.jl\012imacron.jl igrave.rl iacute.rl icircumflex.rl\012idieresis.rl imacron.rl ugrave.el uacute.el\012ucircumflex.el udieresis.el umacron.el ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ugrave.jl uacute.jl ucircumflex.jl udieresis.jl\012umacron.jl ugrave.rl uacute.rl ucircumflex.rl\012udieresis.rl umacron.rl igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron i.gl idotless.gl m.gl n.gl u.gl igrave.gl\012iacute.gl icircumflex.gl idieresis.gl imacron.gl\012ugrave.gl uacute.gl ucircumflex.gl udieresis.gl\012umacron.gl lslash ntilde ntilde.jl q.jl r.high";
+code = "# These are the glyphs for which there is a corresponding\012# right-joining form.\012a i idotless j l m n q q.alt01 u i.hl idotless.hl j.hl m.hl n.hl u.hl i.jl idotless.jl j.jl\012m.jl n.jl u.jl a.init m.init r.init i.init idotless.init n.init q.init\012# u.ql\012i.el idotless.el j.el l.el m.el n.el u.el\012i.rl idotless.rl m.rl n.rl u.rl agrave aacute atilde adieresis\012acircumflex aring amacron igrave.el iacute.el\012icircumflex.el idieresis.el imacron.el igrave.hl\012iacute.hl icircumflex.hl idieresis.hl imacron.hl\012igrave.jl iacute.jl icircumflex.jl idieresis.jl\012imacron.jl igrave.rl iacute.rl icircumflex.rl\012idieresis.rl imacron.rl ugrave.el uacute.el\012ucircumflex.el udieresis.el umacron.el ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ugrave.jl uacute.jl ucircumflex.jl udieresis.jl\012umacron.jl ugrave.rl uacute.rl ucircumflex.rl\012udieresis.rl umacron.rl igrave icircumflex iacute\012idieresis imacron ugrave ucircumflex uacute\012udieresis umacron i.gl idotless.gl m.gl n.gl u.gl igrave.gl\012iacute.gl icircumflex.gl idieresis.gl imacron.gl\012ugrave.gl uacute.gl ucircumflex.gl udieresis.gl\012umacron.gl lslash ntilde ntilde.jl q.jl r.high";
 name = WillJoinRight;
 },
 {
-code = "a b c d e f g h hbar i i.init idotless j k l m n o p q r s t u v w x y z\012longs longs.alt01 c.oar ccedilla.oar h.alt01 hbar.alt01 d.init\012e.fina e.init e.initjrd emacron.fina amacron.fina\012lslash t.oar r.high h.alt hbar.alt q.alt01 v.init";
+code = "# These glyphs are not joining forms (however, many of them do have\012# corresponding joining forms).\012a b c d e f g h hbar i i.init idotless j k l m n o p q r s t u v w x y z\012longs longs.alt01 c.oar ccedilla.oar h.alt01 hbar.alt01 d.init\012e.fina e.init e.initjrd emacron.fina amacron.fina\012lslash t.oar r.high h.alt h.alt02 h.alt03 h.alt05 h.alt06 hbar.alt q.alt01 v.init";
 name = NonJoining;
 },
 {
-code = "i.hl j.hl m.hl n.hl r.hl u.hl igrave.hl iacute.hl\012icircumflex.hl idieresis.hl imacron.hl ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ntilde.hl";
+code = "# These are forms to use when there is an h to the left\012# (and a special joining form of h is also used).\012i.hl j.hl m.hl n.hl r.hl u.hl igrave.hl iacute.hl\012icircumflex.hl idieresis.hl imacron.hl ugrave.hl\012uacute.hl ucircumflex.hl udieresis.hl umacron.hl\012ntilde.hl";
 name = HLeftJoining;
 },
 {
-code = "c.el i.el idotless.el j.el l.el m.el n.el p.el u.el x.el y.el\012yacute.el ydieresis.el ymacron.el\012igrave.el iacute.el icircumflex.el idieresis.el\012imacron.el ugrave.el uacute.el ucircumflex.el\012udieresis.el umacron.el ccedilla.el ntilde.el";
+code = "# These are forms to use when and e occurs to the left\012c.el i.el idotless.el j.el l.el m.el n.el p.el u.el x.el y.el\012yacute.el ydieresis.el ymacron.el\012igrave.el iacute.el icircumflex.el idieresis.el\012imacron.el ugrave.el uacute.el ucircumflex.el\012udieresis.el umacron.el ccedilla.el ntilde.el";
 name = ELeftJoining;
 },
 {
-code = "i.rl idotless.rl m.rl n.rl u.rl igrave.rl iacute.rl\012icircumflex.rl idieresis.rl imacron.rl ugrave.rl\012uacute.rl ucircumflex.rl udieresis.rl umacron.rl\012ntilde.rl umacron.finarl";
+code = "# These are forms to use when an r occurs to the left\012i.rl idotless.rl m.rl n.rl u.rl igrave.rl iacute.rl\012icircumflex.rl idieresis.rl imacron.rl ugrave.rl\012uacute.rl ucircumflex.rl udieresis.rl umacron.rl\012ntilde.rl umacron.finarl";
 name = RLeftJoining;
 },
 {
-code = "i.gl idotless.gl m.gl n.gl u.gl igrave.gl iacute.gl\012icircumflex.gl idieresis.gl imacron.gl ugrave.gl\012uacute.gl ucircumflex.gl udieresis.gl umacron.gl\012ntilde.gl";
+code = "# These are forms to use when a g occurs to the left.\012i.gl idotless.gl m.gl n.gl u.gl igrave.gl iacute.gl\012icircumflex.gl idieresis.gl imacron.gl ugrave.gl\012uacute.gl ucircumflex.gl udieresis.gl umacron.gl\012ntilde.gl";
 name = GLeftJoining;
 },
 {
-code = "# u.ql\012e.jrd egrave.jrd eacute.jrd ecircumflex.jrd\012edieresis.jrd emacron.jrd eogonek.jrd d.jle";
+code = "# forms that join in miscellaneous ways.\012e.jrd egrave.jrd eacute.jrd ecircumflex.jrd\012edieresis.jrd emacron.jrd eogonek.jrd d.jle";
 name = MiscJoining;
 },
 {
-code = "a.jr m.initjr q.initjr i.jr idotless.jr u.hljr i.hljr idotless.hljr l.jr j.jr u.jr m.jr\012n.jr j.hljr m.hljr a.initjr r.initjr i.initjr idotless.initjr\012n.initjr\012# u.qljr\012i.eljr idotless.eljr j.eljr l.eljr m.eljr n.eljr\012u.eljr i.rljr idotless.rljr m.rljr n.rljr u.rljr agrave.jr\012aacute.jr atilde.jr adieresis.jr acircumflex.jr\012aring.jr amacron.jr igrave.jr iacute.jr\012icircumflex.jr idieresis.jr imacron.jr igrave.eljr\012iacute.eljr icircumflex.eljr idieresis.eljr\012imacron.eljr igrave.hljr iacute.hljr\012icircumflex.hljr idieresis.hljr imacron.hljr\012igrave.rljr iacute.rljr icircumflex.rljr\012idieresis.rljr imacron.rljr ugrave.eljr uacute.eljr\012ucircumflex.eljr udieresis.eljr umacron.eljr\012ugrave.hljr uacute.hljr ucircumflex.hljr\012udieresis.hljr umacron.hljr ugrave.jr uacute.jr\012ucircumflex.jr udieresis.jr umacron.jr ugrave.rljr\012uacute.rljr ucircumflex.rljr udieresis.rljr\012umacron.rljr i.gljr idotless.gljr m.gljr n.gljr u.gljr igrave.gljr\012iacute.gljr icircumflex.gljr idieresis.gljr\012imacron.gljr ugrave.gljr uacute.gljr\012ucircumflex.gljr udieresis.gljr umacron.gljr\012lslash.jr ntilde.jr ntilde.eljr ntilde.gljr\012ntilde.hljr ntilde.rljr q.jr q.alt01.jr r.highjr";
+code = "# These are glyphs that join in the standard way on the right.\012a.jr m.initjr q.initjr i.jr idotless.jr u.hljr i.hljr idotless.hljr l.jr j.jr u.jr m.jr\012n.jr j.hljr m.hljr a.initjr r.initjr i.initjr idotless.initjr\012n.initjr i.eljr idotless.eljr j.eljr l.eljr m.eljr n.eljr\012u.eljr i.rljr idotless.rljr m.rljr n.rljr u.rljr agrave.jr\012aacute.jr atilde.jr adieresis.jr acircumflex.jr\012aring.jr amacron.jr igrave.jr iacute.jr\012icircumflex.jr idieresis.jr imacron.jr igrave.eljr\012iacute.eljr icircumflex.eljr idieresis.eljr\012imacron.eljr igrave.hljr iacute.hljr\012icircumflex.hljr idieresis.hljr imacron.hljr\012igrave.rljr iacute.rljr icircumflex.rljr\012idieresis.rljr imacron.rljr ugrave.eljr uacute.eljr\012ucircumflex.eljr udieresis.eljr umacron.eljr\012ugrave.hljr uacute.hljr ucircumflex.hljr\012udieresis.hljr umacron.hljr ugrave.jr uacute.jr\012ucircumflex.jr udieresis.jr umacron.jr ugrave.rljr\012uacute.rljr ucircumflex.rljr udieresis.rljr\012umacron.rljr i.gljr idotless.gljr m.gljr n.gljr u.gljr igrave.gljr\012iacute.gljr icircumflex.gljr idieresis.gljr\012imacron.gljr ugrave.gljr uacute.gljr\012ucircumflex.gljr udieresis.gljr umacron.gljr\012lslash.jr ntilde.jr ntilde.eljr ntilde.gljr\012ntilde.hljr ntilde.rljr q.jr q.alt01.jr r.highjr";
 name = RightJoining;
 },
 {
-code = "i.jl idotless.jl s.jl j.hl m.jl n.jl u.jl r.jl p.jl q.jl c.jl\012ccedilla.jl d.jl w.jl x.jl y.jl z.jl c.oarjl\012ccedilla.oarjl umacron.finajl igrave.jl iacute.jl\012icircumflex.jl idieresis.jl imacron.jl ugrave.jl\012uacute.jl ucircumflex.jl udieresis.jl umacron.jl\012ntilde.jl et.jl yacute.jl ydieresis.jl ymacron.jl";
+code = "# These are glyphs that join in the standard way on the left.\012i.jl idotless.jl s.jl j.hl m.jl n.jl u.jl r.jl p.jl q.jl c.jl\012ccedilla.jl d.jl w.jl x.jl y.jl z.jl c.oarjl\012ccedilla.oarjl umacron.finajl igrave.jl iacute.jl\012icircumflex.jl idieresis.jl imacron.jl ugrave.jl\012uacute.jl ucircumflex.jl udieresis.jl umacron.jl\012ntilde.jl et.jl yacute.jl ydieresis.jl ymacron.jl";
 name = LeftJoining;
 },
 {
-code = "i.jb idotless.jb j.jb m.jb n.jb u.jb igrave.jb iacute.jb\012icircumflex.jb idieresis.jb imacron.jb ugrave.jb\012uacute.jb ucircumflex.jb udieresis.jb umacron.jb\012ntilde.jb q.jb";
+code = "# These are glyphs that join in the standard way both left and right.\012i.jb idotless.jb j.jb m.jb n.jb u.jb igrave.jb iacute.jb\012icircumflex.jb idieresis.jb imacron.jb ugrave.jb\012uacute.jb ucircumflex.jb udieresis.jb umacron.jb\012ntilde.jb q.jb";
 name = BothJoining;
 },
 {
-code = "a.init c.init d.init e.init i.init idotless.init m.init n.init q.init r.init v.init";
+code = "# Word-initial forms.\012a.init c.init d.init e.init i.init idotless.init m.init n.init q.init r.init v.init";
 name = WordInit;
 },
 {
-code = "agrave aacute acircumflex atilde adieresis aring egrave\012eacute ecircumflex edieresis igrave iacute\012icircumflex idieresis eth ntilde ograve oacute\012ocircumflex otilde odieresis ae ccedilla oslash\012ugrave uacute ucircumflex udieresis yacute thorn\012ydieresis amacron emacron eogonek imacron omacron\012umacron aemacron ymacron";
+code = "# lc forms not included in other classes\012agrave aacute acircumflex atilde adieresis aring egrave\012eacute ecircumflex edieresis igrave iacute\012icircumflex idieresis eth ntilde ograve oacute\012ocircumflex otilde odieresis ae ccedilla oslash\012ugrave uacute ucircumflex udieresis yacute thorn\012ydieresis amacron emacron eogonek imacron omacron\012umacron aemacron ymacron";
 name = OtherLC;
 },
 {
-code = "@NonJoining @ELeftJoining @GLeftJoining\012@HLeftJoining @RLeftJoining @MiscJoining\012@RightJoining @LeftJoining @BothJoining @WordInit\012@OtherLC";
+code = "# Collection of classes meant to yield a complete set of\012# lowercase letters.\012@NonJoining @ELeftJoining @GLeftJoining\012@HLeftJoining @RLeftJoining @MiscJoining\012@RightJoining @LeftJoining @BothJoining @WordInit\012@OtherLC";
 name = AllLowerCase;
 },
 {
-code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\012AE Agrave Aacute Acircumflex Atilde Adieresis Aring\012Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave\012Iacute Icircumflex Idieresis Eth Ntilde Ograve\012Oacute Ocircumflex Otilde Odieresis Oslash Ugrave\012Uacute Ucircumflex Udieresis Yacute Thorn Amacron\012Emacron Imacron Omacron Umacron uni01E2 uni0232";
+code = "# All uppercase letters in the font (N.B. check this for completeness!)\012A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\012AE Agrave Aacute Acircumflex Atilde Adieresis Aring\012Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave\012Iacute Icircumflex Idieresis Eth Ntilde Ograve\012Oacute Ocircumflex Otilde Odieresis Oslash Ugrave\012Uacute Ucircumflex Udieresis Yacute Thorn Amacron\012Emacron Imacron Omacron Umacron uni01E2 uni0232";
 name = UpperCase;
 },
 {
-code = "hyphen quotesingle quoteright uni00AD\012dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb macroncomb acomb ";
+code = "# Non-letter glyphs that may occur inside a word and not make a word-boundary.\012hyphen quotesingle quoteright uni00AD\012dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb macroncomb acomb ";
 name = WordInternal;
 },
 {
-code = "e egrave eacute ecircumflex edieresis emacron eogonek";
+code = "# Lowercase forms of e\012e egrave eacute ecircumflex edieresis emacron eogonek";
 name = LC_Es;
 },
 {
-code = "e egrave eacute ecircumflex edieresis emacron eogonek ae aemacron";
+code = "# Lowercase forms of e and ae.\012e egrave eacute ecircumflex edieresis emacron eogonek ae aemacron";
 name = LC_E_AE;
 },
 {
-code = "dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb macroncomb\012acomb ecomb icomb mcomb ocomb rcomb overlinecomb";
+code = "# All combining marks that occur above a letter.\012dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb macroncomb\012acomb ecomb icomb mcomb ocomb rcomb overlinecomb";
 name = CombiningAbove;
+},
+{
+code = "ucircumflex.gl edieresis.lr u.rljr m.gl icircumflex.jr uacute.eljr H umacron.gl e_t_c_period eacute.cr ucircumflex.el et.jl eth quotedblleft hyphen omacron longs_ugrave u.hl R udieresis.rljr e_n.init Emacron imacron.jr idotless.rljr icircumflex.hljr uni00B3 iacute.hl multiply aring.jr ntilde.jl c.init ucircumflex.rl uni200B P amacron ugrave.jr comma igrave.el ocomb uni00B9 longs_i.jr T eacute hbar.alt_i c_c twodotenleader agrave longs_longs_imacron.jr m.eljr umacron.eljr f longs_longs_iacute mcomb .notdef u.rl ugrave.hljr m.el rumrotunda j.el ugrave.gljr n n.jr imacron.rl macron uacute.jl longs_longs_idieresis.jr egrave.jrd uni00A0 x.jl n.eljr iacute.el longs_longs_icircumflex.jr ugrave.el e_r.init longs_imacron.jr acircumflex iacute m.jr m.gljr d.jle ae amacron.jr icircumflex.jl Igrave emacron.cr h.alt01 idieresis.hl V four onequarter longs_imacron i.jl less imacron.hl r.hl at longs_n.jr h.alt_i.jr Ntilde m icircumflex.gljr igrave.jb longs_c_h L ymacron.el Eth eogonek.cr m.initjr n.initjr uacute.gl D z.jl udieresis e.init Q zerowidthjoiner Z u.el iacute.rljr igrave.hl uni2004 braceright i oe idotless.jb tildecomb.case n.rl u.eljr ugrave.eljr ucircumflex.jr Lslash Iacute j.hl longs_u.jr j.jr exclamdown imacron.el atilde.jr v eight longs_iacute.jr umacron.jl idotless.hljr Umacron longs_longs_imacron p.jl onehalf w c.el ecircumflex.jrd quotesinglbase pstrokethroughdescender i.rl longs_longs_iacute.jr e_r igrave.jr igrave.hljr acircumflex.jr two umacron.el r questiondown h ntilde.gljr B icircumflex.rljr r.highjr Oacute r.initjr ugrave.jb udieresis.jr Eacute N g.imnur l ugrave.hl eacute.jrd q.initjr yacute.el otilde idotless.init longs.alt01 h.alt02 uniFB02.jr uni2001 ucircumflex.hljr i.hl longs_ugrave.jr U ugrave.rl ucircumflex.gljr udieresis.jl nine u.gl longs_m percent imacron.hljr eogonek.lr imacron.gl idotless ntilde.jr Thorn c_c.jloar emacron.fina ringcomb ugrave.jl semicolon Uacute dieresiscomb.case oacute q.jb longs_m.jr idieresis g acutecomb longs_idieresis equal longs_longs_udieresis Y idieresis.el K uni2005 idotless.eljr i.init z s.jl e_m.initjr uniFB00 ecircumflex r.high uni00AD longs_iacute overlinecomb g_g Omacron sterling igrave.rljr u.hljr longs_longs_i uniA759 quoteleft M circumflexcomb.case ntilde.hl ntilde.rljr j.jl longs_icircumflex circumflexcomb cedilla Adieresis quotereversed a.initjr m.rljr t.oar lslash ucircumflex.hl longs_longs_u guillemotright O quoteright hbar d.jl u.jl icircumflex.hl ntilde.jb lslash_lslash.jr quotesingle udieresis.gljr iacute.jr one guillemotleft parenright longs_uacute.jr m.rl r.gl gravecomb.case w.jl uniFB02 n.hl udieresis.gl uni2015 h.alt03 hbar.alt01 threequarters Egrave mu macroncomb.case germandbls yacute ymacron.jl t_h.alt01 numbersign igrave.rl Ograve longs_longs_u.jr longs_i ntilde tildecomb uacute.hljr iacute.jb udieresis.hl longs_ucircumflex.jr uni2006 idieresis.jl edieresis i.jb b uni01E2 igrave.eljr Icircumflex hbar.alt yen Agrave parenleft ampersand idieresis.gl ucircumflex.eljr six X zero c.oar endash longs_n s.alt longs_longs bar longs_longs_m.jr e.initjrd degree umacron.hl edieresis.jrd i.initjr longs_udieresis.jr";
+name = Rand1;
+},
+{
+code = "cent longs_longs_umacron c_c.oar Aacute longs_longs_igrave.jr idieresis.rljr period idotless.gl cedillacomb.alt three e.lr umacron.jb longs_u ecircumflex.cr q uni2007 Udieresis aring uacute.jr ccedilla.oar idieresis.gljr i.rljr m.hl umacron.jr t n.gljr longs_h.alt01 umacron.rljr t_h u.gljr p p.rl uni2010 e_s.alt umacron.finarl longs_longs_umacron.jr rcomb icomb asterisk h.alt Atilde n.jb idotless.jr uni2008 bracketleft umacron.fina brokenbar uni2003 Idieresis n.jl ucircumflex.jb ugrave.gl ydieresis.el idotless.jl r_d longs_igrave k divide G ntilde.gl ccedilla.oarjl logicalnot iacute.eljr n.init ydieresis.jl ordmasculine idieresis.eljr longs_umacron longs_longs_idieresis section grave figuredash A longs_t.oar u.jr c.oarjl umacron.rl c.jl quotedblbase Yacute I thorn eacute.lr copyright uacute.rl longs_longs_udieresis.jr iacute.rl c.initoar r_p.jl Ucircumflex five longs_igrave.jr Aring braceleft l.ellr eogonek oslash c_c.eloar longs_longs_n.jr ntilde.rl longs_s uacute.el acutecomb.case Edieresis c_c.jl udieresis.eljr longs_longs_m ograve i.gljr d.init umacron.hljr icircumflex.rl bracketright j.eljr longs_longs_uacute.jr amacron.fina ucircumflex.rljr y.el idotless.el ccedilla.el e.fina a.initjralt uni2002 uni201F exclam longs_idieresis.jr e_m.init iacute.gljr e_n.initjr icircumflex.eljr Ugrave y r_d.jl d currency Acircumflex o x i.gl h.alt_i cedillacomb r.init x.el rmod ydieresis q.init longs_uacute Ocircumflex e_p.init hbar.alt_i.jr Odieresis uacute.jb longs odieresis colon ntilde.hljr longs_umacron.jr uni2009 ucircumflex imacron.eljr uni0232 a.initalt W onedotenleader udieresis.hljr uacute J uacute.hl emacron quotedbl question longs_icircumflex.jr acute q.alt01.jr uni2011 uni2000 longs_l g_g.imnur uni200A adieresis.jr j a.init ntilde.eljr acomb umacron.finajl m.hljr i.hljr adieresis s uacute.rljr l.el seven egrave.lr p.el ecircumflex.lr underscore longs_t longs_longs_ugrave.jr ymacron n.gl idieresis.rl Ccedilla u.jb udieresis.rl longs_longs_i.jr longs_longs_ucircumflex r.jl longs_longs.alt01 asciicircum imacron.jl imacron.rljr agrave.jr ccedilla.jl dieresiscomb igrave.gl igrave.gljr c idieresis.hljr longs_udieresis greater q.jl n.hljr e.jrd gravecomb egrave.cr uacute.gljr yacute.jl paragraph C q.alt01 longs_l.jr longs_h iacute.hljr idotless.gljr m.init e j.hljr dieresis Ecircumflex q.jr idieresis.jb m.jb plusminus icircumflex.jb l.lr edieresis.cr lslash_lslash icircumflex.el aemacron Amacron Oslash ugrave.rljr plus atilde v.init imacron.gljr ellipsis emacron.lr m.jl n.rljr a.jr egrave longs_longs_uacute Otilde idotless.hl imacron.jb a registered quotedblright ordfeminine idotless.initjr icircumflex.gl et i.el S y.jl e_x.init udieresis.el ucircumflex.jl j.jb longs_ucircumflex ocircumflex emacron.jrd aacute emdash dollar E igrave space udieresis.jb longs_longs_igrave r_p c_c.el iacute.gl AE Imacron umacron ugrave zerowidthnonjoiner asciitilde Eogonek igrave.jl jdotless slash longs_longs_ugrave umacron.gljr i.jr u l.jr idieresis.jr ccedilla uni00B2 idotless.rl n.el iacute.jl ntilde.el macroncomb aacute.jr backslash e_s icircumflex F i.eljr imacron longs_longs_ucircumflex.jr longs_longs_n lslash.jr e.cr longs_longs_icircumflex l.eljr periodcentered ecomb eogonek.jrd";
+name = Rand2;
+},
+{
+automatic = 1;
+code = "A Aacute Acircumflex Adieresis Agrave Amacron Aring Atilde AE uni01E2 B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave Emacron Eogonek F G H I Iacute Icircumflex Idieresis Igrave Imacron J K L Lslash M N Ntilde O Oacute Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave Umacron V W X Y Yacute Z uni0232 a aacute acircumflex adieresis agrave amacron aring atilde ae aemacron b c ccedilla d eth e eacute ecircumflex edieresis egrave emacron eogonek et f g h hbar i idotless iacute icircumflex idieresis igrave imacron j jdotless k l lslash m n ntilde o oacute ocircumflex odieresis ograve omacron oslash otilde oe p thorn pstrokethroughdescender q r rumrotunda s germandbls longs t u uacute ucircumflex udieresis ugrave umacron uniA759 v w x y yacute ydieresis ymacron z h.alt hbar.alt s.alt h.alt01 hbar.alt01 q.alt01 longs.alt01 h.alt02 h.alt03 e.cr eacute.cr ecircumflex.cr edieresis.cr egrave.cr emacron.cr eogonek.cr c.el ccedilla.el i.el idotless.el iacute.el icircumflex.el idieresis.el igrave.el imacron.el j.el l.el m.el n.el ntilde.el p.el u.el uacute.el ucircumflex.el udieresis.el ugrave.el umacron.el x.el y.el yacute.el ydieresis.el ymacron.el i.eljr idotless.eljr iacute.eljr icircumflex.eljr idieresis.eljr igrave.eljr imacron.eljr j.eljr l.eljr m.eljr n.eljr ntilde.eljr u.eljr uacute.eljr ucircumflex.eljr udieresis.eljr ugrave.eljr umacron.eljr l.ellr amacron.fina e.fina emacron.fina umacron.fina umacron.finajl umacron.finarl i.gl idotless.gl iacute.gl icircumflex.gl idieresis.gl igrave.gl imacron.gl m.gl n.gl ntilde.gl r.gl u.gl uacute.gl ucircumflex.gl udieresis.gl ugrave.gl umacron.gl i.gljr idotless.gljr iacute.gljr icircumflex.gljr idieresis.gljr igrave.gljr imacron.gljr m.gljr n.gljr ntilde.gljr u.gljr uacute.gljr ucircumflex.gljr udieresis.gljr ugrave.gljr umacron.gljr r.high r.highjr i.hl idotless.hl iacute.hl icircumflex.hl idieresis.hl igrave.hl imacron.hl j.hl m.hl n.hl ntilde.hl r.hl u.hl uacute.hl ucircumflex.hl udieresis.hl ugrave.hl umacron.hl i.hljr idotless.hljr iacute.hljr icircumflex.hljr idieresis.hljr igrave.hljr imacron.hljr j.hljr m.hljr n.hljr ntilde.hljr u.hljr uacute.hljr ucircumflex.hljr udieresis.hljr ugrave.hljr umacron.hljr g.imnur a.init c.init d.init e.init i.init idotless.init m.init n.init q.init r.init v.init a.initalt a.initjr i.initjr idotless.initjr m.initjr n.initjr q.initjr r.initjr a.initjralt e.initjrd c.initoar i.jb idotless.jb iacute.jb icircumflex.jb idieresis.jb igrave.jb imacron.jb j.jb m.jb n.jb ntilde.jb q.jb u.jb uacute.jb ucircumflex.jb udieresis.jb ugrave.jb umacron.jb c.jl ccedilla.jl d.jl et.jl i.jl idotless.jl iacute.jl icircumflex.jl idieresis.jl igrave.jl imacron.jl j.jl m.jl n.jl ntilde.jl p.jl q.jl r.jl s.jl u.jl uacute.jl ucircumflex.jl udieresis.jl ugrave.jl umacron.jl w.jl x.jl y.jl yacute.jl ydieresis.jl ymacron.jl z.jl d.jle a.jr aacute.jr acircumflex.jr adieresis.jr agrave.jr q.alt01.jr amacron.jr aring.jr atilde.jr i.jr idotless.jr iacute.jr icircumflex.jr idieresis.jr igrave.jr imacron.jr j.jr l.jr lslash.jr m.jr n.jr ntilde.jr q.jr u.jr uacute.jr ucircumflex.jr udieresis.jr ugrave.jr umacron.jr e.jrd eacute.jrd ecircumflex.jrd edieresis.jrd egrave.jrd emacron.jrd eogonek.jrd e.lr eacute.lr ecircumflex.lr edieresis.lr egrave.lr emacron.lr eogonek.lr l.lr c.oar ccedilla.oar t.oar c.oarjl ccedilla.oarjl i.rl idotless.rl iacute.rl icircumflex.rl idieresis.rl igrave.rl imacron.rl m.rl n.rl ntilde.rl p.rl u.rl uacute.rl ucircumflex.rl udieresis.rl ugrave.rl umacron.rl i.rljr idotless.rljr iacute.rljr icircumflex.rljr idieresis.rljr igrave.rljr imacron.rljr m.rljr n.rljr ntilde.rljr u.rljr uacute.rljr ucircumflex.rljr udieresis.rljr ugrave.rljr umacron.rljr c_c e_r e_s e_t_c_period g_g longs_t lslash_lslash r_d r_p longs_c_h longs_h longs_i longs_iacute longs_icircumflex longs_idieresis longs_igrave longs_imacron longs_l longs_m longs_n longs_s longs_longs longs_longs_i longs_longs_iacute longs_longs_icircumflex longs_longs_idieresis longs_longs_igrave longs_longs_imacron longs_longs_m longs_longs_n longs_longs_u longs_longs_uacute longs_longs_ucircumflex longs_longs_udieresis longs_longs_ugrave longs_longs_umacron longs_u longs_uacute longs_ucircumflex longs_udieresis longs_ugrave longs_umacron t_h uniFB00 uniFB02 e_s.alt h.alt_i h.alt_i.jr hbar.alt_i hbar.alt_i.jr longs_h.alt01 longs_longs.alt01 t_h.alt01 c_c.el c_c.eloar g_g.imnur e_m.init e_n.init e_p.init e_r.init e_x.init e_m.initjr e_n.initjr c_c.jl r_d.jl r_p.jl c_c.jloar uniFB02.jr lslash_lslash.jr longs_i.jr longs_iacute.jr longs_icircumflex.jr longs_idieresis.jr longs_igrave.jr longs_imacron.jr longs_l.jr longs_m.jr longs_n.jr longs_longs_i.jr longs_longs_iacute.jr longs_longs_icircumflex.jr longs_longs_idieresis.jr longs_longs_igrave.jr longs_longs_imacron.jr longs_longs_m.jr longs_longs_n.jr longs_longs_u.jr longs_longs_uacute.jr longs_longs_ucircumflex.jr longs_longs_udieresis.jr longs_longs_ugrave.jr longs_longs_umacron.jr longs_u.jr longs_uacute.jr longs_ucircumflex.jr longs_udieresis.jr longs_ugrave.jr longs_umacron.jr c_c.oar longs_t.oar ordfeminine ordmasculine rmod zero one two three four five six seven eight nine uni00B9 uni00B2 uni00B3 onehalf onequarter threequarters period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered asterisk numbersign onedotenleader slash backslash twodotenleader parenleft parenright braceleft braceright bracketleft bracketright hyphen uni00AD endash emdash figuredash underscore uni2010 uni2011 uni2015 quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright quotereversed uni201F guillemotleft guillemotright quotedbl quotesingle space uni00A0 uni2000 uni2001 uni2002 uni2003 uni2004 uni2005 uni2006 uni2007 uni2008 uni2009 uni200A uni200B zerowidthjoiner zerowidthnonjoiner cent currency dollar sterling yen plus multiply divide equal greater less plusminus asciitilde logicalnot asciicircum mu percent at ampersand paragraph section copyright registered degree bar brokenbar dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb macroncomb overlinecomb cedillacomb dieresis grave acute macron cedilla cedillacomb.alt dieresiscomb.case gravecomb.case acutecomb.case circumflexcomb.case tildecomb.case macroncomb.case acomb ecomb icomb mcomb ocomb rcomb uni0000";
+name = All;
+},
+{
+code = "h h.alt h.alt02 h.alt03 h.alt05 h.alt06";
+name = randState1;
+},
+{
+code = "h.alt h.alt05 h.alt06 h.alt02 h.alt03 h";
+name = randState2;
+},
+{
+code = "h.alt02 h.alt05 h.alt06 h.alt03 h h.alt";
+disabled = 1;
+name = randState3;
+},
+{
+code = "h.alt03 h h.alt h.alt02 h.alt05 h.alt06";
+disabled = 1;
+name = randState4;
 }
 );
 copyright = "Copyright 2020 by Peter S. Baker";
@@ -89,57 +127,58 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2020-04-09 23:48:06 +0000";
+date = "2020-04-10 18:56:08 +0000";
 designer = "Peter S. Baker";
 designerURL = "https://github.com/psb1558/Joscelyn-font";
 disablesNiceNames = 1;
 familyName = Joscelyn;
 featurePrefixes = (
 {
-code = "lookup hsubs {\012  sub h by h.alt01;\012  sub hbar by hbar.alt01;\012  sub i by i.hl;\012  sub idotless by idotless.hl;\012  sub j by j.hl;\012  sub m by m.hl;\012  sub n by n.hl;\012  sub r by r.hl;\012  sub u by u.hl;\012  sub igrave by igrave.hl;\012  sub iacute by iacute.hl;\012  sub icircumflex by icircumflex.hl;\012  sub idieresis by idieresis.hl;\012  sub imacron by imacron.hl;\012  sub ntilde by ntilde.hl;\012  sub ugrave by ugrave.hl;\012  sub uacute by uacute.hl;\012  sub ucircumflex by ucircumflex.hl;\012  sub udieresis by udieresis.hl;\012  sub umacron by umacron.hl;\012} hsubs;";
+code = "lookup hsubs {\012# This lookup used by calt when h is followed by certain letters.\012  sub h by h.alt01;\012  sub h.alt05 by h.alt01;\012  sub h.alt03 by h.alt04;\012  sub h.alt06 by h.alt04;\012  sub hbar by hbar.alt01;\012  sub i by i.hl;\012  sub idotless by idotless.hl;\012  sub j by j.hl;\012  sub m by m.hl;\012  sub n by n.hl;\012  sub r by r.hl;\012  sub u by u.hl;\012  sub igrave by igrave.hl;\012  sub iacute by iacute.hl;\012  sub icircumflex by icircumflex.hl;\012  sub idieresis by idieresis.hl;\012  sub imacron by imacron.hl;\012  sub ntilde by ntilde.hl;\012  sub ugrave by ugrave.hl;\012  sub uacute by uacute.hl;\012  sub ucircumflex by ucircumflex.hl;\012  sub udieresis by udieresis.hl;\012  sub umacron by umacron.hl;\012} hsubs;";
 name = hsubs;
 },
 {
-code = "lookup esubs_l {\012  sub e by e.lr;\012  sub egrave by egrave.lr;\012  sub eacute by eacute.lr;\012  sub ecircumflex by ecircumflex.lr;\012  sub edieresis by edieresis.lr;\012  sub emacron by emacron.lr;\012  sub eogonek by eogonek.lr;\012  sub l by l.el;\012} esubs_l;";
+code = "lookup esubs_l {\012# This lookup used by calt when e is followed by l.\012  sub e by e.lr;\012  sub egrave by egrave.lr;\012  sub eacute by eacute.lr;\012  sub ecircumflex by ecircumflex.lr;\012  sub edieresis by edieresis.lr;\012  sub emacron by emacron.lr;\012  sub eogonek by eogonek.lr;\012  sub l by l.el;\012} esubs_l;";
 name = esubs_l;
 },
 {
-code = "lookup esubs_c {\012  sub e by e.cr;\012  sub egrave by egrave.cr;\012  sub eacute by eacute.cr;\012  sub ecircumflex by ecircumflex.cr;\012  sub edieresis by edieresis.cr;\012  sub emacron by emacron.cr;\012  sub eogonek by eogonek.cr;\012  sub c by c.el;\012  sub ccedilla by ccedilla.el;\012} esubs_c;";
+code = "lookup esubs_c {\012# This lookup used by calt when e is followed by c.\012  sub e by e.cr;\012  sub egrave by egrave.cr;\012  sub eacute by eacute.cr;\012  sub ecircumflex by ecircumflex.cr;\012  sub edieresis by edieresis.cr;\012  sub emacron by emacron.cr;\012  sub eogonek by eogonek.cr;\012  sub c by c.el;\012  sub ccedilla by ccedilla.el;\012} esubs_c;";
 name = esubs_c;
 },
 {
-code = "lookup gsubs {\012  sub i by i.gl;\012  sub idotless by idotless.gl;\012  sub m by m.gl;\012  sub n by n.gl;\012  sub u by u.gl;\012  sub r by r.gl;\012  sub igrave by igrave.gl;\012  sub iacute by iacute.gl;\012  sub icircumflex by icircumflex.gl;\012  sub idieresis by idieresis.gl;\012  sub imacron by imacron.gl;\012  sub ntilde by ntilde.gl;\012  sub ugrave by ugrave.gl;\012  sub uacute by uacute.gl;\012  sub ucircumflex by ucircumflex.gl;\012  sub udieresis by udieresis.gl;\012  sub umacron by umacron.gl;\012  sub g by g.imnur;\012} gsubs;";
+code = "lookup gsubs {\012# Called by calt. An alternate form of g is used when the next letter\012# starts with a minim.\012  sub i by i.gl;\012  sub idotless by idotless.gl;\012  sub m by m.gl;\012  sub n by n.gl;\012  sub u by u.gl;\012  sub r by r.gl;\012  sub igrave by igrave.gl;\012  sub iacute by iacute.gl;\012  sub icircumflex by icircumflex.gl;\012  sub idieresis by idieresis.gl;\012  sub imacron by imacron.gl;\012  sub ntilde by ntilde.gl;\012  sub ugrave by ugrave.gl;\012  sub uacute by uacute.gl;\012  sub ucircumflex by ucircumflex.gl;\012  sub udieresis by udieresis.gl;\012  sub umacron by umacron.gl;\012  sub g by g.imnur;\012} gsubs;";
 name = gsubs;
 },
 {
-code = "lookup subed {\012  sub e by e.jrd;\012  sub egrave by egrave.jrd;\012  sub eacute by eacute.jrd;\012  sub ecircumflex by ecircumflex.jrd;\012  sub edieresis by edieresis.jrd;\012  sub emacron by emacron.jrd;\012  sub eogonek by eogonek.jrd;\012  sub e.init by e.initjrd;\012  sub d by d.jle;\012} subed;";
+code = "lookup subed {\012# Called by calt when e is followed by d.\012  sub e by e.jrd;\012  sub egrave by egrave.jrd;\012  sub eacute by eacute.jrd;\012  sub ecircumflex by ecircumflex.jrd;\012  sub edieresis by edieresis.jrd;\012  sub emacron by emacron.jrd;\012  sub eogonek by eogonek.jrd;\012  sub e.init by e.initjrd;\012  sub d by d.jle;\012} subed;";
 name = subed;
 },
 {
-code = "lookup rightjoining {\012  sub a by a.jr;\012  sub i by i.jr;\012  sub idotless by idotless.jr;\012  sub j by j.jr;\012  sub l by l.jr;\012  sub m by m.jr;\012  sub n by n.jr;\012  sub u by u.jr;\012  sub agrave by agrave.jr;\012  sub aacute by aacute.jr;\012  sub acircumflex by acircumflex.jr;\012  sub atilde by atilde.jr;\012  sub adieresis by adieresis.jr;\012  sub aring by aring.jr;\012  sub amacron by amacron.jr;\012  sub igrave by igrave.jr;\012  sub iacute by iacute.jr;\012  sub icircumflex by icircumflex.jr;\012  sub idieresis by idieresis.jr;\012  sub imacron by imacron.jr;\012  sub ntilde by ntilde.jr;\012  sub ugrave by ugrave.jr;\012  sub uacute by uacute.jr;\012  sub ucircumflex by ucircumflex.jr;\012  sub udieresis by udieresis.jr;\012  sub umacron by umacron.jr;\012  sub lslash by lslash.jr;\012  sub i.el by i.eljr;\012  sub idotless.el by idotless.eljr;\012  sub j.el by j.eljr;\012  sub l.el by l.eljr;\012  sub m.el by m.eljr;\012  sub n.el by n.eljr;\012  sub u.el by u.eljr;\012  sub igrave.el by igrave.eljr;\012  sub iacute.el by iacute.eljr;\012  sub icircumflex.el by icircumflex.eljr;\012  sub idieresis.el by idieresis.eljr;\012  sub imacron.el by imacron.eljr;\012  sub ntilde.el by ntilde.eljr;\012  sub ugrave.el by ugrave.eljr;\012  sub uacute.el by uacute.eljr;\012  sub ucircumflex.el by ucircumflex.eljr;\012  sub udieresis.el by udieresis.eljr;\012  sub umacron.el by umacron.eljr;\012  sub i.gl by i.gljr;\012  sub idotless.gl by idotless.gljr;\012  sub m.gl by m.gljr;\012  sub n.gl by n.gljr;\012  sub u.gl by u.gljr;\012  sub igrave.gl by igrave.gljr;\012  sub iacute.gl by iacute.gljr;\012  sub icircumflex.gl by icircumflex.gljr;\012  sub idieresis.gl by idieresis.gljr;\012  sub imacron.gl by imacron.gljr;\012  sub ntilde.gl by ntilde.gljr;\012  sub ugrave.gl by ugrave.gljr;\012  sub uacute.gl by uacute.gljr;\012  sub ucircumflex.gl by ucircumflex.gljr;\012  sub udieresis.gl by udieresis.gljr;\012  sub umacron.gl by umacron.gljr;\012  sub i.hl by i.hljr;\012  sub idotless.hl by idotless.hljr;\012  sub j.hl by j.hljr;\012  sub m.hl by m.hljr;\012  sub n.hl by n.hljr;\012  sub u.hl by u.hljr;\012#  sub u.ql by u.qljr;\012  sub igrave.hl by igrave.hljr;\012  sub iacute.hl by iacute.hljr;\012  sub icircumflex.hl by icircumflex.hljr;\012  sub idieresis.hl by idieresis.hljr;\012  sub imacron.hl by imacron.hljr;\012  sub ntilde.hl by ntilde.hljr;\012  sub ugrave.hl by ugrave.hljr;\012  sub uacute.hl by uacute.hljr;\012  sub ucircumflex.hl by ucircumflex.hljr;\012  sub udieresis.hl by udieresis.hljr;\012  sub umacron.hl by umacron.hljr;\012  sub i.jl by i.jb;\012  sub idotless.jl by idotless.jb;\012  sub j.jl by j.jb;\012  sub m.jl by m.jb;\012  sub n.jl by n.jb;\012  sub u.jl by u.jb;\012  sub q.jl by q.jb;\012  sub igrave.jl by igrave.jb;\012  sub iacute.jl by iacute.jb;\012  sub icircumflex.jl by icircumflex.jb;\012  sub idieresis.jl by idieresis.jb;\012  sub imacron.jl by imacron.jb;\012  sub ntilde.jl by ntilde.jb;\012  sub ugrave.jl by ugrave.jb;\012  sub uacute.jl by uacute.jb;\012  sub ucircumflex.jl by ucircumflex.jb;\012  sub udieresis.jl by udieresis.jb;\012  sub umacron.jl by umacron.jb;\012  sub i.rl by i.rljr;\012  sub idotless.rl by idotless.rljr;\012  sub m.rl by m.rljr;\012  sub n.rl by n.rljr;\012  sub u.rl by u.rljr;\012  sub igrave.rl by igrave.rljr;\012  sub iacute.rl by iacute.rljr;\012  sub icircumflex.rl by icircumflex.rljr;\012  sub idieresis.rl by idieresis.rljr;\012  sub imacron.rl by imacron.rljr;\012  sub ntilde.rl by ntilde.rljr;\012  sub ugrave.rl by ugrave.rljr;\012  sub uacute.rl by uacute.rljr;\012  sub ucircumflex.rl by ucircumflex.rljr;\012  sub udieresis.rl by udieresis.rljr;\012  sub umacron.rl by umacron.rljr;\012  sub a.init by a.initjr;\012  sub i.init by i.initjr;\012  sub idotless.init by idotless.initjr;\012  sub m.init by m.initjr;\012  sub n.init by n.initjr;\012  sub q.init by q.initjr;\012  sub r.init by r.initjr;\012  sub q by q.jr;\012  sub q.jl by q.jb;\012  sub q.alt01 by q.alt01.jr;\012  sub r.high by r.highjr;\012} rightjoining;";
+code = "lookup rightjoining {\012# Called by calt for a standard join on the right\012  sub a by a.jr;\012  sub i by i.jr;\012  sub idotless by idotless.jr;\012  sub j by j.jr;\012  sub l by l.jr;\012  sub m by m.jr;\012  sub n by n.jr;\012  sub u by u.jr;\012  sub agrave by agrave.jr;\012  sub aacute by aacute.jr;\012  sub acircumflex by acircumflex.jr;\012  sub atilde by atilde.jr;\012  sub adieresis by adieresis.jr;\012  sub aring by aring.jr;\012  sub amacron by amacron.jr;\012  sub igrave by igrave.jr;\012  sub iacute by iacute.jr;\012  sub icircumflex by icircumflex.jr;\012  sub idieresis by idieresis.jr;\012  sub imacron by imacron.jr;\012  sub ntilde by ntilde.jr;\012  sub ugrave by ugrave.jr;\012  sub uacute by uacute.jr;\012  sub ucircumflex by ucircumflex.jr;\012  sub udieresis by udieresis.jr;\012  sub umacron by umacron.jr;\012  sub lslash by lslash.jr;\012  sub i.el by i.eljr;\012  sub idotless.el by idotless.eljr;\012  sub j.el by j.eljr;\012  sub l.el by l.eljr;\012  sub m.el by m.eljr;\012  sub n.el by n.eljr;\012  sub u.el by u.eljr;\012  sub igrave.el by igrave.eljr;\012  sub iacute.el by iacute.eljr;\012  sub icircumflex.el by icircumflex.eljr;\012  sub idieresis.el by idieresis.eljr;\012  sub imacron.el by imacron.eljr;\012  sub ntilde.el by ntilde.eljr;\012  sub ugrave.el by ugrave.eljr;\012  sub uacute.el by uacute.eljr;\012  sub ucircumflex.el by ucircumflex.eljr;\012  sub udieresis.el by udieresis.eljr;\012  sub umacron.el by umacron.eljr;\012  sub i.gl by i.gljr;\012  sub idotless.gl by idotless.gljr;\012  sub m.gl by m.gljr;\012  sub n.gl by n.gljr;\012  sub u.gl by u.gljr;\012  sub igrave.gl by igrave.gljr;\012  sub iacute.gl by iacute.gljr;\012  sub icircumflex.gl by icircumflex.gljr;\012  sub idieresis.gl by idieresis.gljr;\012  sub imacron.gl by imacron.gljr;\012  sub ntilde.gl by ntilde.gljr;\012  sub ugrave.gl by ugrave.gljr;\012  sub uacute.gl by uacute.gljr;\012  sub ucircumflex.gl by ucircumflex.gljr;\012  sub udieresis.gl by udieresis.gljr;\012  sub umacron.gl by umacron.gljr;\012  sub i.hl by i.hljr;\012  sub idotless.hl by idotless.hljr;\012  sub j.hl by j.hljr;\012  sub m.hl by m.hljr;\012  sub n.hl by n.hljr;\012  sub u.hl by u.hljr;\012#  sub u.ql by u.qljr;\012  sub igrave.hl by igrave.hljr;\012  sub iacute.hl by iacute.hljr;\012  sub icircumflex.hl by icircumflex.hljr;\012  sub idieresis.hl by idieresis.hljr;\012  sub imacron.hl by imacron.hljr;\012  sub ntilde.hl by ntilde.hljr;\012  sub ugrave.hl by ugrave.hljr;\012  sub uacute.hl by uacute.hljr;\012  sub ucircumflex.hl by ucircumflex.hljr;\012  sub udieresis.hl by udieresis.hljr;\012  sub umacron.hl by umacron.hljr;\012  sub i.jl by i.jb;\012  sub idotless.jl by idotless.jb;\012  sub j.jl by j.jb;\012  sub m.jl by m.jb;\012  sub n.jl by n.jb;\012  sub u.jl by u.jb;\012  sub q.jl by q.jb;\012  sub igrave.jl by igrave.jb;\012  sub iacute.jl by iacute.jb;\012  sub icircumflex.jl by icircumflex.jb;\012  sub idieresis.jl by idieresis.jb;\012  sub imacron.jl by imacron.jb;\012  sub ntilde.jl by ntilde.jb;\012  sub ugrave.jl by ugrave.jb;\012  sub uacute.jl by uacute.jb;\012  sub ucircumflex.jl by ucircumflex.jb;\012  sub udieresis.jl by udieresis.jb;\012  sub umacron.jl by umacron.jb;\012  sub i.rl by i.rljr;\012  sub idotless.rl by idotless.rljr;\012  sub m.rl by m.rljr;\012  sub n.rl by n.rljr;\012  sub u.rl by u.rljr;\012  sub igrave.rl by igrave.rljr;\012  sub iacute.rl by iacute.rljr;\012  sub icircumflex.rl by icircumflex.rljr;\012  sub idieresis.rl by idieresis.rljr;\012  sub imacron.rl by imacron.rljr;\012  sub ntilde.rl by ntilde.rljr;\012  sub ugrave.rl by ugrave.rljr;\012  sub uacute.rl by uacute.rljr;\012  sub ucircumflex.rl by ucircumflex.rljr;\012  sub udieresis.rl by udieresis.rljr;\012  sub umacron.rl by umacron.rljr;\012  sub a.init by a.initjr;\012  sub i.init by i.initjr;\012  sub idotless.init by idotless.initjr;\012  sub m.init by m.initjr;\012  sub n.init by n.initjr;\012  sub q.init by q.initjr;\012  sub r.init by r.initjr;\012  sub q by q.jr;\012  sub q.jl by q.jb;\012  sub q.alt01 by q.alt01.jr;\012  sub r.high by r.highjr;\012} rightjoining;";
 name = rightjoining;
 },
 {
-code = "lookup leftjoining {\012  sub c by c.jl;\012  sub ccedilla by ccedilla.jl;\012  sub d by d.jl;\012  sub i by i.jl;\012  sub idotless by idotless.jl;\012  sub j by j.jl;\012  sub m by m.jl;\012  sub n by n.jl;\012  sub p by p.jl;\012  sub q by q.jl;\012  sub q.jr by q.jb;\012  sub r by r.jl;\012  sub s by s.jl;\012  sub u by u.jl;\012  sub w by w.jl;\012  sub x by x.jl;\012  sub y by y.jl;\012  sub yacute by yacute.jl;\012  sub ydieresis by ydieresis.jl;\012  sub ymacron by ymacron.jl;\012  sub z by z.jl;\012  sub igrave by igrave.jl;\012  sub iacute by iacute.jl;\012  sub icircumflex by icircumflex.jl;\012  sub idieresis by idieresis.jl;\012  sub imacron by imacron.jl;\012  sub ntilde by ntilde.jl;\012  sub ugrave by ugrave.jl;\012  sub uacute by uacute.jl;\012  sub ucircumflex by ucircumflex.jl;\012  sub udieresis by udieresis.jl;\012  sub umacron by umacron.jl;\012  sub i.jr by i.jb;\012  sub idotless.jr by idotless.jb;\012  sub j.jr by j.jb;\012  sub m.jr by m.jb;\012  sub n.jr by n.jb;\012  sub u.jr by u.jb;\012  sub igrave.jr by igrave.jb;\012  sub iacute.jr by iacute.jb;\012  sub icircumflex.jr by icircumflex.jb;\012  sub idieresis.jr by idieresis.jb;\012  sub imacron.jr by imacron.jb;\012  sub ntilde.jr by ntilde.jb;\012  sub ugrave.jr by ugrave.jb;\012  sub uacute.jr by uacute.jb;\012  sub ucircumflex.jr by ucircumflex.jb;\012  sub udieresis.jr by udieresis.jb;\012  sub umacron.jr by umacron.jb;\012  sub umacron.fina by umacron.finajl;\012  sub c.oar by c.oarjl;\012  sub ccedilla.oar by ccedilla.oarjl;\012  sub et by et.jl;\012} leftjoining;";
+code = "lookup leftjoining {\012# Called by calt for a standard join on the left.\012  sub c by c.jl;\012  sub ccedilla by ccedilla.jl;\012  sub d by d.jl;\012  sub i by i.jl;\012  sub idotless by idotless.jl;\012  sub j by j.jl;\012  sub m by m.jl;\012  sub n by n.jl;\012  sub p by p.jl;\012  sub q by q.jl;\012  sub q.jr by q.jb;\012  sub r by r.jl;\012  sub s by s.jl;\012  sub u by u.jl;\012  sub w by w.jl;\012  sub x by x.jl;\012  sub y by y.jl;\012  sub yacute by yacute.jl;\012  sub ydieresis by ydieresis.jl;\012  sub ymacron by ymacron.jl;\012  sub z by z.jl;\012  sub igrave by igrave.jl;\012  sub iacute by iacute.jl;\012  sub icircumflex by icircumflex.jl;\012  sub idieresis by idieresis.jl;\012  sub imacron by imacron.jl;\012  sub ntilde by ntilde.jl;\012  sub ugrave by ugrave.jl;\012  sub uacute by uacute.jl;\012  sub ucircumflex by ucircumflex.jl;\012  sub udieresis by udieresis.jl;\012  sub umacron by umacron.jl;\012  sub i.jr by i.jb;\012  sub idotless.jr by idotless.jb;\012  sub j.jr by j.jb;\012  sub m.jr by m.jb;\012  sub n.jr by n.jb;\012  sub u.jr by u.jb;\012  sub igrave.jr by igrave.jb;\012  sub iacute.jr by iacute.jb;\012  sub icircumflex.jr by icircumflex.jb;\012  sub idieresis.jr by idieresis.jb;\012  sub imacron.jr by imacron.jb;\012  sub ntilde.jr by ntilde.jb;\012  sub ugrave.jr by ugrave.jb;\012  sub uacute.jr by uacute.jb;\012  sub ucircumflex.jr by ucircumflex.jb;\012  sub udieresis.jr by udieresis.jb;\012  sub umacron.jr by umacron.jb;\012  sub umacron.fina by umacron.finajl;\012  sub c.oar by c.oarjl;\012  sub ccedilla.oar by ccedilla.oarjl;\012  sub et by et.jl;\012} leftjoining;";
 name = leftjoining;
 }
 );
 features = (
 {
-code = "lookup beforeMark {\012  sub [i j q]' @CombiningAbove by [idotless jdotless q.alt01];\012} beforeMark;\012lookup accents {\012  sub a macroncomb by amacron;\012  sub ae macroncomb by aemacron;\012  sub e macroncomb by emacron;\012  sub i macroncomb by imacron;\012  sub o macroncomb by omacron;\012  sub u macroncomb by umacron;\012  sub y macroncomb by ymacron;\012  sub h macroncomb by hbar;\012  sub a dieresiscomb by adieresis;\012  sub e dieresiscomb by edieresis;\012  sub i dieresiscomb by idieresis;\012  sub o dieresiscomb by odieresis;\012  sub u dieresiscomb by udieresis;\012  sub a gravecomb by agrave;\012  sub e gravecomb by egrave;\012  sub i gravecomb by igrave;\012  sub o gravecomb by ograve;\012  sub u gravecomb by ugrave;\012  sub a acutecomb by aacute;\012  sub e acutecomb by eacute;\012  sub i acutecomb by iacute;\012  sub o acutecomb by oacute;\012  sub u acutecomb by uacute;\012  sub y acutecomb by yacute;\012  sub a circumflexcomb by acircumflex;\012  sub e circumflexcomb by ecircumflex;\012  sub i circumflexcomb by icircumflex;\012  sub o circumflexcomb by ocircumflex;\012  sub u circumflexcomb by ucircumflex;\012  sub a ringcomb by aring;\012  sub a tildecomb by atilde;\012  sub n tildecomb by ntilde;\012  sub o tildecomb by otilde;\012  sub c cedillacomb by ccedilla;\012} accents;\012lookup codes {\012  sub braceleft parenleft e t parenright braceright by et;\012  sub braceleft parenleft r u parenright braceright by rumrotunda;\012  sub braceleft parenleft D H parenright braceright by Eth;\012  sub braceleft parenleft d h parenright braceright by eth;\012  sub braceleft parenleft T H parenright braceright by Thorn;\012  sub braceleft parenleft t h parenright braceright by thorn;\012  sub braceleft parenleft A E parenright braceright by AE;\012  sub braceleft parenleft a e parenright braceright by ae;\012  sub braceleft parenleft p r parenright braceright by pstrokethroughdescender;\012  sub braceleft parenleft q two parenright braceright by uniA759;\012  sub braceleft parenleft asciicircum a parenright braceright by acomb ;\012  sub braceleft parenleft asciicircum e parenright braceright by ecomb ;\012  sub braceleft parenleft asciicircum i parenright braceright by icomb ;\012  sub braceleft parenleft asciicircum m parenright braceright by mcomb ;\012  sub braceleft parenleft asciicircum o parenright braceright by ocomb ;\012  sub braceleft parenleft asciicircum r parenright braceright by rcomb ;\012} codes;";
+code = "# When i or j is followed by a combining mark, a dotless form is substituted.\012# When q is followed by a combining mark, a form without the upper flourish\012# is substituted.\012lookup beforeMark {\012  sub [i j q]' @CombiningAbove by [idotless jdotless q.alt01];\012} beforeMark;\012lookup accents {\012  sub a macroncomb by amacron;\012  sub ae macroncomb by aemacron;\012  sub e macroncomb by emacron;\012  sub i macroncomb by imacron;\012  sub o macroncomb by omacron;\012  sub u macroncomb by umacron;\012  sub y macroncomb by ymacron;\012  sub h macroncomb by hbar;\012  sub a dieresiscomb by adieresis;\012  sub e dieresiscomb by edieresis;\012  sub i dieresiscomb by idieresis;\012  sub o dieresiscomb by odieresis;\012  sub u dieresiscomb by udieresis;\012  sub a gravecomb by agrave;\012  sub e gravecomb by egrave;\012  sub i gravecomb by igrave;\012  sub o gravecomb by ograve;\012  sub u gravecomb by ugrave;\012  sub a acutecomb by aacute;\012  sub e acutecomb by eacute;\012  sub i acutecomb by iacute;\012  sub o acutecomb by oacute;\012  sub u acutecomb by uacute;\012  sub y acutecomb by yacute;\012  sub a circumflexcomb by acircumflex;\012  sub e circumflexcomb by ecircumflex;\012  sub i circumflexcomb by icircumflex;\012  sub o circumflexcomb by ocircumflex;\012  sub u circumflexcomb by ucircumflex;\012  sub a ringcomb by aring;\012  sub a tildecomb by atilde;\012  sub n tildecomb by ntilde;\012  sub o tildecomb by otilde;\012  sub c cedillacomb by ccedilla;\012} accents;\012lookup codes {\012  sub braceleft parenleft e t parenright braceright by et;\012  sub braceleft parenleft r u parenright braceright by rumrotunda;\012  sub braceleft parenleft D H parenright braceright by Eth;\012  sub braceleft parenleft d h parenright braceright by eth;\012  sub braceleft parenleft T H parenright braceright by Thorn;\012  sub braceleft parenleft t h parenright braceright by thorn;\012  sub braceleft parenleft A E parenright braceright by AE;\012  sub braceleft parenleft a e parenright braceright by ae;\012  sub braceleft parenleft p r parenright braceright by pstrokethroughdescender;\012  sub braceleft parenleft q two parenright braceright by uniA759;\012  sub braceleft parenleft asciicircum a parenright braceright by acomb ;\012  sub braceleft parenleft asciicircum e parenright braceright by ecomb ;\012  sub braceleft parenleft asciicircum i parenright braceright by icomb ;\012  sub braceleft parenleft asciicircum m parenright braceright by mcomb ;\012  sub braceleft parenleft asciicircum o parenright braceright by ocomb ;\012  sub braceleft parenleft asciicircum r parenright braceright by rcomb ;\012} codes;";
 name = ccmp;
 },
 {
-code = "sub h by h.alt;\012sub hbar by hbar.alt;\012# sub macroncomb by macroncomb.alt;";
+code = "# ss01 substitutes the alternate form of h. Other\012# substitutions may be made later.\012sub h by h.alt;\012sub hbar by hbar.alt;";
+disabled = 1;
 name = ss01;
 notes = "Name: Alternate h";
 },
 {
-code = "# lookupflag IgnoreMarks;\012\012lookup wordinit {\012  lookupflag UseMarkFilteringSet @CombiningAbove;\012#  lookupflag IgnoreMarks;\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] [a c d e i idotless m n q r v]';\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] @CombiningAbove [a c d e i idotless m n q r v]';\012  sub [a c d e i idotless m n q r v]' by [a.init c.init d.init e.init i.init idotless.init m.init n.init q.init r.init v.init];\012#  sub [@AllLowerCase @UpperCase @WordInternal] h.alt' by h;\012} wordinit;\012\012lookup wordfina {\012#  lookupflag 0;\012#  ignore sub [e h amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  ignore sub [e amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  sub [a i r u] [b m t r] e' by e.fina;\012#  sub h' by h.alt01;\012  sub [amacron emacron umacron]' by [amacron.fina emacron.fina umacron.fina];\012} wordfina;\012\012lookup high_r {\012# lookupflag 0;\012# ignore sub s [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u v w x z];\012ignore sub s t r';\012 sub [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u w x z] by r.high;\012} high_r;\012\012lookup contextual_shc {\012#  lookupflag 0;\012  #\012  # Any word-initial or word-internal s (except before f) should be long.\012  #\012  ignore sub s' f;\012  sub s' @AllLowerCase by longs;\012  #\012  # Special form of c to join with following a or o.\012  #\012  sub [c c.init t ccedilla]' [a o] by [c.oar c.initoar t.oar ccedilla.oar];\012  #\012  # Special form of h and certain following letters.\012  #\012  sub [ h hbar ]' lookup hsubs [i j m n r u igrave iacute icircumflex idieresis]' lookup hsubs;\012  sub [ h.alt h ]' [ a ae o ] [ c d e m n r eth  ] by [ h.alt02 h.alt03 ];\012  #\012  # transformations of sequences el and ec (pseudo-ligatures)\012  #\012  sub @LC_Es' lookup esubs_l l' lookup esubs_l;\012  sub @LC_Es' lookup esubs_c [c ccedilla]' lookup esubs_c;\012  #\012  # alternate form of q when following e\012  #\012  sub [e e.init s longs longs.alt01] q' by q.alt01;\012  #\012  # alternate u when following q\012  #\012#  sub [q q.alt01] u' by u.ql;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following e\012  #\012  sub @LC_E_AE [ i idotless j l m n p u x y igrave iacute icircumflex idieresis imacron\012                 ugrave uacute ucircumflex udieresis umacron ntilde yacute ydieresis ymacron ]'\012      	         by [ i.el idotless.el j.el l.el m.el n.el p.el u.el x.el y.el\012		      igrave.el iacute.el icircumflex.el idieresis.el\012		      imacron.el ugrave.el uacute.el ucircumflex.el\012		      udieresis.el umacron.el ntilde.el yacute.el ydieresis.el ymacron.el ];\012  #\012  # alternative forms of g + i m n u (pseudo-ligatures)\012  #\012  sub g' lookup gsubs [ i m n u r igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis\012                        umacron ]' lookup gsubs;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following r\012  #\012  sub [ r r.hl] [ i idotless m n u igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis umacron\012        umacron.fina ntilde ]' by\012      [ i.rl idotless.rl m.rl n.rl u.rl igrave.rl iacute.rl icircumflex.rl idieresis.rl imacron.rl ugrave.rl uacute.rl\012      	ucircumflex.rl udieresis.rl umacron.rl umacron.finarl ntilde.rl ];\012  #\012} contextual_shc;\012\012lookup contextual_ll {\012#  lookupflag 0;\012  sub [l l.el]' l by [l.lr l.ellr];\012} contextual_ll;\012\012lookup contextual_sf {\012#  lookupflag 0;\012  sub [s longs]' [e f k l] by longs.alt01;\012} contextual_sf;\012\012lookup contextual_ed {\012#  lookupflag 0;\012  sub [e egrave eacute ecircumflex edieresis emacron e.init]' lookup subed d' lookup subed;\012} contextual_ed;\012\012lookup contextual_rightjoining {\012  lookupflag UseMarkFilteringSet @CombiningAbove;\012#  lookupflag IgnoreMarks;\012  sub [@WillJoinRight]' lookup rightjoining [@WillJoinLeft];\012  sub [@WillJoinRight]' lookup rightjoining @CombiningAbove [@WillJoinLeft];\012} contextual_rightjoining;\012\012lookup contextual_leftjoining {\012  lookupflag UseMarkFilteringSet @CombiningAbove;\012#  lookupflag IgnoreMarks;\012  sub [@WillJoinRight @RightJoining @BothJoining] [@WillJoinLeft]' lookup leftjoining;\012  sub [@WillJoinRight @RightJoining @BothJoining] @CombiningAbove [@WillJoinLeft]' lookup leftjoining;\012} contextual_leftjoining;\012\012lookup contextual_cleanup {\012  sub [a.init a.initjr]' [b h k l t l.lr l.jr s.jl] by [a.initalt a.initjralt];\012  sub a.initjr' n.jb d.jl by a.initjralt;\012} contextual_cleanup;\012\012# varies the look of final es, since it is so common\012lookup final_s_alternate {\012  sub [c c.jl c.el l l.el t v] e s' by s.alt;\012} final_s_alternate;";
+code = "# This is the standard way of doing word-initial forms in a Latin font: ignore all cases\012# where a glyph that can occur inside a word precedes the target letter and then perform\012# the substitution.\012lookup wordinit {\012  lookupflag UseMarkFilteringSet @CombiningAbove;\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] [a c d e i idotless m n q r v]';\012  ignore sub [@AllLowerCase @UpperCase @WordInternal] @CombiningAbove [a c d e i idotless m n q r v]';\012  sub [a c d e i idotless m n q r v]' by [a.init c.init d.init e.init i.init idotless.init m.init n.init q.init r.init v.init];\012} wordinit;\012\012# Works like word-initial substitution.\012lookup wordfina {\012  ignore sub [e amacron emacron umacron]' [@AllLowerCase @WordInternal];\012  sub [a i r u] [b m t r] e' by e.fina;\012  sub [amacron emacron umacron]' by [amacron.fina emacron.fina umacron.fina];\012} wordfina;\012\012# This pseudo-pseudo-random code for varying the forms of h from the OpenType cookbook,\012# http://opentypecookbook.com/common-techniques.html\012\012    lookup RandomQuantum10 {\012        sub @Rand1 @All @All @All @All @All @All @All @All @All @All @randState1' by @randState2;\012    } RandomQuantum10;\012\012    lookup RandomQuantum9 {\012        sub @Rand2 @All @All @All @All @All @All @All @All @All @randState2' by @randState1;\012    } RandomQuantum9;\012\012    lookup RandomQuantum8 {\012        sub @Rand1 @All @All @All @All @All @All @All @All @randState1' by @randState2;\012    } RandomQuantum8;\012\012    lookup RandomQuantum7 {\012        sub @Rand2 @All @All @All @All @All @All @All @randState2' by @randState1;\012    } RandomQuantum7;\012\012    lookup RandomQuantum6 {\012        sub @Rand1 @All @All @All @All @All @All @randState1' by @randState2;\012    } RandomQuantum6;\012\012    lookup RandomQuantum5 {\012        sub @Rand2 @All @All @All @All @All @randState2' by @randState1;\012    } RandomQuantum5;\012\012    lookup RandomQuantum4 {\012        sub @Rand1 @All @All @All @All @randState1' by @randState2;\012    } RandomQuantum4;\012\012    lookup RandomQuantum3 {\012        sub @Rand2 @All @All @All @randState2' by @randState1;\012    } RandomQuantum3;\012\012    lookup RandomQuantum2 {\012        sub @Rand1 @All @All @randState1' by @randState2;\012    } RandomQuantum2;\012\012    lookup RandomQuantum1 {\012        sub @Rand2 @randState2' by @randState1;\012    } RandomQuantum1;\012\012    lookup RandomQuantum0 {\012        sub @Rand1 @randState1' by @randState2;\012    } RandomQuantum0;\012\012\012# The alt form of r has an upper flourish. It typically follows c d f p t. But as it does\012# not always, we devise a faux-random rule to trigger it in ways hopefully not obvious to\012# the user.\012lookup high_r {\012ignore sub s t r';\012 sub [c c.init d d.init f p t] r' [a e i o u y] [c g j m n o p q r u w x z] by r.high;\012} high_r;\012\012lookup contextual_shc {\012#  lookupflag 0;\012  #\012  # Any word-initial or word-internal s (except before f) should be long.\012  #\012  ignore sub s' f;\012  sub s' @AllLowerCase by longs;\012  #\012  # Special form of c to join with following a or o.\012  #\012  sub [c c.init t ccedilla]' [a o] by [c.oar c.initoar t.oar ccedilla.oar];\012  #\012  # Special form of h and certain following letters.\012  #\012  sub [ h h.alt03 h.alt05 h.alt06 hbar ]' lookup hsubs [i j m n r u igrave iacute icircumflex idieresis]' lookup hsubs;\012#  sub [ h.alt h ]' [ a ae o ] [ c d e m n r eth  ] by [ h.alt02 h.alt03 ];\012  #\012  # transformations of sequences el and ec (pseudo-ligatures)\012  #\012  sub @LC_Es' lookup esubs_l l' lookup esubs_l;\012  sub @LC_Es' lookup esubs_c [c ccedilla]' lookup esubs_c;\012  #\012  # alternate form of q when following e\012  #\012  sub [e e.init s longs longs.alt01] q' by q.alt01;\012  #\012  # alternate u when following q\012  #\012#  sub [q q.alt01] u' by u.ql;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following e\012  #\012  sub @LC_E_AE [ i idotless j l m n p u x y igrave iacute icircumflex idieresis imacron\012                 ugrave uacute ucircumflex udieresis umacron ntilde yacute ydieresis ymacron ]'\012      	         by [ i.el idotless.el j.el l.el m.el n.el p.el u.el x.el y.el\012		      igrave.el iacute.el icircumflex.el idieresis.el\012		      imacron.el ugrave.el uacute.el ucircumflex.el\012		      udieresis.el umacron.el ntilde.el yacute.el ydieresis.el ymacron.el ];\012  #\012  # alternative forms of g + i m n u (pseudo-ligatures)\012  #\012  sub g' lookup gsubs [ i m n u r igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis\012                        umacron ]' lookup gsubs;\012  #\012  # alternate form of various letters (pseudo-ligatures) when following r\012  #\012  sub [ r r.hl] [ i idotless m n u igrave iacute icircumflex idieresis imacron ugrave uacute ucircumflex udieresis umacron\012        umacron.fina ntilde ]' by\012      [ i.rl idotless.rl m.rl n.rl u.rl igrave.rl iacute.rl icircumflex.rl idieresis.rl imacron.rl ugrave.rl uacute.rl\012      	ucircumflex.rl udieresis.rl umacron.rl umacron.finarl ntilde.rl ];\012  #\012} contextual_shc;\012\012lookup contextual_ll {\012#  lookupflag 0;\012  sub [l l.el]' l by [l.lr l.ellr];\012} contextual_ll;\012\012lookup contextual_sf {\012#  lookupflag 0;\012  sub [s longs]' [e f k l] by longs.alt01;\012} contextual_sf;\012\012lookup contextual_ed {\012#  lookupflag 0;\012  sub [e egrave eacute ecircumflex edieresis emacron e.init]' lookup subed d' lookup subed;\012} contextual_ed;\012\012lookup contextual_rightjoining {\012  lookupflag UseMarkFilteringSet @CombiningAbove;\012#  lookupflag IgnoreMarks;\012  sub [@WillJoinRight]' lookup rightjoining [@WillJoinLeft];\012  sub [@WillJoinRight]' lookup rightjoining @CombiningAbove [@WillJoinLeft];\012} contextual_rightjoining;\012\012lookup contextual_leftjoining {\012  lookupflag UseMarkFilteringSet @CombiningAbove;\012#  lookupflag IgnoreMarks;\012  sub [@WillJoinRight @RightJoining @BothJoining] [@WillJoinLeft]' lookup leftjoining;\012  sub [@WillJoinRight @RightJoining @BothJoining] @CombiningAbove [@WillJoinLeft]' lookup leftjoining;\012} contextual_leftjoining;\012\012lookup contextual_cleanup {\012  sub [a.init a.initjr]' [b h k l t l.lr l.jr s.jl] by [a.initalt a.initjralt];\012  sub a.initjr' n.jb d.jl by a.initjralt;\012#  sub @All [ h.alt05 h.alt06 ]' by [ h h.alt03 ];\012} contextual_cleanup;\012\012lookup h_cleanup {\012  sub [ h.alt05 h.alt06 ] by [ h h.alt03 ];\012} h_cleanup;\012\012# varies the look of final es, since it is so common\012lookup final_s_alternate {\012  sub [c c.jl c.el l l.el t v] e s' by s.alt;\012} final_s_alternate;";
 name = calt;
 },
 {
-code = "  sub longs c h by longs_c_h;\012  sub longs c h.alt by longs_c_h;\012  sub c c by c_c;\012  sub c.el c by c_c.el;\012  sub c.jl c by c_c.jl;\012  sub c c.oar by c_c.oar;\012  sub c.el c.oar by c_c.eloar;\012  sub c.jl c.oar by c_c.jloar;\012  sub e r by e_r;\012  sub e.init r by e_r.init;\012  sub e s by e_s;\012  sub e s.alt by e_s.alt;\012  sub g g by g_g;\012  sub g g.imnur by g_g.imnur;\012  sub longs longs u by longs_longs_u;\012  sub longs longs ugrave by longs_longs_ugrave;\012  sub longs longs uacute by longs_longs_uacute;\012  sub longs longs ucircumflex by longs_longs_ucircumflex;\012  sub longs longs udieresis by longs_longs_udieresis;\012  sub longs longs umacron by longs_longs_umacron;\012  sub longs longs n by longs_longs_n;\012  sub longs longs i by longs_longs_i;\012  sub longs longs igrave by longs_longs_igrave;\012  sub longs longs iacute by longs_longs_iacute;\012  sub longs longs icircumflex by longs_longs_icircumflex;\012  sub longs longs idieresis by longs_longs_idieresis;\012  sub longs longs imacron by longs_longs_imacron;\012  sub longs longs m by longs_longs_m;\012  sub longs longs u.jr by longs_longs_u.jr;\012  sub longs longs ugrave.jr by longs_longs_ugrave.jr;\012  sub longs longs uacute.jr by longs_longs_uacute.jr;\012  sub longs longs ucircumflex.jr by longs_longs_ucircumflex.jr;\012  sub longs longs udieresis.jr by longs_longs_udieresis.jr;\012  sub longs longs umacron.jr by longs_longs_umacron.jr;\012  sub longs longs n.jr by longs_longs_n.jr;\012  sub longs longs i.jr by longs_longs_i.jr;\012  sub longs longs igrave.jr by longs_longs_igrave.jr;\012  sub longs longs iacute.jr by longs_longs_iacute.jr;\012  sub longs longs icircumflex.jr by longs_longs_icircumflex.jr;\012  sub longs longs idieresis.jr by longs_longs_idieresis.jr;\012  sub longs longs imacron.jr by longs_longs_imacron.jr;\012  sub longs longs m.jr by longs_longs_m.jr;\012  sub e.init m by e_m.init;\012  sub e.init m.jr by e_m.initjr;\012  sub e.init n by e_n.init;\012  sub e.init n.jr by e_n.initjr;\012  sub e.init p by e_p.init;\012  sub e.init x by e_x.init;\012  sub f f by uniFB00;\012  sub f l by uniFB02;\012  sub f l.jr by uniFB02.jr;\012  sub h.alt i by h.alt_i;\012  sub h.alt i.jr by h.alt_i.jr;\012  sub hbar.alt i by hbar.alt_i;\012  sub hbar.alt i.jr by hbar.alt_i.jr;\012  sub r d by r_d;\012  sub r p by r_p;\012  sub r.jl d by r_d.jl;\012  sub r.jl p by r_p.jl;\012  sub longs t by longs_t;\012  sub longs t.oar by longs_t.oar;\012  sub t h.alt01 by t_h.alt01;\012  sub longs h by longs_h;\012  sub longs h.alt01 by longs_h.alt01;\012  sub longs i by longs_i;\012  sub longs igrave by longs_igrave;\012  sub longs iacute by longs_iacute;\012  sub longs icircumflex by longs_icircumflex;\012  sub longs idieresis by longs_idieresis;\012  sub longs imacron by longs_imacron;\012  sub longs m by longs_m;\012  sub longs n.jr by longs_n.jr;\012  sub longs u by longs_u;\012  sub longs ugrave by longs_ugrave;\012  sub longs uacute by longs_uacute;\012  sub longs ucircumflex by longs_ucircumflex;\012  sub longs udieresis by longs_udieresis;\012  sub longs umacron by longs_umacron;\012  sub longs n by longs_n;\012  sub longs m.jr by longs_m.jr;\012  sub longs i.jr by longs_i.jr;\012  sub longs igrave.jr by longs_igrave.jr;\012  sub longs iacute.jr by longs_iacute.jr;\012  sub longs icircumflex.jr by longs_icircumflex.jr;\012  sub longs idieresis.jr by longs_idieresis.jr;\012  sub longs imacron.jr by longs_imacron.jr;\012  sub longs u.jr by longs_u.jr;\012  sub longs ugrave.jr by longs_ugrave.jr;\012  sub longs uacute.jr by longs_uacute.jr;\012  sub longs ucircumflex.jr by longs_ucircumflex.jr;\012  sub longs udieresis.jr by longs_udieresis.jr;\012  sub longs umacron.jr by longs_umacron.jr;\012  sub t h by t_h;\012  sub longs l by longs_l;\012  sub longs l.jr by longs_l.jr;\012  sub longs longs by longs_longs;\012  sub longs longs.alt01 by longs_longs.alt01;\012  sub longs s by longs_s;\012  sub lslash lslash by lslash_lslash;\012  sub lslash lslash.jr by lslash_lslash.jr;";
+code = "  sub longs c h by longs_c_h;\012  sub longs c h.alt by longs_c_h;\012  sub longs c h.alt02 by longs_c_h;\012  sub longs c h.alt03 by longs_c_h;\012  sub c c by c_c;\012  sub c.el c by c_c.el;\012  sub c.jl c by c_c.jl;\012  sub c c.oar by c_c.oar;\012  sub c.el c.oar by c_c.eloar;\012  sub c.jl c.oar by c_c.jloar;\012  sub e r by e_r;\012  sub e.init r by e_r.init;\012  sub e s by e_s;\012  sub e s.alt by e_s.alt;\012  sub g g by g_g;\012  sub g g.imnur by g_g.imnur;\012  sub longs longs u by longs_longs_u;\012  sub longs longs ugrave by longs_longs_ugrave;\012  sub longs longs uacute by longs_longs_uacute;\012  sub longs longs ucircumflex by longs_longs_ucircumflex;\012  sub longs longs udieresis by longs_longs_udieresis;\012  sub longs longs umacron by longs_longs_umacron;\012  sub longs longs n by longs_longs_n;\012  sub longs longs i by longs_longs_i;\012  sub longs longs igrave by longs_longs_igrave;\012  sub longs longs iacute by longs_longs_iacute;\012  sub longs longs icircumflex by longs_longs_icircumflex;\012  sub longs longs idieresis by longs_longs_idieresis;\012  sub longs longs imacron by longs_longs_imacron;\012  sub longs longs m by longs_longs_m;\012  sub longs longs u.jr by longs_longs_u.jr;\012  sub longs longs ugrave.jr by longs_longs_ugrave.jr;\012  sub longs longs uacute.jr by longs_longs_uacute.jr;\012  sub longs longs ucircumflex.jr by longs_longs_ucircumflex.jr;\012  sub longs longs udieresis.jr by longs_longs_udieresis.jr;\012  sub longs longs umacron.jr by longs_longs_umacron.jr;\012  sub longs longs n.jr by longs_longs_n.jr;\012  sub longs longs i.jr by longs_longs_i.jr;\012  sub longs longs igrave.jr by longs_longs_igrave.jr;\012  sub longs longs iacute.jr by longs_longs_iacute.jr;\012  sub longs longs icircumflex.jr by longs_longs_icircumflex.jr;\012  sub longs longs idieresis.jr by longs_longs_idieresis.jr;\012  sub longs longs imacron.jr by longs_longs_imacron.jr;\012  sub longs longs m.jr by longs_longs_m.jr;\012  sub e.init m by e_m.init;\012  sub e.init m.jr by e_m.initjr;\012  sub e.init n by e_n.init;\012  sub e.init n.jr by e_n.initjr;\012  sub e.init p by e_p.init;\012  sub e.init x by e_x.init;\012  sub f f by uniFB00;\012  sub f l by uniFB02;\012  sub f l.jr by uniFB02.jr;\012  sub h.alt i by h.alt_i;\012  sub h.alt i.jr by h.alt_i.jr;\012  sub h.alt02 i by h.alt_i;\012  sub h.alt02 i.jr by h.alt_i.jr;\012  sub hbar.alt i by hbar.alt_i;\012  sub hbar.alt i.jr by hbar.alt_i.jr;\012  sub r d by r_d;\012  sub r p by r_p;\012  sub r.jl d by r_d.jl;\012  sub r.jl p by r_p.jl;\012  sub longs t by longs_t;\012  sub longs t.oar by longs_t.oar;\012  sub t h.alt01 by t_h.alt01;\012  sub t h.alt04 by t_h.alt01;\012  sub longs h by longs_h;\012# reduce variety of longs + h forms to two: longs_h.alt01 joins right,\012# and longs_h does not. The alt h does not occur in this position.\012  sub longs h.alt01 by longs_h.alt01;\012  sub longs h.alt04 by longs_h.alt01;\012  sub longs h.alt by longs_h;\012  sub longs h.alt02 by longs_h;\012  sub longs h.alt03 by longs_h;\012  sub longs i by longs_i;\012  sub longs igrave by longs_igrave;\012  sub longs iacute by longs_iacute;\012  sub longs icircumflex by longs_icircumflex;\012  sub longs idieresis by longs_idieresis;\012  sub longs imacron by longs_imacron;\012  sub longs m by longs_m;\012  sub longs n.jr by longs_n.jr;\012  sub longs u by longs_u;\012  sub longs ugrave by longs_ugrave;\012  sub longs uacute by longs_uacute;\012  sub longs ucircumflex by longs_ucircumflex;\012  sub longs udieresis by longs_udieresis;\012  sub longs umacron by longs_umacron;\012  sub longs n by longs_n;\012  sub longs m.jr by longs_m.jr;\012  sub longs i.jr by longs_i.jr;\012  sub longs igrave.jr by longs_igrave.jr;\012  sub longs iacute.jr by longs_iacute.jr;\012  sub longs icircumflex.jr by longs_icircumflex.jr;\012  sub longs idieresis.jr by longs_idieresis.jr;\012  sub longs imacron.jr by longs_imacron.jr;\012  sub longs u.jr by longs_u.jr;\012  sub longs ugrave.jr by longs_ugrave.jr;\012  sub longs uacute.jr by longs_uacute.jr;\012  sub longs ucircumflex.jr by longs_ucircumflex.jr;\012  sub longs udieresis.jr by longs_udieresis.jr;\012  sub longs umacron.jr by longs_umacron.jr;\012  sub t h by t_h;\012    sub t h.alt by t_h;\012      sub t h.alt02 by t_h;\012        sub t h.alt03 by t_h;\012  sub longs l by longs_l;\012  sub longs l.jr by longs_l.jr;\012  sub longs longs by longs_longs;\012  sub longs longs.alt01 by longs_longs.alt01;\012  sub longs s by longs_s;\012  sub lslash lslash by lslash_lslash;\012  sub lslash lslash.jr by lslash_lslash.jr;";
 name = liga;
 },
 {
@@ -14876,6 +14915,199 @@ nodes = (
 );
 }
 );
+width = 700;
+}
+);
+},
+{
+glyphname = h.alt04;
+lastChange = "2020-04-10 16:59:45 +0000";
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+position = "{389, 0}";
+},
+{
+name = center;
+position = "{389, 600}";
+},
+{
+name = top;
+position = "{499, 998}";
+}
+);
+};
+backgroundImage = {
+crop = "{{0, 0}, {244, 270}}";
+imagePath = "Images/h.alt03.glif-Regular.tif";
+locked = "1";
+transform = "{8.747, 0, 0, 8.747, -546, -1272}";
+};
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+paths = (
+{
+closed = 1;
+nodes = (
+"274 -721 OFFCURVE",
+"370 -681 OFFCURVE",
+"461 -635 CURVE SMOOTH",
+"649 -540 OFFCURVE",
+"772 -425 OFFCURVE",
+"836 -213 CURVE SMOOTH",
+"853 -157 OFFCURVE",
+"864 -100 OFFCURVE",
+"874 -43 CURVE SMOOTH",
+"890 49 OFFCURVE",
+"928 245 OFFCURVE",
+"1008 340 CURVE",
+"964 381 LINE",
+"911 341 OFFCURVE",
+"836 149 OFFCURVE",
+"804 -33 CURVE SMOOTH",
+"782 -159 OFFCURVE",
+"746 -324 OFFCURVE",
+"658 -424 CURVE SMOOTH",
+"589 -503 OFFCURVE",
+"426 -615 OFFCURVE",
+"282 -615 CURVE SMOOTH",
+"165 -615 OFFCURVE",
+"38 -545 OFFCURVE",
+"38 -438 CURVE SMOOTH",
+"38 -397 OFFCURVE",
+"58 -354 OFFCURVE",
+"119 -315 CURVE SMOOTH",
+"189 -270 OFFCURVE",
+"258 -224 OFFCURVE",
+"328 -176 CURVE SMOOTH",
+"495 -61 OFFCURVE",
+"646 66 OFFCURVE",
+"646 191 CURVE SMOOTH",
+"646 258 OFFCURVE",
+"604 302 OFFCURVE",
+"518 302 CURVE SMOOTH",
+"445 302 OFFCURVE",
+"346 269 OFFCURVE",
+"266 224 CURVE SMOOTH",
+"243 211 OFFCURVE",
+"227 220 OFFCURVE",
+"228 246 CURVE SMOOTH",
+"230 307 OFFCURVE",
+"233 371 OFFCURVE",
+"241 432 CURVE SMOOTH",
+"242 440 OFFCURVE",
+"245 444 OFFCURVE",
+"252 448 CURVE SMOOTH",
+"450 561 OFFCURVE",
+"592 656 OFFCURVE",
+"592 757 CURVE SMOOTH",
+"592 804 OFFCURVE",
+"564 845 OFFCURVE",
+"483 845 CURVE SMOOTH",
+"323 845 OFFCURVE",
+"196 683 OFFCURVE",
+"135 436 CURVE",
+"134 429 OFFCURVE",
+"130 424 OFFCURVE",
+"124 421 CURVE SMOOTH",
+"105 411 OFFCURVE",
+"86 402 OFFCURVE",
+"65 393 CURVE SMOOTH",
+"51 387 OFFCURVE",
+"46 379 OFFCURVE",
+"50 369 CURVE SMOOTH",
+"54 360 OFFCURVE",
+"64 358 OFFCURVE",
+"78 365 CURVE SMOOTH",
+"108 379 LINE SMOOTH",
+"117 383 OFFCURVE",
+"122 378 OFFCURVE",
+"121 369 CURVE SMOOTH",
+"112 285 OFFCURVE",
+"98 194 OFFCURVE",
+"98 98 CURVE SMOOTH",
+"98 54 OFFCURVE",
+"97 33 OFFCURVE",
+"93 11 CURVE SMOOTH",
+"88 -14 OFFCURVE",
+"165 -12 OFFCURVE",
+"176 7 CURVE SMOOTH",
+"200 48 OFFCURVE",
+"218 83 OFFCURVE",
+"223 119 CURVE SMOOTH",
+"224 126 OFFCURVE",
+"227 130 OFFCURVE",
+"231 135 CURVE SMOOTH",
+"281 198 OFFCURVE",
+"328 222 OFFCURVE",
+"382 222 CURVE SMOOTH",
+"464 222 OFFCURVE",
+"501 168 OFFCURVE",
+"501 109 CURVE SMOOTH",
+"501 34 OFFCURVE",
+"440 -46 OFFCURVE",
+"309 -129 CURVE SMOOTH",
+"257 -162 OFFCURVE",
+"203 -194 OFFCURVE",
+"152 -224 CURVE SMOOTH",
+"24 -298 OFFCURVE",
+"-71 -353 OFFCURVE",
+"-71 -500 CURVE SMOOTH",
+"-71 -619 OFFCURVE",
+"31 -721 OFFCURVE",
+"175 -721 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"256 493 OFFCURVE",
+"249 497 OFFCURVE",
+"251 507 CURVE SMOOTH",
+"279 645 OFFCURVE",
+"322 754 OFFCURVE",
+"409 754 CURVE SMOOTH",
+"453 754 OFFCURVE",
+"480 726 OFFCURVE",
+"480 696 CURVE SMOOTH",
+"480 646 OFFCURVE",
+"406 576 OFFCURVE",
+"265 498 CURVE SMOOTH"
+);
+}
+);
+width = 776;
+}
+);
+},
+{
+glyphname = h.alt05;
+lastChange = "2020-04-10 17:41:19 +0000";
+layers = (
+{
+components = (
+{
+name = h;
+}
+);
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
+width = 801;
+}
+);
+},
+{
+glyphname = h.alt06;
+lastChange = "2020-04-10 17:41:27 +0000";
+layers = (
+{
+components = (
+{
+name = h.alt03;
+}
+);
+layerId = "BA9C892D-7698-4063-AF69-14CFA3D9CF82";
 width = 700;
 }
 );
@@ -63212,5 +63444,5 @@ kerning = {
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 9;
+versionMinor = 10;
 }
